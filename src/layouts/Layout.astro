@@ -96,6 +96,7 @@ const { title, description = 'RemakeHub — 精选老游戏重制版与高清复
         </a>
         <nav class="nav">
           <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>游戏库</a>
+          <a href="/platforms" class={Astro.url.pathname.startsWith('/platforms') ? 'active' : ''}>平台档案</a>
           <a href="/submit" class={Astro.url.pathname.startsWith('/submit') ? 'active' : ''}>提交游戏</a>
           <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">GitHub</a>
         </nav>

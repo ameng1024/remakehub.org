@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { allOriginalPlatforms, gamesByOriginalPlatform, remakesOnPlatform, displayName, platformSlug } from '../../lib/games';
+
+const platforms = allOriginalPlatforms();
+---
+
+<Layout title="平台档案 — RemakeHub" description="按原作平台浏览：哪些老游戏被重制了，各平台又有哪些重制版。">
+  <div class="container">
+    <section class="hero">
+      <h1>平台档案</h1>
+      <p>每一台老主机/掌机，都养活了一批重制版。选一个平台，看它的游戏都去哪了、又接收了哪些重生作品。</p>
+    </section>
+
+    <div class="platform-grid">
+      {platforms.map(p => (
+        <a class="platform-card" href={`/platforms/${platformSlug(p.key)}/`}>
+          <span class="p-name">{p.key}</span>
+          <span class="p-count">{p.count} 部原作被重制</span>
+          <span class="p-extra">{remakesOnPlatform(p.key).length} 部重制版在此平台</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .hero { padding: 44px 0 28px; text-align: center; }
+  .hero h1 { font-size: 34px; color: var(--text-bright); }
+  .hero p { max-width: 560px; margin: 10px auto 0; color: var(--text-dim); font-size: 15px; line-height: 1.6; }
+
+  .platform-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 12px; padding-bottom: 48px;
+  }
+  .platform-card {
+    background: var(--panel); border-radius: 5px; padding: 16px 18px;
+    display: flex; flex-direction: column; gap: 5px;
+    transition: background .12s, transform .12s;
+  }
+  .platform-card:hover { background: var(--panel-hover); transform: translateY(-2px); }
+  .p-name { font-size: 19px; font-weight: 700; color: var(--text-bright); }
+  .p-count { font-size: 12.5px; color: var(--accent); }
+  .p-extra { font-size: 12px; color: var(--text-dim); }
+</style>

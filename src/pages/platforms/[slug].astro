@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import GameCard from '../../components/GameCard.astro';
+import { allOriginalPlatforms, gamesByOriginalPlatform, remakesOnPlatform, platformSlug, platformKeyFromSlug } from '../../lib/games';
+
+export function getStaticPaths() {
+  return allOriginalPlatforms().map(p => ({
+    params: { slug: platformSlug(p.key) },
+  }));
+}
+
+const slug = Astro.params.slug!;
+const key = platformKeyFromSlug(slug);
+if (!key) return Astro.redirect('/platforms');
+const remade = gamesByOriginalPlatform(key);       // 该平台的老游戏 → 被重制成什么
+const hosted = remakesOnPlatform(key);             // 该平台上发行的重制/复刻版
+const others = remade.filter(g => !g.platforms.includes(key));  // 真正"离开"了本平台的重生作
+---
+
+<Layout title={`${key} 平台档案 — RemakeHub`} description={`${key} 平台的游戏重制关系：${remade.length} 部原作被重制，${hosted.length} 部重制版在此平台发行。`}>
+  <div class="container">
+    <a href="/platforms" class="back">← 全部平台</a>
+    <section class="p-hero">
+      <h1>{key}</h1>
+      <div class="stats">
+        <span><b>{remade.length}</b> 部原作获得重生</span>
+        <span><b>{hosted.length}</b> 部重制版在本平台发行</span>
+        <span><b>{others.length}</b> 部重生作登陆了其他平台</span>
+      </div>
+    </section>
+
+    {remade.length > 0 && (
+      <section class="sec">
+        <h2>📤 从 {key} 重生出去 <span class="sub">本平台老游戏的重制/复刻版</span></h2>
+        <div class="grid">{remade.map(g => <GameCard game={g} />)}</div>
+      </section>
+    )}
+
+    {hosted.length > 0 && (
+      <section class="sec">
+        <h2>📥 在 {key} 上重生 <span class="sub">其他平台老游戏在本平台发售的重制/复刻版</span></h2>
+        <div class="grid">{hosted.map(g => <GameCard game={g} />)}</div>
+      </section>
+    )}
+
+    {remade.length === 0 && hosted.length === 0 && (
+      <p class="empty">该平台暂无收录，去 <a href="/submit">提交</a> 补充吧。</p>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .back { font-size: 13px; color: var(--text-dim); display: inline-block; margin: 24px 0 4px; }
+  .p-hero h1 { font-size: 38px; color: var(--text-bright); }
+  .stats { display: flex; flex-wrap: wrap; gap: 18px; margin: 10px 0 8px; color: var(--text-dim); font-size: 14px; }
+  .stats b { color: var(--accent); font-size: 17px; }
+
+  .sec { margin-top: 30px; }
+  .sec h2 { font-size: 19px; color: var(--text-bright); margin-bottom: 12px; }
+  .sub { font-size: 12.5px; color: var(--text-dim); font-weight: 400; margin-left: 8px; }
+
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 14px; padding-bottom: 24px;
+  }
+  .empty { text-align: center; color: var(--text-dim); padding: 48px 0; }
+</style>

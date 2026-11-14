@@ -1,5 +1,6 @@
 ---
 import type { Game } from '../lib/games';
+import { originalPlatformKey } from '../lib/games';
 interface Props { game: Game }
 const { game } = Astro.props;
 const name = game.titleZh || game.title;
@@ -9,21 +10,23 @@ const searchText = [
   ...game.platforms, ...game.genres,
 ].filter(Boolean).join(' ').toLowerCase();
 const typeZh = game.type === 'remake' ? '重制' : '复刻';
+const origKey = originalPlatformKey(game);
 ---
 
 <a class="game-card" href={`/game/${game.id}/`} data-search={searchText} data-type={game.type}
    data-platforms={game.platforms.join('|')} data-genres={game.genres.join('|')}
+   data-orig-platform={origKey}
    data-year={game.releaseYear ?? ''} data-original-year={game.originalYear ?? ''} data-title={name}>
   <div class="art">
     {game.cover
       ? <img class="cover-img" src={game.cover} alt={name} loading="lazy" width="460" height="215" />
-      : <span class="fallback" data-initial={game.title.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || 'RH'}>{name.slice(0, 2)}</span>}
+      : <span class="fallback">{name.slice(0, 2)}</span>}
     {game.upcoming && <span class="pill upcoming">开发中</span>}
     {game.steamAppid && !game.upcoming && <span class="steam-badge">Steam 有售</span>}
   </div>
   <div class="body">
     <h3 class="title">{name}</h3>
-    <p class="orig">原作：<i>{game.originalTitle}</i>{game.originalYear ? `（${game.originalYear}）` : ''}</p>
+    <p class="orig">{origKey}（{game.originalYear ?? '?'}）→ {game.platforms.filter(p => p !== game.originalPlatform).join('、') || game.platforms.join('、')}</p>
     <div class="meta">
       <span class={`pill ${game.type}`}>{typeZh}</span>
       <span class="year">{game.releaseYear ?? '待定'}</span>
@@ -61,8 +64,7 @@ const typeZh = game.type === 'remake' ? '重制' : '复刻';
   .title { font-size: 15.5px; color: var(--text-bright); font-weight: 600; line-height: 1.3; }
   .orig { font-size: 12px; color: var(--text-dim); }
   .orig i { color: var(--text); font-style: italic; }
-  .meta { display: flex; align-items: center; gap: 8px; }
-  .year { font-size: 13px; color: var(--accent); font-weight: 600; }
+  .meta { display: flex; align-items: center; gap: 8px; }  .year { font-size: 13px; color: var(--accent); font-weight: 600; }
   .desc {
     font-size: 12.5px; line-height: 1.5; color: var(--text-dim);
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;

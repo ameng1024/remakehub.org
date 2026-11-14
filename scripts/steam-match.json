@@ -519,6 +519,7 @@
   "score": 1
  },
  "starcraft-remastered": null,
+ "warcraft-iii-reforged": null,
  "diablo-2-resurrected": null,
  "age-of-empires-definitive": {
   "appid": 1017900,
@@ -775,5 +776,41 @@
   "steamNameZh": "Shadows of the Damned: Hella Remastered",
   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2535440/header.jpg?t=1791517752",
   "score": 1
- }
+ },
+ "dragon-quest-vii-3ds": null,
+ "dragon-quest-viii-3ds": null,
+ "metal-gear-solid-3d": null,
+ "zelda-hyrule-warriors-legends": null,
+ "xenoblade-3d": null,
+ "radiant-historia-3ds": null,
+ "kirbys-epic-yarn-3ds": null,
+ "ace-attorney-trilogy-3ds": {
+  "appid": 787480,
+  "steamName": "Phoenix Wright: Ace Attorney Trilogy",
+  "steamNameZh": "Phoenix Wright: Ace Attorney Trilogy",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787480/header.jpg?t=1768866317",
+  "score": 1
+ },
+ "sega-3d-classics": null,
+ "monster-hunter-generations-ultimate": null,
+ "dragon-quest-xi-s": null,
+ "monster-hunter-stories": null,
+ "yokai-watch-1": null,
+ "etrian-odyssey-origins": null,
+ "resident-evil-revelations-hd": null,
+ "kingdom-hearts-hd-2-8": {
+  "appid": 2552440,
+  "steamName": "KINGDOM HEARTS HD 2.8 Final Chapter Prologue",
+  "steamNameZh": "KINGDOM HEARTS HD 2.8 Final Chapter Prologue",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552440/header.jpg?t=1791479424",
+  "score": 1
+ },
+ "great-ace-attorney-chronicles": {
+  "appid": 1158850,
+  "steamName": "The Great Ace Attorney Chronicles",
+  "steamNameZh": "The Great Ace Attorney Chronicles",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158850/header.jpg?t=1787717414",
+  "score": 1
+ },
+ "luigis-mansion-1-3ds": null
 }

@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { getGame, games, displayName, storeLinks } from '../../lib/games';
+import { getGame, games, displayName, storeLinks, relatedVersions } from '../../lib/games';
 
 export function getStaticPaths() {
   return games.map(g => ({ params: { id: g.id } }));
@@ -10,6 +10,7 @@ const game = getGame(Astro.params.id!)!;
 const name = displayName(game);
 const typeZh = game.type === 'remake' ? '重制版' : '高清复刻版';
 const links = storeLinks(game);
+const versions = relatedVersions(game);
 const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.genres.includes(x)) || g.developer === game.developer)).slice(0, 4);
 ---
 
@@ -42,6 +43,26 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
           {links.map(l => (
             <a class={l.primary ? 'store-link primary' : 'store-link'} href={l.url} target="_blank" rel="noopener">
               {l.name} <span>→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {versions.length > 0 && (
+      <section class="versions">
+        <h2>🔗 同原作的其他版本</h2>
+        <p class="v-hint">《{game.originalTitle}》还有这些重制/复刻版本：</p>
+        <div class="v-list">
+          {versions.map(v => (
+            <a class="v-card" href={`/game/${v.id}/`}>
+              {v.cover
+                ? <img src={v.cover} alt={displayName(v)} loading="lazy" width="92" height="43" />
+                : <span class="v-fallback">{displayName(v).slice(0, 2)}</span>}
+              <span class="v-info">
+                <span class="v-title">{displayName(v)}</span>
+                <span class="v-meta">{v.type === 'remake' ? '重制' : '复刻'} · {v.releaseYear ?? '待定'} · {v.platforms.join('、')}</span>
+              </span>
             </a>
           ))}
         </div>
@@ -144,6 +165,27 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
   }
   .store-link.primary:hover { filter: brightness(1.2); }
   .store-link span { color: var(--accent); }
+
+  .versions { margin-bottom: 28px; background: var(--panel); border-radius: 6px; padding: 18px 20px; }
+  .versions h2 { color: var(--text-bright); font-size: 17px; margin-bottom: 4px; }
+  .v-hint { font-size: 13px; color: var(--text-dim); margin-bottom: 12px; }
+  .v-list { display: flex; flex-direction: column; gap: 8px; }
+  .v-card {
+    display: flex; align-items: center; gap: 12px;
+    background: rgba(0,0,0,.18); border-radius: 4px; padding: 8px 12px;
+    transition: background .12s;
+  }
+  .v-card:hover { background: rgba(0,0,0,.3); }
+  .v-card img { border-radius: 2px; flex-shrink: 0; }
+  .v-fallback {
+    width: 92px; height: 43px; flex-shrink: 0; border-radius: 2px;
+    background: radial-gradient(ellipse at 30% 20%, #3a6a8f 0%, #1f3a52 70%);
+    color: rgba(255,255,255,.4); font-weight: 700; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .v-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .v-title { color: var(--text-bright); font-size: 14px; font-weight: 600; }
+  .v-meta { color: var(--text-dim); font-size: 12px; }
 
   .cols { display: grid; grid-template-columns: 1fr 300px; gap: 28px; align-items: start; }
   .main h2 { color: var(--text-bright); font-size: 18px; margin: 18px 0 10px; }

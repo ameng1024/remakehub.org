@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import GameCard from '../components/GameCard.astro';
-import { games, allPlatforms, allGenres, displayName } from '../lib/games';
+import { games, allPlatforms, allGenres, displayName, allOriginalPlatforms, originalPlatformKey } from '../lib/games';
 
 const genreZh: Record<string, string> = {
   'RPG': '角色扮演', 'Tactics': '战棋', 'Strategy': '策略', 'Action': '动作',
@@ -10,6 +10,7 @@ const genreZh: Record<string, string> = {
   'Metroidvania': '银河城', 'Stealth': '潜行', 'Point & Click': '点击冒险',
   'Run & Gun': '跑轰射击', "Beat 'em up": '清版动作', 'Fighting': '格斗', 'Rhythm': '音乐',
 };
+const origPlatforms = allOriginalPlatforms();
 ---
 
 <Layout title="RemakeHub — 老游戏重制版与高清复刻版导航">
@@ -33,6 +34,10 @@ const genreZh: Record<string, string> = {
         <select id="platform">
           <option value="">平台：全部</option>
           {allPlatforms.map(p => <option value={p}>{p}</option>)}
+        </select>
+        <select id="origPlatform">
+          <option value="">原作平台：全部</option>
+          {origPlatforms.map(p => <option value={p.key}>{p.key}（{p.count}）</option>)}
         </select>
         <select id="genre">
           <option value="">题材：全部</option>
@@ -101,6 +106,7 @@ const genreZh: Record<string, string> = {
       text: (c.dataset.search || '').toLowerCase(),
       type: c.dataset.type || '',
       platform: c.dataset.platforms || '',
+      origPlatform: c.dataset.origPlatform || '',
       genre: c.dataset.genres || '',
       year: Number(c.dataset.year || 0),
       originalYear: Number(c.dataset.originalYear || 0),
@@ -111,6 +117,7 @@ const genreZh: Record<string, string> = {
     const search = $('search') as HTMLInputElement;
     const type = $('type') as HTMLSelectElement;
     const platform = $('platform') as HTMLSelectElement;
+    const origPlatform = $('origPlatform') as HTMLSelectElement;
     const genre = $('genre') as HTMLSelectElement;
     const sort = $('sort') as HTMLSelectElement;
     const count = $('count')!;
@@ -118,10 +125,11 @@ const genreZh: Record<string, string> = {
 
     function apply() {
       const q = search.value.trim().toLowerCase();
-      const t = type.value, p = platform.value, g = genre.value, s = sort.value;
+      const t = type.value, p = platform.value, op = origPlatform.value, g = genre.value, s = sort.value;
       const rows = index.filter(r => {
         if (t && r.type !== t) return false;
         if (p && !r.platform.split('|').includes(p)) return false;
+        if (op && r.origPlatform !== op) return false;
         if (g && !r.genre.split('|').includes(g)) return false;
         if (q && !r.text.includes(q)) return false;
         return true;
@@ -141,7 +149,7 @@ const genreZh: Record<string, string> = {
       empty.hidden = sorted.length > 0;
     }
 
-    [search, type, platform, genre, sort].forEach(el =>
+    [search, type, platform, origPlatform, genre, sort].forEach(el =>
       el.addEventListener('input', apply)
     );
 
