@@ -812,5 +812,131 @@
   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158850/header.jpg?t=1787717414",
   "score": 1
  },
- "luigis-mansion-1-3ds": null
+ "luigis-mansion-1-3ds": null,
+ "am2r": null,
+ "daggerfall-unity": null,
+ "openmw": null,
+ "devilutionx": null,
+ "openra": null,
+ "openttd": {
+  "appid": 1536610,
+  "steamName": "OpenTTD",
+  "steamNameZh": "OpenTTD",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536610/header.jpg?t=1773680448",
+  "score": 1
+ },
+ "openrct2": null,
+ "corsixth": null,
+ "vcmi": null,
+ "fheroes2": null,
+ "sonic-3-air": null,
+ "sm64-port": null,
+ "zelda64-recomp": null,
+ "2ship2harkinian": null,
+ "sonic-1-2-2013-decomp": null,
+ "tr1x": null,
+ "unciv": null,
+ "widelands": null,
+ "ja2-stracciatella": null,
+ "fallout-cesium": null,
+ "homm3-hota": {
+  "appid": 5061200,
+  "steamName": "Heroes of Might and Magic III: Horn of the Abyss",
+  "steamNameZh": "Heroes of Might and Magic III: Horn of the Abyss",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061200/b6bf35011461b5519f090fd5df65ddfb1b0591cc/header.jpg?t=1794339727",
+  "score": 1
+ },
+ "saga-frontier-2-remastered": {
+  "appid": 2452080,
+  "steamName": "SaGa Frontier 2 Remastered",
+  "steamNameZh": "SaGa Frontier 2 Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452080/header.jpg?t=1777013660",
+  "score": 1
+ },
+ "romancing-saga-2-remastered": null,
+ "romancing-saga-3-remastered": null,
+ "crisis-core-ff7-reunion": {
+  "appid": 1608070,
+  "steamName": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+  "steamNameZh": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608070/header.jpg?t=1793266915",
+  "score": 1
+ },
+ "final-fantasy-type-0-hd": {
+  "appid": 340170,
+  "steamName": "FINAL FANTASY TYPE-0™ HD",
+  "steamNameZh": "FINAL FANTASY TYPE-0™ HD",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/340170/header.jpg?t=1775107834",
+  "score": 1
+ },
+ "ff-crystal-chronicles-remastered": null,
+ "xenoblade-chronicles-x-definitive": null,
+ "kirby-air-riders": null,
+ "onimusha-2-remaster": null,
+ "ghost-trick-remastered": {
+  "appid": 1967430,
+  "steamName": "Ghost Trick: Phantom Detective",
+  "steamNameZh": "Ghost Trick: Phantom Detective",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967430/header.jpg?t=1787717141",
+  "score": 1
+ },
+ "crash-team-racing-nitro": null,
+ "patapon-1-2-replay": {
+  "appid": 2383200,
+  "steamName": "PATAPON 1+2 REPLAY",
+  "steamNameZh": "PATAPON 1+2 REPLAY",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2383200/header.jpg?t=1766123897",
+  "score": 1
+ },
+ "locoroco-remastered": null,
+ "locoroco-2-remastered": null,
+ "horizon-zero-dawn-remastered": null,
+ "ninja-gaiden-2-black": {
+  "appid": 3287520,
+  "steamName": "NINJA GAIDEN 2 Black",
+  "steamNameZh": "NINJA GAIDEN 2 Black",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3287520/header.jpg?t=1760595265",
+  "score": 1
+ },
+ "fatal-frame-maiden-black-water": null,
+ "fatal-frame-lunar-eclipse": null,
+ "baten-kaitos-hd": null,
+ "klonoa-phantasy-reverie": null,
+ "alan-wake-remastered": null,
+ "xiii-remake": null,
+ "the-thing-remastered": {
+  "appid": 2958970,
+  "steamName": "The Thing: Remastered",
+  "steamNameZh": "The Thing: Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2958970/header.jpg?t=1773067625",
+  "score": 1
+ },
+ "age-of-mythology-retold": {
+  "appid": 1934680,
+  "steamName": "Age of Mythology: Retold",
+  "steamNameZh": "Age of Mythology: Retold",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/header.jpg?t=1780429786",
+  "score": 1
+ },
+ "homeworld-remastered": {
+  "appid": 244160,
+  "steamName": "Homeworld Remastered Collection",
+  "steamNameZh": "Homeworld Remastered Collection",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244160/header.jpg?t=1781819205",
+  "score": 1
+ },
+ "mafia-2-definitive": {
+  "appid": 342913,
+  "steamName": "Mafia II: Definitive Edition",
+  "steamNameZh": "Mafia II: Definitive Edition",
+  "header": null,
+  "score": 1
+ },
+ "assassins-creed-3-remastered": null,
+ "star-wars-bounty-hunter-remaster": null,
+ "odin-sphere-leifthrasir": null,
+ "grimgimoire-oncemore": null,
+ "splinter-cell-remake": null,
+ "prince-of-persia-sands-of-time-remake": null,
+ "kotor-remake": null
 }

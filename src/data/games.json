@@ -5061,5 +5061,787 @@
     "fanLinks": {
       "site": "https://h3hota.com"
     }
+  },
+  {
+    "id": "saga-frontier-2-remastered",
+    "title": "SaGa Frontier 2 Remastered",
+    "titleZh": "沙加开拓者2 复刻版",
+    "type": "remaster",
+    "originalTitle": "SaGa Frontier 2",
+    "originalPlatform": "PS1",
+    "originalYear": 1999,
+    "releaseYear": 2025,
+    "developer": "Square Enix / Bullets",
+    "publisher": "Square Enix",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "水彩画风景致名作高清复刻，新增剧情事件、终局头目与 Dig! Dig! Digger 小游戏首次西化。"
+  },
+  {
+    "id": "romancing-saga-2-remastered",
+    "title": "Romancing SaGa 2 Remastered",
+    "titleZh": "浪漫沙加2 复刻版",
+    "type": "remaster",
+    "originalTitle": "Romancing SaGa 2",
+    "originalPlatform": "SNES",
+    "originalYear": 1993,
+    "releaseYear": 2017,
+    "developer": "Square Enix / ArtePiazza",
+    "publisher": "Square Enix",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS Vita",
+      "Xbox One",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "皇帝继承制名作的高清复刻，追加新地牢与「最后之帝」终章内容。",
+    "steamAppid": 606370,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606370/header.jpg"
+  },
+  {
+    "id": "romancing-saga-3-remastered",
+    "title": "Romancing SaGa 3 Remastered",
+    "titleZh": "浪漫沙加3 复刻版",
+    "type": "remaster",
+    "originalTitle": "Romancing SaGa 3",
+    "originalPlatform": "SNES",
+    "originalYear": 1995,
+    "releaseYear": 2019,
+    "developer": "Square Enix / ArtePiazza",
+    "publisher": "Square Enix",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS Vita",
+      "Xbox One",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "八主角史诗首次官方国际化，高清复刻并追加新章「宿命的对手」。",
+    "steamAppid": 952540,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952540/header.jpg"
+  },
+  {
+    "id": "crisis-core-ff7-reunion",
+    "title": "Crisis Core: Final Fantasy VII Reunion",
+    "titleZh": "危机核心 最终幻想7 重聚",
+    "type": "remake",
+    "originalTitle": "Crisis Core: Final Fantasy VII",
+    "originalPlatform": "PSP",
+    "originalYear": 2008,
+    "releaseYear": 2022,
+    "developer": "Tose / Square Enix",
+    "publisher": "Square Enix",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "description": "扎克斯的悲剧前传以 FF7R 同世代规格全面重制，全程配音与新战斗演出。"
+  },
+  {
+    "id": "final-fantasy-type-0-hd",
+    "title": "Final Fantasy Type-0 HD",
+    "titleZh": "最终幻想 零式 HD",
+    "type": "remaster",
+    "originalTitle": "Final Fantasy Type-0",
+    "originalPlatform": "PSP",
+    "originalYear": 2011,
+    "releaseYear": 2015,
+    "developer": "Square Enix / HexaDrive",
+    "publisher": "Square Enix",
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "description": "PSP 战争史诗首次国际化，高清化登陆本世代主机与 PC。"
+  },
+  {
+    "id": "ff-crystal-chronicles-remastered",
+    "title": "Final Fantasy Crystal Chronicles Remastered",
+    "titleZh": "最终幻想 水晶编年史 重制版",
+    "type": "remaster",
+    "originalTitle": "Final Fantasy Crystal Chronicles",
+    "originalPlatform": "GameCube",
+    "originalYear": 2003,
+    "releaseYear": 2020,
+    "developer": "Square Enix",
+    "publisher": "Square Enix",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "NGC 联机经典重制，追加线上多人、新地牢与角色配音。"
+  },
+  {
+    "id": "xenoblade-chronicles-x-definitive",
+    "title": "Xenoblade Chronicles X: Definitive Edition",
+    "titleZh": "异度神剑X 终极版",
+    "type": "remaster",
+    "originalTitle": "Xenoblade Chronicles X",
+    "originalPlatform": "Wii U",
+    "originalYear": 2015,
+    "releaseYear": 2025,
+    "developer": "Monolith Soft",
+    "publisher": "Nintendo",
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "Wii U 开放世界巨作登陆 Switch，追加全新故事章「亡国的遗灰」。"
+  },
+  {
+    "id": "kirby-air-riders",
+    "title": "Kirby Air Riders",
+    "titleZh": "星之卡比 空中骑士",
+    "type": "remake",
+    "originalTitle": "Kirby Air Ride",
+    "originalPlatform": "GameCube",
+    "originalYear": 2003,
+    "releaseYear": 2025,
+    "developer": "HAL Laboratory",
+    "publisher": "Nintendo",
+    "platforms": [
+      "Switch",
+      "Switch 2"
+    ],
+    "genres": [
+      "Racing"
+    ],
+    "description": "NGC《卡比空中战骑》全面重制，全新机体与线上对战。"
+  },
+  {
+    "id": "onimusha-2-remaster",
+    "title": "Onimusha 2: Samurai's Destiny",
+    "titleZh": "鬼武者2",
+    "type": "remaster",
+    "originalTitle": "Onimusha 2: Samurai's Destiny",
+    "originalPlatform": "PS2",
+    "originalYear": 2002,
+    "releaseYear": 2025,
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "柳生十兵卫的复仇之旅高清复刻，新增地狱难度、画廊与快捷武器切换。",
+    "steamAppid": 3046600,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3046600/header.jpg"
+  },
+  {
+    "id": "ghost-trick-remastered",
+    "title": "Ghost Trick: Phantom Detective",
+    "titleZh": "幽灵诡计 重制版",
+    "type": "remaster",
+    "originalTitle": "Ghost Trick: Phantom Detective",
+    "originalPlatform": "DS",
+    "originalYear": 2010,
+    "releaseYear": 2023,
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "description": "巧舟的名作解谜冒险高清化，新 UI、章节跳转与全收集画廊。"
+  },
+  {
+    "id": "crash-team-racing-nitro",
+    "title": "Crash Team Racing: Nitro-Fueled",
+    "titleZh": "古惑狼团队赛车 氮气版",
+    "type": "remake",
+    "originalTitle": "Crash Team Racing",
+    "originalPlatform": "PS1",
+    "originalYear": 1999,
+    "releaseYear": 2019,
+    "developer": "Beenox",
+    "publisher": "Activision",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One"
+    ],
+    "genres": [
+      "Racing"
+    ],
+    "description": "PS1 卡丁车名作从零重制，收录《疯狂赛车》赛道与全部线上对战。"
+  },
+  {
+    "id": "patapon-1-2-replay",
+    "title": "PATAPON 1+2 REPLAY",
+    "titleZh": "PATAPON 1+2 Replay",
+    "type": "remaster",
+    "originalTitle": "Patapon 1 & 2",
+    "originalPlatform": "PSP",
+    "originalYear": 2007,
+    "releaseYear": 2025,
+    "developer": "Bandai Namco",
+    "publisher": "Bandai Namco / SIE",
+    "platforms": [
+      "PS5",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Rhythm",
+      "Strategy"
+    ],
+    "description": "PSP 节奏名作双拼高清重制，新增难度调节与输入辅助，Switch 版支持四人合作。"
+  },
+  {
+    "id": "locoroco-remastered",
+    "title": "LocoRoco Remastered",
+    "titleZh": "乐克乐克 复刻版",
+    "type": "remaster",
+    "originalTitle": "LocoRoco",
+    "originalPlatform": "PSP",
+    "originalYear": 2006,
+    "releaseYear": 2017,
+    "developer": "Japan Studio",
+    "publisher": "Sony",
+    "platforms": [
+      "PS4"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "PSP 圆滚滚名作 PS4 4K 复刻，支持体感倾斜操作。"
+  },
+  {
+    "id": "locoroco-2-remastered",
+    "title": "LocoRoco 2 Remastered",
+    "titleZh": "乐克乐克2 复刻版",
+    "type": "remaster",
+    "originalTitle": "LocoRoco 2",
+    "originalPlatform": "PSP",
+    "originalYear": 2008,
+    "releaseYear": 2017,
+    "developer": "Japan Studio",
+    "publisher": "Sony",
+    "platforms": [
+      "PS4"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "续作同步 4K 复刻，歌唱关卡与换装要素全部保留。"
+  },
+  {
+    "id": "horizon-zero-dawn-remastered",
+    "title": "Horizon Zero Dawn Remastered",
+    "titleZh": "地平线 零之曙光 重制版",
+    "type": "remaster",
+    "originalTitle": "Horizon Zero Dawn",
+    "originalPlatform": "PS4",
+    "originalYear": 2017,
+    "releaseYear": 2025,
+    "developer": "Nixxes / Guerrilla",
+    "publisher": "Sony",
+    "platforms": [
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "description": "以《西之绝境》资产规格重制的初代，角色模型与植被全面翻新，存档可继承。",
+    "steamAppid": 2561580,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/header.jpg"
+  },
+  {
+    "id": "ninja-gaiden-2-black",
+    "title": "Ninja Gaiden 2 Black",
+    "titleZh": "忍者龙剑传2 Black",
+    "type": "remake",
+    "originalTitle": "Ninja Gaiden II",
+    "originalPlatform": "Xbox 360",
+    "originalYear": 2008,
+    "releaseYear": 2025,
+    "developer": "Solfer",
+    "publisher": "Koei Tecmo",
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "X360 时代最凶残的动作游戏以 UE5 重现，与《忍龙4》同日公开。"
+  },
+  {
+    "id": "fatal-frame-maiden-black-water",
+    "title": "Fatal Frame: Maiden of Black Water",
+    "titleZh": "零 濡鸦之巫女",
+    "type": "remaster",
+    "originalTitle": "Fatal Frame: Maiden of Black Water",
+    "originalPlatform": "Wii U",
+    "originalYear": 2014,
+    "releaseYear": 2021,
+    "developer": "Koei Tecmo",
+    "publisher": "Koei Tecmo",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "日上山取材传说的高清复刻，追加照相馆模式与全新服装。",
+    "steamAppid": 1732190,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1732190/header.jpg"
+  },
+  {
+    "id": "fatal-frame-lunar-eclipse",
+    "title": "Fatal Frame: Mask of the Lunar Eclipse",
+    "titleZh": "零 月蚀的假面",
+    "type": "remaster",
+    "originalTitle": "Fatal Frame: Mask of the Lunar Eclipse",
+    "originalPlatform": "Wii",
+    "originalYear": 2008,
+    "releaseYear": 2023,
+    "developer": "Koei Tecmo",
+    "publisher": "Koei Tecmo",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "Wii 时期孤岛恐怖名作首次官方国际化，高清复刻全平台发行。",
+    "steamAppid": 2130460,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2130460/header.jpg"
+  },
+  {
+    "id": "baten-kaitos-hd",
+    "title": "Baten Kaitos I & II HD Remaster",
+    "titleZh": "Baten Kaitos I & II HD 复刻版",
+    "type": "remaster",
+    "originalTitle": "Baten Kaitos: Eternal Wings and the Lost Ocean / Origins",
+    "originalPlatform": "GameCube",
+    "originalYear": 2003,
+    "releaseYear": 2023,
+    "developer": "Bandai Namco",
+    "publisher": "Bandai Namco",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "NGC 卡牌战斗 JRPG 双作高清合集，先 Switch 后全平台。",
+    "steamAppid": 2146170,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2146170/header.jpg"
+  },
+  {
+    "id": "klonoa-phantasy-reverie",
+    "title": "Klonoa Phantasy Reverie Series",
+    "titleZh": "风之克罗诺亚 幻想回忆系列",
+    "type": "remaster",
+    "originalTitle": "Klonoa: Door to Phantomile & Lunatea's Veil",
+    "originalPlatform": "PS1 / PS2",
+    "originalYear": 1997,
+    "releaseYear": 2022,
+    "developer": "Bandai Namco",
+    "publisher": "Bandai Namco",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "梦之世界双作重制合集：Wii 版《克罗诺亚》与 PS2 续作一并高清化。",
+    "steamAppid": 1730680,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730680/header.jpg"
+  },
+  {
+    "id": "alan-wake-remastered",
+    "title": "Alan Wake Remastered",
+    "titleZh": "心灵杀手 重制版",
+    "type": "remaster",
+    "originalTitle": "Alan Wake",
+    "originalPlatform": "Xbox 360",
+    "originalYear": 2010,
+    "releaseYear": 2021,
+    "developer": "Remedy Entertainment",
+    "publisher": "Epic Games",
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "Xbox One",
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Action",
+      "Horror"
+    ],
+    "description": "布莱特瀑布镇的作家噩梦 4K 重制，含两部资料片，首次登陆 PlayStation。"
+  },
+  {
+    "id": "xiii-remake",
+    "title": "XIII Remake",
+    "titleZh": "XIII 重制版",
+    "type": "remake",
+    "originalTitle": "XIII",
+    "originalPlatform": "PS2",
+    "originalYear": 2003,
+    "releaseYear": 2020,
+    "developer": "PlayMagic",
+    "publisher": "Microids",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "卡通渲染谍战射击名作重制——发售时因品质翻车著称，后续大幅回炉重做。"
+  },
+  {
+    "id": "the-thing-remastered",
+    "title": "The Thing: Remastered",
+    "titleZh": "怪形 复刻版",
+    "type": "remaster",
+    "originalTitle": "The Thing",
+    "originalPlatform": "PS2",
+    "originalYear": 2002,
+    "releaseYear": 2024,
+    "developer": "Nightdive Studios",
+    "publisher": "Nightdive Studios",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Horror",
+      "Shooter"
+    ],
+    "description": "电影续篇式生存恐怖名作 Kex 引擎复刻，南极基地的信任系统依旧独特。"
+  },
+  {
+    "id": "age-of-mythology-retold",
+    "title": "Age of Mythology: Retold",
+    "titleZh": "神话时代 重述版",
+    "type": "remake",
+    "originalTitle": "Age of Mythology",
+    "originalPlatform": "PC",
+    "originalYear": 2002,
+    "releaseYear": 2024,
+    "developer": "Forgotten Empires / World's Edge",
+    "publisher": "Xbox Game Studios",
+    "platforms": [
+      "PC",
+      "Xbox Series",
+      "Xbox One"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "神话 RTS 名作完全重制，神力系统全面翻新，附中文配音与扩展 DLC。"
+  },
+  {
+    "id": "homeworld-remastered",
+    "title": "Homeworld Remastered Collection",
+    "titleZh": "家园 复刻版合集",
+    "type": "remaster",
+    "originalTitle": "Homeworld 1 & 2",
+    "originalPlatform": "PC",
+    "originalYear": 1999,
+    "releaseYear": 2015,
+    "developer": "Gearbox Software",
+    "publisher": "Gearbox Publishing",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "太空歌剧 RTS 双作以现代引擎复刻，模型纹理全面重制并统一操作。"
+  },
+  {
+    "id": "mafia-2-definitive",
+    "title": "Mafia II: Definitive Edition",
+    "titleZh": "四海兄弟II 最终版",
+    "type": "remaster",
+    "originalTitle": "Mafia II",
+    "originalPlatform": "PC",
+    "originalYear": 2010,
+    "releaseYear": 2020,
+    "developer": "Hangar 13 / d3t",
+    "publisher": "2K",
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "帝国湾黑帮故事 4K 复刻，三部曲计划的中坚一环。"
+  },
+  {
+    "id": "assassins-creed-3-remastered",
+    "title": "Assassin's Creed III Remastered",
+    "titleZh": "刺客信条3 重制版",
+    "type": "remaster",
+    "originalTitle": "Assassin's Creed III",
+    "originalPlatform": "PC",
+    "originalYear": 2012,
+    "releaseYear": 2019,
+    "developer": "Ubisoft",
+    "publisher": "Ubisoft",
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "description": "美国独立战争篇 4K 重制，含《解放》完整重制与全部 DLC。",
+    "steamAppid": 911400,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/911400/header.jpg"
+  },
+  {
+    "id": "star-wars-bounty-hunter-remaster",
+    "title": "Star Wars: Bounty Hunter Remaster",
+    "titleZh": "星球大战 赏金猎人 复刻版",
+    "type": "remaster",
+    "originalTitle": "Star Wars: Bounty Hunter",
+    "originalPlatform": "PS2",
+    "originalYear": 2002,
+    "releaseYear": 2024,
+    "developer": "Aspyr",
+    "publisher": "Lucasfilm Games",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "description": "詹戈·费特的赏金之旅高清复刻，新增光照与道具提示。"
+  },
+  {
+    "id": "odin-sphere-leifthrasir",
+    "title": "Odin Sphere Leifthrasir",
+    "titleZh": "奥丁领域 里普特拉西尔",
+    "type": "remake",
+    "originalTitle": "Odin Sphere",
+    "originalPlatform": "PS2",
+    "originalYear": 2007,
+    "releaseYear": 2016,
+    "developer": "Vanillaware",
+    "publisher": "Atlus / NIS America",
+    "platforms": [
+      "PS4",
+      "PS3",
+      "PS Vita"
+    ],
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "description": "香草社童话绘卷完全重制，战斗系统重构后脱胎换骨。"
+  },
+  {
+    "id": "grimgimoire-oncemore",
+    "title": "GrimGrimoire OnceMore",
+    "titleZh": "GrimGrimoire OnceMore",
+    "type": "remaster",
+    "originalTitle": "GrimGrimoire",
+    "originalPlatform": "PS2",
+    "originalYear": 2007,
+    "releaseYear": 2023,
+    "developer": "Vanillaware",
+    "publisher": "NIS America",
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "PC"
+    ],
+    "genres": [
+      "RTS",
+      "Adventure"
+    ],
+    "description": "香草社魔导书 RTS 高清复刻，五日循环剧情与新难度、快进功能。"
+  },
+  {
+    "id": "splinter-cell-remake",
+    "title": "Splinter Cell Remake",
+    "titleZh": "细胞分裂 重制版",
+    "type": "remake",
+    "originalTitle": "Splinter Cell",
+    "originalPlatform": "Xbox",
+    "originalYear": 2002,
+    "releaseYear": null,
+    "developer": "Ubisoft Toronto",
+    "publisher": "Ubisoft",
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Stealth"
+    ],
+    "description": "山姆·费舍尔的初次潜入以 Snowdrop 引擎从零重制，开发中。",
+    "upcoming": true
+  },
+  {
+    "id": "prince-of-persia-sands-of-time-remake",
+    "title": "Prince of Persia: The Sands of Time Remake",
+    "titleZh": "波斯王子 时之沙 重制版",
+    "type": "remake",
+    "originalTitle": "Prince of Persia: The Sands of Time",
+    "originalPlatform": "PS2",
+    "originalYear": 2003,
+    "releaseYear": null,
+    "developer": "Ubisoft",
+    "publisher": "Ubisoft",
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "description": "时之沙传奇的完全重制，经历多次延期与工作室更换，仍在开发中。",
+    "upcoming": true
+  },
+  {
+    "id": "kotor-remake",
+    "title": "Star Wars: Knights of the Old Republic Remake",
+    "titleZh": "星球大战 旧共和国武士 重制版",
+    "type": "remake",
+    "originalTitle": "Star Wars: Knights of the Old Republic",
+    "originalPlatform": "Xbox",
+    "originalYear": 2003,
+    "releaseYear": null,
+    "developer": "Saber Interactive",
+    "publisher": "Aspyr / Lucasfilm Games",
+    "platforms": [
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "星球大战 RPG 巅峰的完全重制，历经开发动荡后由 Saber 接手继续推进。",
+    "upcoming": true
+  },
+  {
+    "id": "romancing-saga-2-revenge",
+    "title": "Romancing SaGa 2: Revenge of the Seven",
+    "titleZh": "浪漫沙加2 七英雄的复仇",
+    "type": "remake",
+    "originalTitle": "Romancing SaGa 2",
+    "originalPlatform": "SNES",
+    "originalYear": 1993,
+    "releaseYear": 2025,
+    "developer": "Square Enix / ArtePiazza",
+    "publisher": "Square Enix",
+    "platforms": [
+      "Switch",
+      "Switch 2",
+      "PS5",
+      "PS4",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "皇帝继承系统名作的完全 3D 重制，自由编成与阵形战斗全面现代化，含中文配音。",
+    "steamAppid": 2455640,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455640/header.jpg"
   }
 ]
