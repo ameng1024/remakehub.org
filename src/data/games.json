@@ -9,9 +9,18 @@
     "releaseYear": 2020,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS5", "PS4", "PC"],
-    "genres": ["RPG"],
-    "description": "Full ground-up rebuild of the 1997 JRPG landmark, retelling Midgar with real-time combat and expanded story."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "1997 年 JRPG 里程碑的完全重制，以即时战斗与扩充剧情重新演绎米德加。",
+    "steamAppid": 1462040,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+    "titleZh": "最终幻想7 重制版"
   },
   {
     "id": "final-fantasy-viii-remastered",
@@ -23,9 +32,19 @@
     "releaseYear": 2019,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "HD remaster of the Junction-era classic with boosted visuals, speed boosts and no-encounter options."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "Junction 系统名作的高清化，画质增强并加入加速、免遇敌功能。",
+    "steamAppid": 1026680,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1026680/header.jpg?t=1775803140",
+    "titleZh": "最终幻想8 重制版"
   },
   {
     "id": "final-fantasy-pixel-remaster",
@@ -37,9 +56,18 @@
     "releaseYear": 2023,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["Switch", "PS4", "PC", "iOS", "Android"],
-    "genres": ["RPG"],
-    "description": "All six 2D Final Fantasy games redrawn in unified pixel art with rearranged Nobuo Uematsu soundtracks."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "六部 2D 最终幻想以统一像素画风重绘，植松伸夫配乐全部重新编曲。",
+    "titleZh": "最终幻想1-6 像素复刻版"
   },
   {
     "id": "final-fantasy-tactics-ivalice-chronicles",
@@ -51,9 +79,19 @@
     "releaseYear": 2025,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["Switch 2", "Switch", "PS5", "PS4", "Xbox Series", "PC"],
-    "genres": ["Tactics"],
-    "description": "Modernized rebuild of the 1997 tactical RPG with full voice acting, a new translation and a classic mode."
+    "platforms": [
+      "Switch 2",
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Tactics"
+    ],
+    "description": "1997 年战棋神作现代化重制，全程配音、新翻译并附经典模式。",
+    "titleZh": "最终幻想战略版 - 伊瓦利斯编年史"
   },
   {
     "id": "dragon-quest-iii-hd-2d",
@@ -65,9 +103,17 @@
     "releaseYear": 2024,
     "developer": "Square Enix / Artdink",
     "publisher": "Square Enix",
-    "platforms": ["Switch", "PS5", "Xbox Series", "PC"],
-    "genres": ["RPG"],
-    "description": "The Erdrick trilogy opener rebuilt in the Octopath-style HD-2D engine with quality-of-life upgrades."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "洛特三部曲开篇以 HD-2D 引擎重制，辅以大量易用性改进。",
+    "titleZh": "勇者斗恶龙3 HD-2D 重制版"
   },
   {
     "id": "dragon-quest-i-ii-hd-2d",
@@ -79,9 +125,18 @@
     "releaseYear": 2025,
     "developer": "Square Enix / Artdink",
     "publisher": "Square Enix",
-    "platforms": ["Switch 2", "Switch", "PS5", "Xbox Series", "PC"],
-    "genres": ["RPG"],
-    "description": "Both founding Dragon Quest adventures reborn in HD-2D, completing the Erdrick trilogy in style."
+    "platforms": [
+      "Switch 2",
+      "Switch",
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "系列两部开山之作合并为 HD-2D 重制，为洛特三部曲画上句号。",
+    "titleZh": "勇者斗恶龙1 & 2 HD-2D 重制版"
   },
   {
     "id": "secret-of-mana-2018",
@@ -93,9 +148,18 @@
     "releaseYear": 2018,
     "developer": "Q-Games",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "PS Vita", "PC"],
-    "genres": ["RPG"],
-    "description": "3D remake of the Ring Menu classic, with reorchestrated music and fully voiced cutscenes."
+    "platforms": [
+      "PS4",
+      "PS Vita",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "环形菜单名作的 3D 重制版，音乐重新配器、过场全程配音。",
+    "steamAppid": 637670,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637670/header.jpg?t=1776653917",
+    "titleZh": "圣剑传说2（2018）"
   },
   {
     "id": "trials-of-mana",
@@ -107,9 +171,20 @@
     "releaseYear": 2020,
     "developer": "Xeen",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch", "PC", "iOS", "Android"],
-    "genres": ["RPG"],
-    "description": "The Japan-only Seiken Densetsu 3 finally rebuilt in 3D and localized for the West."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "日本本土独占 27 年的《圣剑传说3》首次 3D 重制并推出官方中文。",
+    "steamAppid": 924980,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/924980/header.jpg?t=1776921685",
+    "titleZh": "圣剑传说3 重制版"
   },
   {
     "id": "legend-of-mana-remastered",
@@ -121,9 +196,16 @@
     "releaseYear": 2021,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch", "PC"],
-    "genres": ["RPG"],
-    "description": "The gorgeous Land Make JRPG remastered with redone background art and a toggle for the original soundtrack."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "美术惊艳的「造地」式 RPG 复刻，背景全面重绘，可切换原版配乐。",
+    "titleZh": "圣剑传说 玛娜传奇（复刻版）"
   },
   {
     "id": "saga-frontier-remastered",
@@ -135,9 +217,20 @@
     "releaseYear": 2021,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch", "PC", "iOS", "Android"],
-    "genres": ["RPG"],
-    "description": "The seven-scenario SaGa classic returns with new content, including the cut Fuse storyline."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "七主角多线剧本名作回归，补完当年被砍的 Fuse 第八章。",
+    "steamAppid": 1295270,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295270/header.jpg?t=1777013612",
+    "titleZh": "沙加开拓者 复刻版"
   },
   {
     "id": "romancing-saga-minstrel-song",
@@ -149,9 +242,16 @@
     "releaseYear": 2005,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS2"],
-    "genres": ["RPG"],
-    "description": "Full 3D remake of the first Romancing SaGa with the free-form scenario system taken even further."
+    "platforms": [
+      "PS2"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "系列首作完全 3D 重制，自由剧本系统进一步进化。",
+    "steamAppid": 1793030,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1793030/header.jpg?t=1777013691",
+    "titleZh": "浪漫沙加：吟游诗人之歌"
   },
   {
     "id": "chrono-cross-radical-dreamers",
@@ -163,9 +263,19 @@
     "releaseYear": 2022,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "The 45-character epic plus the never-localized Radical Dreamers text adventure, first time in English."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "45 名角色的史诗回归，同时收录首次官方中文化的《Radical Dreamers》。",
+    "steamAppid": 1133760,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133760/header.jpg?t=1777342541",
+    "titleZh": "超时空之轮2：穿越时空"
   },
   {
     "id": "kingdom-hearts-hd-1525",
@@ -177,9 +287,16 @@
     "releaseYear": 2017,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "Six Kingdom Hearts PS2-era experiences remastered in HD on a single disc."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "PS2 时代的六部王国之心作品高清合集。",
+    "titleZh": "王国之心 HD 1.5 + 2.5 ReMIX"
   },
   {
     "id": "star-ocean-second-story-r",
@@ -191,9 +308,19 @@
     "releaseYear": 2023,
     "developer": "Gemdrops",
     "publisher": "Square Enix",
-    "platforms": ["PS5", "PS4", "Switch", "PC"],
-    "genres": ["RPG"],
-    "description": "2.5D remake blending gorgeous pixel sprites with 3D environments and dual protagonist campaigns."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "像素角色与 3D 场景融合的 2.5D 重制，双主角双线剧情完整保留。",
+    "steamAppid": 2238900,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/header.jpg?t=1782353780",
+    "titleZh": "星之海洋2 第二个故事R"
   },
   {
     "id": "star-ocean-first-departure-r",
@@ -205,9 +332,15 @@
     "releaseYear": 2019,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch"],
-    "genres": ["RPG"],
-    "description": "Remaster of the PSP remake of the SNES original, with new character art and voice options."
+    "platforms": [
+      "PS4",
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "SNES 原作的 PSP 重制版再复刻，新补人设与配音选项。",
+    "titleZh": "星之海洋1 复刻版"
   },
   {
     "id": "tactics-ogre-reborn",
@@ -219,9 +352,19 @@
     "releaseYear": 2022,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS5", "PS4", "Switch", "PC"],
-    "genres": ["Tactics"],
-    "description": "The benchmark of branching SRPGs remastered with fully voiced battles and reworked AI."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Tactics"
+    ],
+    "description": "多分支剧本 SRPG 标杆复刻，战斗全程配音，AI 全面重做。",
+    "steamAppid": 1451090,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451090/header.jpg?t=1786031697",
+    "titleZh": "皇家骑士团：重生"
   },
   {
     "id": "live-a-live-2022",
@@ -233,9 +376,18 @@
     "releaseYear": 2022,
     "developer": "Historia",
     "publisher": "Square Enix",
-    "platforms": ["Switch", "PS5", "PC"],
-    "genres": ["RPG"],
-    "description": "Seven chapters across prehistory to the far future, rebuilt in HD-2D and localized for the first time."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "从原始时代到遥远未来的七个章节，HD-2D 重制并首次中文化。",
+    "steamAppid": 2014380,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2014380/header.jpg?t=1776153357",
+    "titleZh": "LIVE A LIVE（2022）"
   },
   {
     "id": "actraiser-renaissance",
@@ -247,9 +399,21 @@
     "releaseYear": 2021,
     "developer": "Square Enix",
     "publisher": "Square Enix",
-    "platforms": ["PS4", "Switch", "PC", "iOS", "Android"],
-    "genres": ["Action", "Strategy"],
-    "description": "The god-game-slash-action-platformer hybrid returns with new stages, towers and an arranged soundtrack."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "Action",
+      "Strategy"
+    ],
+    "description": "神明模拟+横版动作混合玩法回归，新增关卡、塔防与改编配乐。",
+    "steamAppid": 1393370,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1393370/header.jpg?t=1776132573",
+    "titleZh": "创世军魂 Renaissance"
   },
   {
     "id": "super-mario-rpg-2023",
@@ -261,9 +425,14 @@
     "releaseYear": 2023,
     "developer": "ArtePiazza",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["RPG"],
-    "description": "The Square-Nintendo crossover classic rebuilt with cute new visuals and post-game boss rematches."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "史克威尔×任天堂合作经典完全重制，新增通关后头目连战。",
+    "titleZh": "超级马力欧RPG（2023）"
   },
   {
     "id": "paper-mario-thousand-year-door",
@@ -275,9 +444,14 @@
     "releaseYear": 2024,
     "developer": "Intelligent Systems",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["RPG"],
-    "description": "The beloved paper-craft RPG remastered in HD with updated textures and quality-of-life touches."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "纸艺 RPG 名作高清复刻，贴图全面更新并加入易用性改进。",
+    "titleZh": "纸片马力欧RPG 千年之门（2024）"
   },
   {
     "id": "mario-luigi-superstar-saga-3ds",
@@ -289,9 +463,14 @@
     "releaseYear": 2017,
     "developer": "AlphaDream",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["RPG"],
-    "description": "The Beanbean Kingdom adventure remade on 3DS with a new Minion Quest side campaign."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "豆豆王国冒险 3DS 重制，追加「库巴军团」支线战役。",
+    "titleZh": "马力欧&路易吉RPG：超级明星传奇+库巴军团"
   },
   {
     "id": "mario-luigi-bowsers-inside-story-3ds",
@@ -303,9 +482,14 @@
     "releaseYear": 2019,
     "developer": "AlphaDream",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["RPG"],
-    "description": "The inside-Bowser romp rebuilt for 3DS with an added Bowser Jr. storyline."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "「钻进库巴身体」的创意之作 3DS 重制，新增小库巴剧情线。",
+    "titleZh": "马力欧&路易吉RPG：库巴体内之旅+小库巴之旅"
   },
   {
     "id": "links-awakening-2019",
@@ -317,9 +501,14 @@
     "releaseYear": 2019,
     "developer": "Grezzo",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Adventure"],
-    "description": "Koholint Island reimagined as a tilt-shifted toy diorama, Chamber Dungeon editor included."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "GB 名作以玩具微缩景观风格重制，含「牢房地牢」编辑模式。",
+    "titleZh": "塞尔达传说：织梦岛（2019）"
   },
   {
     "id": "ocarina-of-time-3d",
@@ -331,9 +520,14 @@
     "releaseYear": 2011,
     "developer": "Grezzo",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["Adventure"],
-    "description": "The 98-metacarbon classic rebuilt with new textures, stereoscopic 3D and Master Quest included."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "N64 传奇的 3DS 重制，新贴图+裸眼 3D，并收录里·时之笛。",
+    "titleZh": "塞尔达传说：时之笛 3D"
   },
   {
     "id": "majoras-mask-3d",
@@ -345,9 +539,14 @@
     "releaseYear": 2015,
     "developer": "Grezzo",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["Adventure"],
-    "description": "Termina's three-day apocalypse refined with smoother saving and reworked Zora swimming."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "三日轮回的异色杰作 3DS 重制，存档与佐拉游泳手感重调。",
+    "titleZh": "塞尔达传说：梅祖拉的假面 3D"
   },
   {
     "id": "skyward-sword-hd",
@@ -359,9 +558,14 @@
     "releaseYear": 2021,
     "developer": "Nintendo",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Adventure"],
-    "description": "The motion-controlled epic remastered at 60fps with full button-only controls."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "体感名作 60 帧高清化，完整支持纯按键操作。",
+    "titleZh": "塞尔达传说：御天之剑 HD"
   },
   {
     "id": "star-fox-64-3d",
@@ -373,9 +577,14 @@
     "releaseYear": 2011,
     "developer": "Nintendo EAD",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["Shooter"],
-    "description": "Do a barrel roll in stereoscopic 3D, with score attack and gyro controls added."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "「来个桶滚！」的 N64 名作 3DS 重制，追加计分与体感操作。",
+    "titleZh": "星际火狐64 3D"
   },
   {
     "id": "metroid-zero-mission",
@@ -387,9 +596,14 @@
     "releaseYear": 2004,
     "developer": "Nintendo R&D1",
     "publisher": "Nintendo",
-    "platforms": ["GBA"],
-    "genres": ["Metroidvania"],
-    "description": "Samus' NES debut rebuilt with Zero Suit Samus' stealthy new finale chapter."
+    "platforms": [
+      "GBA"
+    ],
+    "genres": [
+      "Metroidvania"
+    ],
+    "description": "NES 初代完全重制，追加零装甲萨姆斯潜行终章。",
+    "titleZh": "密特罗德：零点任务"
   },
   {
     "id": "metroid-samus-returns",
@@ -401,9 +615,14 @@
     "releaseYear": 2017,
     "developer": "MercurySteam",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["Metroidvania"],
-    "description": "The Game Boy hunt for the Metroids remade with the melee counter and free-aim Aeion abilities."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "Metroidvania"
+    ],
+    "description": "GB 二代的 3DS 重制，加入反击与 Aeion 能力的现代银河城体验。",
+    "titleZh": "密特罗德：萨姆斯归来"
   },
   {
     "id": "metroid-prime-remastered",
@@ -415,9 +634,15 @@
     "releaseYear": 2023,
     "developer": "Retro Studios",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Shooter", "Adventure"],
-    "description": "Tallon IV in gorgeous modern lighting, with new dual-stick controls and gyro aiming."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "description": "泰隆四号星现代光照复刻，新增双摇杆与体感瞄准。",
+    "titleZh": "密特罗德 究极 复刻版"
   },
   {
     "id": "pokemon-firered-leafgreen",
@@ -429,9 +654,14 @@
     "releaseYear": 2004,
     "developer": "Game Freak",
     "publisher": "Nintendo",
-    "platforms": ["GBA"],
-    "genres": ["RPG"],
-    "description": "Kanto remade on GBA with the then-new Physical/Special era mechanics and Sevii Islands."
+    "platforms": [
+      "GBA"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "关都地区 GBA 重制，新增七之岛剧情。",
+    "titleZh": "宝可梦 火红/叶绿"
   },
   {
     "id": "pokemon-heartgold-soulsilver",
@@ -443,9 +673,14 @@
     "releaseYear": 2009,
     "developer": "Game Freak",
     "publisher": "Nintendo",
-    "platforms": ["DS"],
-    "genres": ["RPG"],
-    "description": "Johto and Kanto in one package with the Pokéwalker pedometer — often called the series peak."
+    "platforms": [
+      "DS"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "城都+关都双地图重制，附计步器，常被称为系列巅峰。",
+    "titleZh": "宝可梦 心金/魂银"
   },
   {
     "id": "pokemon-omega-ruby-alpha-sapphire",
@@ -457,9 +692,14 @@
     "releaseYear": 2014,
     "developer": "Game Freak",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["RPG"],
-    "description": "Hoenn remade in 3D with soaring free flight over the region's clouds."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "丰缘地区 3D 重制，可骑乘宝可梦云上翱翔。",
+    "titleZh": "宝可梦 欧米伽红宝石/阿尔法蓝宝石"
   },
   {
     "id": "pokemon-lets-go",
@@ -471,9 +711,14 @@
     "releaseYear": 2018,
     "developer": "Game Freak",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["RPG"],
-    "description": "A friendly Kanto reintroduction with GO-style catching and your partner riding your shoulder."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "以《皮卡丘版》为蓝本的友好化重制，GO 式收服+伙伴同游。",
+    "titleZh": "宝可梦 Let's Go! 皮卡丘/伊布"
   },
   {
     "id": "pokemon-brilliant-diamond-shining-pearl",
@@ -485,9 +730,14 @@
     "releaseYear": 2021,
     "developer": "ILCA",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["RPG"],
-    "description": "Sinnoh faithfully remade in chibi style, Underground and Super Contests included."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "神奥地区 Q 版 3D 忠实重制，地下大洞窟与华丽大赛回归。",
+    "titleZh": "宝可梦 晶灿钻石/明亮珍珠"
   },
   {
     "id": "pokemon-mystery-dungeon-dx",
@@ -499,9 +749,14 @@
     "releaseYear": 2020,
     "developer": "Spike Chunsoft",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["RPG"],
-    "description": "The roguelike Mystery Dungeon debut reborn with a painterly art style."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "不可思议迷宫系列初代的油画风重制。",
+    "titleZh": "宝可梦不可思议迷宫 救助队DX"
   },
   {
     "id": "advance-wars-1-2-reboot-camp",
@@ -513,9 +768,14 @@
     "releaseYear": 2023,
     "developer": "WayForward",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Strategy"],
-    "description": "Both GBA strategy classics remade with 3D toy-soldier visuals and online play."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Strategy"
+    ],
+    "description": "GBA 战棋双子星 3D 玩具风重制，支持线上对战。",
+    "titleZh": "高级战争 1+2 Re-Boot Camp"
   },
   {
     "id": "fire-emblem-echoes-valentia",
@@ -527,9 +787,14 @@
     "releaseYear": 2017,
     "developer": "Intelligent Systems",
     "publisher": "Nintendo",
-    "platforms": ["3DS"],
-    "genres": ["Tactics"],
-    "description": "The odd Famicom sequel remade with full dungeon exploration and fully voiced dialogue."
+    "platforms": [
+      "3DS"
+    ],
+    "genres": [
+      "Tactics"
+    ],
+    "description": "FC 外传的完全重制，全程配音并加入迷宫自由探索。",
+    "titleZh": "火焰之纹章 回声：另一位英雄王"
   },
   {
     "id": "xenoblade-chronicles-definitive",
@@ -541,9 +806,14 @@
     "releaseYear": 2020,
     "developer": "Monolith Soft",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["RPG"],
-    "description": "Bionis and Mechonis remastered with redone character models and the new Future Connected epilogue."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "巨神界与机神界高清复刻，追加新章「相连的未来」。",
+    "titleZh": "异度神剑 终极版"
   },
   {
     "id": "kirby-return-to-dream-land-deluxe",
@@ -555,9 +825,14 @@
     "releaseYear": 2023,
     "developer": "HAL Laboratory",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Platformer"],
-    "description": "Four-player Kirby co-op remastered with the Merry Magoland theme park and new Copy Abilities."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "Wii 四人合作名作复刻，新增梅丽魔法乐园与复制能力。",
+    "titleZh": "星之卡比 Wii 豪华版"
   },
   {
     "id": "donkey-kong-country-returns-hd",
@@ -569,9 +844,14 @@
     "releaseYear": 2025,
     "developer": "Nintendo",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Platformer"],
-    "description": "Retro's 2D DK revival in HD, bundling the 3DS version's extra levels."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "Retro 工作室 2D 复兴之作高清化，收录 3DS 版追加关卡。",
+    "titleZh": "森喜刚归来 HD"
   },
   {
     "id": "luigis-mansion-2-hd",
@@ -583,9 +863,14 @@
     "releaseYear": 2024,
     "developer": "Tantalus Media",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Adventure"],
-    "description": "Luigi's ghost-hunting handheld sequel polished for HD and co-op Galleries online."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "3DS 抓鬼续作高清化，恐怖高塔支持线上联机。",
+    "titleZh": "路易吉洋馆2 HD"
   },
   {
     "id": "punch-out-wii",
@@ -597,9 +882,15 @@
     "releaseYear": 2009,
     "developer": "Next Level Games",
     "publisher": "Nintendo",
-    "platforms": ["Wii"],
-    "genres": ["Sports", "Fighting"],
-    "description": "Little Mac returns with motion controls and the series' trademark pattern-boxing puzzle fights."
+    "platforms": [
+      "Wii"
+    ],
+    "genres": [
+      "Sports",
+      "Fighting"
+    ],
+    "description": "NES 拳击解谜名作 Wii 重制，体感出拳+头目破解战。",
+    "titleZh": "拳无虚发!!（Wii）"
   },
   {
     "id": "goldeneye-007-2023",
@@ -611,9 +902,16 @@
     "releaseYear": 2023,
     "developer": "Code Mystics",
     "publisher": "Xbox Game Studios",
-    "platforms": ["Switch", "Xbox One", "Xbox Series"],
-    "genres": ["Shooter"],
-    "description": "The license-to-kill classic officially rereleased with online multiplayer and dual-stick support."
+    "platforms": [
+      "Switch",
+      "Xbox One",
+      "Xbox Series"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "N64 传奇 FPS 官方复刻，支持线上对战与双摇杆。",
+    "titleZh": "黄金眼007（2023）"
   },
   {
     "id": "another-code-recollection",
@@ -625,9 +923,14 @@
     "releaseYear": 2024,
     "developer": "Arc System Works",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Adventure"],
-    "description": "Cing's melancholic adventure duology fully rebuilt with new voice acting and 3D exploration."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "Cing 的双部催泪解谜冒险完全重制，新增配音与 3D 探索。",
+    "titleZh": "异色代码：回忆录"
   },
   {
     "id": "famicom-detective-club-2021",
@@ -639,9 +942,14 @@
     "releaseYear": 2021,
     "developer": "Mages",
     "publisher": "Nintendo",
-    "platforms": ["Switch"],
-    "genres": ["Adventure"],
-    "description": "Two 1988 Famicom murder mysteries rebuilt with new art and a full voice track, first Western release."
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "1988 年两部 FDS 推理名作重制，首次推出官方中文。",
+    "titleZh": "Famicom侦探俱乐部（2021）"
   },
   {
     "id": "conker-live-reloaded",
@@ -653,9 +961,14 @@
     "releaseYear": 2005,
     "developer": "Rare",
     "publisher": "Microsoft",
-    "platforms": ["Xbox"],
-    "genres": ["Platformer"],
-    "description": "Rare's foul-mouthed squirrel rebuilt for Xbox with censored-but-still-raunchy humor."
+    "platforms": [
+      "Xbox"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "Rare 的成人向松鼠闹剧 Xbox 重制。",
+    "titleZh": "Conker：重装上阵"
   },
   {
     "id": "fable-anniversary",
@@ -667,9 +980,16 @@
     "releaseYear": 2014,
     "developer": "Lionhead Studios",
     "publisher": "Microsoft",
-    "platforms": ["Xbox 360"],
-    "genres": ["RPG"],
-    "description": "Albion's first outing in HD with Unreal 3-facelift visuals and remastered audio."
+    "platforms": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "初代寓言 HD 版，Unreal 3 画质翻新+配音重制。",
+    "steamAppid": 288470,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/header.jpg?t=1742377409",
+    "titleZh": "神鬼寓言：周年版"
   },
   {
     "id": "halo-master-chief-collection",
@@ -681,9 +1001,18 @@
     "releaseYear": 2014,
     "developer": "343 Industries",
     "publisher": "Xbox Game Studios",
-    "platforms": ["Xbox One", "Xbox Series", "PC"],
-    "genres": ["Shooter"],
-    "description": "The saga's core campaigns remastered — Halo 2's Anniversary overhaul remains a remaster benchmark."
+    "platforms": [
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "士官长全战役合集高清化，光环2 周年版仍是复刻标杆。",
+    "steamAppid": 976730,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg?t=1791569963",
+    "titleZh": "光环：士官长合集"
   },
   {
     "id": "gears-of-war-ultimate",
@@ -695,9 +1024,15 @@
     "releaseYear": 2015,
     "developer": "The Coalition",
     "publisher": "Microsoft",
-    "platforms": ["Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "Emergence Day in 1080p60 with rebalanced multiplayer and extra campaign chapters."
+    "platforms": [
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "初代 1080p60 重制，多人平衡性调整并追加战役章节。",
+    "titleZh": "战争机器：终极版"
   },
   {
     "id": "demons-souls-2020",
@@ -709,9 +1044,15 @@
     "releaseYear": 2020,
     "developer": "Bluepoint Games",
     "publisher": "Sony",
-    "platforms": ["PS5"],
-    "genres": ["RPG", "Action"],
-    "description": "Boletaria rebuilt from scratch as a PS5 showpiece — the blueprint of the modern remake."
+    "platforms": [
+      "PS5"
+    ],
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "description": "北城王国由蓝点工作室从零重建的 PS5 技术展示级重制。",
+    "titleZh": "恶魔之魂 重制版"
   },
   {
     "id": "shadow-of-the-colossus-2018",
@@ -723,9 +1064,14 @@
     "releaseYear": 2018,
     "developer": "Bluepoint Games",
     "publisher": "Sony",
-    "platforms": ["PS4"],
-    "genres": ["Adventure"],
-    "description": "All sixteen colossi rebuilt asset-by-asset, with a photo mode and secret-enhanced lighting."
+    "platforms": [
+      "PS4"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "十六巨像逐一重建，蓝点复刻技术的巅峰之作。",
+    "titleZh": "旺达与巨像 重制版"
   },
   {
     "id": "the-last-of-us-part-1",
@@ -737,9 +1083,18 @@
     "releaseYear": 2022,
     "developer": "Naughty Dog",
     "publisher": "Sony",
-    "platforms": ["PS5", "PC"],
-    "genres": ["Action", "Adventure"],
-    "description": "Joel and Ellie's journey rebuilt on Part II's engine with modernized controls and accessibility."
+    "platforms": [
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "description": "乔尔与艾莉的旅程以二代引擎重制，操作与无障碍全面现代化。",
+    "steamAppid": 1888930,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1750959031",
+    "titleZh": "最后生还者 第一幕"
   },
   {
     "id": "the-last-of-us-part-2-remastered",
@@ -751,9 +1106,18 @@
     "releaseYear": 2024,
     "developer": "Naughty Dog",
     "publisher": "Sony",
-    "platforms": ["PS5", "PC"],
-    "genres": ["Action", "Adventure"],
-    "description": "Ellie and Abby's saga upgraded for PS5 with the roguelike No Return mode."
+    "platforms": [
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "description": "艾莉与艾比的故事 PS5 强化，追加肉鸽模式 No Return。",
+    "steamAppid": 2531310,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+    "titleZh": "最后生还者 第二幕 复刻版"
   },
   {
     "id": "uncharted-nathan-drake-collection",
@@ -765,9 +1129,15 @@
     "releaseYear": 2015,
     "developer": "Bluepoint Games",
     "publisher": "Sony",
-    "platforms": ["PS4"],
-    "genres": ["Action", "Adventure"],
-    "description": "Drake's PS3 trilogy at 1080p60 with better lighting and a photo mode."
+    "platforms": [
+      "PS4"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "description": "德雷克 PS3 三部曲 1080p60 高清合集。",
+    "titleZh": "神秘海域：内森·德雷克合集"
   },
   {
     "id": "gravity-rush-remastered",
@@ -779,9 +1149,14 @@
     "releaseYear": 2016,
     "developer": "Japan Studio / Bluepoint",
     "publisher": "Sony",
-    "platforms": ["PS4"],
-    "genres": ["Action"],
-    "description": "Kat's gravity-shifting Hekseville adventure brought to PS4 at 60fps."
+    "platforms": [
+      "PS4"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "凯特操纵重力的黑基塞维尔冒险 PS4 60 帧化。",
+    "titleZh": "重力异想世界 复刻版"
   },
   {
     "id": "until-dawn-2024",
@@ -793,9 +1168,17 @@
     "releaseYear": 2024,
     "developer": "Ballistic Moon",
     "publisher": "Sony",
-    "platforms": ["PS5", "PC"],
-    "genres": ["Horror"],
-    "description": "The teen-slasher interactive drama rebuilt in Unreal Engine 5 with an expanded prologue."
+    "platforms": [
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "青春砍杀互动电影 UE5 重制，序章剧情扩充。",
+    "steamAppid": 2172010,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/header.jpg?t=1750959555",
+    "titleZh": "直到黎明（2024）"
   },
   {
     "id": "ratchet-clank-2016",
@@ -807,9 +1190,16 @@
     "releaseYear": 2016,
     "developer": "Insomniac Games",
     "publisher": "Sony",
-    "platforms": ["PS4", "PC"],
-    "genres": ["Platformer", "Shooter"],
-    "description": "The duo's origin rebuilt alongside the movie, with new weapons and planets."
+    "platforms": [
+      "PS4",
+      "PC"
+    ],
+    "genres": [
+      "Platformer",
+      "Shooter"
+    ],
+    "description": "系列起源随剧场版同步重制，新武器新星球。",
+    "titleZh": "瑞奇与叮当（2016）"
   },
   {
     "id": "medievil-2019",
@@ -821,9 +1211,14 @@
     "releaseYear": 2019,
     "developer": "Other Ocean Interactive",
     "publisher": "Sony",
-    "platforms": ["PS4"],
-    "genres": ["Action"],
-    "description": "Sir Daniel Fortesque's skeletal adventure completely rebuilt with 4K visuals and the original's charm."
+    "platforms": [
+      "PS4"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "福特斯克爵士的骸骨冒险完全重制，4K 画质保留原作幽默。",
+    "titleZh": "骷髅骑士（2019）"
   },
   {
     "id": "medievil-resurrection",
@@ -835,9 +1230,14 @@
     "releaseYear": 2005,
     "developer": "SCEE Cambridge",
     "publisher": "Sony",
-    "platforms": ["PSP"],
-    "genres": ["Action"],
-    "description": "Gallowmere's hero reanimated on PSP with a comedic rewrite and minigames."
+    "platforms": [
+      "PSP"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "PS1 原作 PSP 重制，剧本喜剧化改写。",
+    "titleZh": "骷髅骑士：复活"
   },
   {
     "id": "resident-evil-2002",
@@ -849,9 +1249,16 @@
     "releaseYear": 2002,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["GameCube"],
-    "genres": ["Horror"],
-    "description": "The Spencer Mansion redone in jaw-dropping pre-rendered glory — still the gold standard of survival horror."
+    "platforms": [
+      "GameCube"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "2002 年洋馆重制版的高清化——生存恐怖至今的黄金标准。",
+    "steamAppid": 304240,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304240/header.jpg",
+    "titleZh": "生化危机 HD Remaster"
   },
   {
     "id": "resident-evil-2-2019",
@@ -863,9 +1270,18 @@
     "releaseYear": 2019,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Horror"],
-    "description": "Raccoon City's nightmare rebuilt over-the-shoulder, making Mr. X terrifying all over again."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "浣熊市噩梦越肩视角重建，暴君再次令人窒息。",
+    "steamAppid": 883710,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header_schinese.jpg?t=1779433152",
+    "titleZh": "生化危机2 重制版"
   },
   {
     "id": "resident-evil-3-2020",
@@ -877,9 +1293,18 @@
     "releaseYear": 2020,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Horror"],
-    "description": "Jill Valentine's escape with Nemesis in relentless pursuit, plus online Resistance mode."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "吉尔逃离浣熊市，追迹者全城无休止追杀。",
+    "steamAppid": 952060,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/header.jpg?t=1790215956",
+    "titleZh": "生化危机3 重制版"
   },
   {
     "id": "resident-evil-4-2023",
@@ -891,9 +1316,20 @@
     "releaseYear": 2023,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS5", "PS4", "Xbox Series", "PC"],
-    "genres": ["Horror", "Action"],
-    "description": "Leon's rescue mission rebuilt with parry-heavy combat and Separate Ways expansion."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Horror",
+      "Action"
+    ],
+    "description": "里昂的营救任务重制，格挡机制与「逆命殊途」扩展章。",
+    "steamAppid": 2050650,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+    "titleZh": "生化危机4 重制版"
   },
   {
     "id": "resident-evil-4-vr",
@@ -905,9 +1341,14 @@
     "releaseYear": 2021,
     "developer": "Armature Studio",
     "publisher": "Capcom",
-    "platforms": ["Quest"],
-    "genres": ["Shooter"],
-    "description": "The village, castle and island in first-person VR with physically-drawn weapons."
+    "platforms": [
+      "Quest"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "村庄、城堡与孤岛第一人称 VR 化，武器可物理拔握。",
+    "titleZh": "生化危机4 VR"
   },
   {
     "id": "dead-rising-deluxe",
@@ -919,9 +1360,18 @@
     "releaseYear": 2024,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["Action"],
-    "description": "Willamette Parkview Mall in RE Engine with smarter crowds and full voice acting."
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "威廉梅特商场以 RE 引擎重制，人群 AI 与配音全面升级。",
+    "steamAppid": 2527390,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527390/header.jpg?t=1768869459",
+    "titleZh": "丧尸围城 豪华重制版"
   },
   {
     "id": "onimusha-warlords-2019",
@@ -933,9 +1383,17 @@
     "releaseYear": 2019,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS4", "Switch", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Samanosuke's demon-slaying Sengoku adventure in HD with new controls and widescreen."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "战国斩妖名作高清复刻，新操作与宽屏支持。",
+    "titleZh": "鬼武者（2019）"
   },
   {
     "id": "okami-hd",
@@ -947,9 +1405,17 @@
     "releaseYear": 2017,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS4", "Xbox One", "Switch", "PC"],
-    "genres": ["Adventure"],
-    "description": "The Celestial Brush masterpiece in 4K with optional Joy-Con brush strokes."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "笔调名作 4K 化，支持 Joy-Con 挥毫。",
+    "titleZh": "大神 绝景版"
   },
   {
     "id": "mega-man-powered-up",
@@ -961,9 +1427,14 @@
     "releaseYear": 2006,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PSP"],
-    "genres": ["Platformer"],
-    "description": "The original Mega Man remade in chibi 3D with two new Robot Masters and a level editor."
+    "platforms": [
+      "PSP"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "初代洛克人 Q 版 3D 重制，追加两名新头目与关卡编辑器。",
+    "titleZh": "洛克人：威力加强"
   },
   {
     "id": "mega-man-maverick-hunter-x",
@@ -975,9 +1446,14 @@
     "releaseYear": 2006,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PSP"],
-    "genres": ["Platformer"],
-    "description": "X's debut remade in 3D with Vile as a playable character and a remixed soundtrack."
+    "platforms": [
+      "PSP"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "X 初代 3D 重制，追加反派 Vile 可玩线与改编配乐。",
+    "titleZh": "洛克人X：动摇猎人X"
   },
   {
     "id": "strider-2014",
@@ -989,9 +1465,18 @@
     "releaseYear": 2014,
     "developer": "Double Helix Games",
     "publisher": "Capcom",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Hiryu's cyber-ninja slashing rebooted as a fast Metroidvania-style adventure."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "街机忍者名作重启为高速银河城式冒险。",
+    "steamAppid": 235210,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235210/header.jpg?t=1778637616",
+    "titleZh": "出击飞龙（2014）"
   },
   {
     "id": "bionic-commando-rearmed",
@@ -1003,9 +1488,18 @@
     "releaseYear": 2008,
     "developer": "GRIN",
     "publisher": "Capcom",
-    "platforms": ["PS3", "Xbox 360", "PC"],
-    "genres": ["Platformer"],
-    "description": "The swing-arm cult hit remade in 2.5D with challenge rooms and untouched level design genius."
+    "platforms": [
+      "PS3",
+      "Xbox 360",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "NES 钩爪邪典名作 2.5D 重制，关卡设计原汁原味。",
+    "steamAppid": 21680,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21680/header.jpg?t=1644282960",
+    "titleZh": "生化尖兵：重装上阵"
   },
   {
     "id": "devil-may-cry-hd-collection",
@@ -1017,9 +1511,18 @@
     "releaseYear": 2018,
     "developer": "Capcom",
     "publisher": "Capcom",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Dante's stylish PS2 trilogy in HD — the birthplace of the character-action genre."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "但丁的 PS2 三部曲高清合集——华丽动作类型的开山之作。",
+    "steamAppid": 631510,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg?t=1790561218",
+    "titleZh": "鬼泣 HD 合集"
   },
   {
     "id": "silent-hill-2-2024",
@@ -1031,9 +1534,17 @@
     "releaseYear": 2024,
     "developer": "Bloober Team",
     "publisher": "Konami",
-    "platforms": ["PS5", "PC"],
-    "genres": ["Horror"],
-    "description": "James Sunderland's letter from Mary rebuilt with over-the-shoulder camera and new combat."
+    "platforms": [
+      "PS5",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "詹姆斯的亡妻来信越肩视角重制，战斗系统全面翻新。",
+    "steamAppid": 2124490,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg?t=1744248682",
+    "titleZh": "寂静岭2（2024）"
   },
   {
     "id": "metal-gear-solid-delta",
@@ -1045,9 +1556,18 @@
     "releaseYear": 2025,
     "developer": "Konami",
     "publisher": "Konami",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["Stealth"],
-    "description": "Virtuous Mission recreated in Unreal Engine 5, keeping Kojima's level design and original voices."
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Stealth"
+    ],
+    "description": "食蛇者行动 UE5 重现，保留小岛关卡设计与原班配音。",
+    "steamAppid": 2417610,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/05c97cbcd0cfc27c8ed6c7fc6d81e0995aa2a7d4/header.jpg?t=1762249119",
+    "titleZh": "合金装备 Δ：食蛇者"
   },
   {
     "id": "metal-gear-solid-twin-snakes",
@@ -1059,9 +1579,14 @@
     "releaseYear": 2004,
     "developer": "Silicon Knights",
     "publisher": "Konami",
-    "platforms": ["GameCube"],
-    "genres": ["Stealth"],
-    "description": "Shadow Moses on GameCube with MGS2's gameplay systems and operatic cutscenes."
+    "platforms": [
+      "GameCube"
+    ],
+    "genres": [
+      "Stealth"
+    ],
+    "description": "影子摩西岛 NGC 重制，引入二代系统与歌剧式运镜。",
+    "titleZh": "合金装备：孪蛇"
   },
   {
     "id": "contra-operation-galuga",
@@ -1073,9 +1598,20 @@
     "releaseYear": 2024,
     "developer": "WayForward",
     "publisher": "Konami",
-    "platforms": ["PS5", "PS4", "Switch", "Xbox Series", "PC"],
-    "genres": ["Run & Gun"],
-    "description": "The run-and-gun original reimagined with new weapons, perks and co-op for four players."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Switch",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Run & Gun"
+    ],
+    "description": "初代魂斗罗重制想象，新武器、技能与四人合作。",
+    "steamAppid": 2235020,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235020/header.jpg?t=1747196458",
+    "titleZh": "魂斗罗：加鲁加行动"
   },
   {
     "id": "suikoden-1-2-hd",
@@ -1087,9 +1623,18 @@
     "releaseYear": 2025,
     "developer": "Konami",
     "publisher": "Konami",
-    "platforms": ["PS5", "PS4", "Switch", "Xbox Series", "PC"],
-    "genres": ["RPG"],
-    "description": "The 108 Stars of Destiny duopoly in HD with revamped effects and speed-up features."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Switch",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "108 星双作高清复刻，特效翻新并加入加速功能。",
+    "titleZh": "幻想水浒传 I&II HD 复刻版"
   },
   {
     "id": "zone-of-the-enders-mars",
@@ -1101,9 +1646,17 @@
     "releaseYear": 2018,
     "developer": "Konami",
     "publisher": "Konami",
-    "platforms": ["PS4", "PC"],
-    "genres": ["Action"],
-    "description": "Jehuty's high-speed mecha combat remastered with 4K and optional VR support."
+    "platforms": [
+      "PS4",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "Jehuty 高速机甲战 4K 复刻，可选 VR 体验。",
+    "steamAppid": 881340,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881340/header.jpg?t=1535137343",
+    "titleZh": "Z.O.E. 2 MARS"
   },
   {
     "id": "sonic-origins",
@@ -1115,9 +1668,19 @@
     "releaseYear": 2022,
     "developer": "Sonic Team / Headcannon",
     "publisher": "Sega",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox Series", "Xbox One", "PC"],
-    "genres": ["Platformer"],
-    "description": "The classic Genesis quartet remastered in wide-screen 16:9 with new animated intros."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "MD 四部曲 16:9 高清合集，全新动画 OP。",
+    "titleZh": "索尼克 起源"
   },
   {
     "id": "sonic-colors-ultimate",
@@ -1129,9 +1692,19 @@
     "releaseYear": 2021,
     "developer": "Blind Squirrel Games",
     "publisher": "Sega",
-    "platforms": ["Switch", "PS4", "PS5", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Platformer"],
-    "description": "Eggman's interstellar amusement park in 4K with the Wisp-powered Rival Rush mode."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS5",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "星球游乐园 4K 强化，追加 Rival Rush 竞速。",
+    "titleZh": "索尼克：色彩 终极版"
   },
   {
     "id": "super-monkey-ball-banana-mania",
@@ -1143,9 +1716,19 @@
     "releaseYear": 2021,
     "developer": "Sega",
     "publisher": "Sega",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox Series", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "300+ stages from the GameCube era remastered with guest characters from Sonic to Kazuma Kiryu."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "NGC 双作 300+ 关卡重制，索尼到桐生一马客串登场。",
+    "titleZh": "超级猴子球：香蕉狂欢"
   },
   {
     "id": "panzer-dragoon-remake",
@@ -1157,9 +1740,19 @@
     "releaseYear": 2020,
     "developer": "Megapixel Studio",
     "publisher": "Forever Entertainment",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "The Saturn rail-shooter reborn with new models and effects, keeping the imperious lock-on flow."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "土星轨道射击名作重制，锁定射击手感原封保留。",
+    "steamAppid": 1178880,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1178880/header.jpg?t=1777286000",
+    "titleZh": "铁甲飞龙：重制版"
   },
   {
     "id": "house-of-the-dead-remake",
@@ -1171,9 +1764,19 @@
     "releaseYear": 2022,
     "developer": "Megapixel Studio",
     "publisher": "Forever Entertainment",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "Curien Mansion's light-gun classic rebuilt with new graphics and multiple endings."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "1996 光枪街机名作重制，多结局与新操作。",
+    "steamAppid": 1694600,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1694600/header.jpg?t=1784895759",
+    "titleZh": "死亡之屋：重制版"
   },
   {
     "id": "jet-set-radio-hd",
@@ -1185,9 +1788,16 @@
     "releaseYear": 2012,
     "developer": "BlitWorks",
     "publisher": "Sega",
-    "platforms": ["PC", "PS3", "Xbox 360"],
-    "genres": ["Action"],
-    "description": "Tokyo-to's cel-shaded graffiti skating in HD with the legendary Hideki Naganuma soundtrack."
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "世嘉涂鸦滑轮名作高清化，长沼英树配乐完整收录。",
+    "titleZh": "Jet Set Radio HD"
   },
   {
     "id": "shenmue-1-2",
@@ -1199,9 +1809,18 @@
     "releaseYear": 2018,
     "developer": "d3t",
     "publisher": "Sega",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Adventure"],
-    "description": "Ryo Hazuki's revenge quest in HD with modern controls and both games in one pack."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "芭月凉的复仇之旅高清合集，操作现代化。",
+    "steamAppid": 758330,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758330/header.jpg?t=1763674637",
+    "titleZh": "莎木 I & II"
   },
   {
     "id": "yakuza-kiwami",
@@ -1213,9 +1832,16 @@
     "releaseYear": 2016,
     "developer": "Sega",
     "publisher": "Sega",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Kamurocho's 10-billion-yen mystery rebuilt in the Yakuza 0 engine with new Majima Everywhere scenes."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "PS2 初代以《零》引擎重制，「全城岛野」系统加入。",
+    "titleZh": "人中之龙 极"
   },
   {
     "id": "yakuza-kiwami-2",
@@ -1227,9 +1853,16 @@
     "releaseYear": 2017,
     "developer": "Sega",
     "publisher": "Sega",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "The Kansai conflict rebuilt in the Dragon Engine with the Majima Saga side story."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "二代以龙引擎重制，追加真岛吾朗支线。",
+    "titleZh": "人中之龙 极2"
   },
   {
     "id": "like-a-dragon-ishin",
@@ -1241,9 +1874,17 @@
     "releaseYear": 2023,
     "developer": "Ryu Ga Gotoku Studio",
     "publisher": "Sega",
-    "platforms": ["PS5", "PS4", "Xbox Series", "PC"],
-    "genres": ["Action"],
-    "description": "Bakumatsu-era samurai action finally localized, rebuilt with series-favorite faces."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "幕末武士动作终于中文化，系列熟脸重演历史。",
+    "titleZh": "人中之龙 维新！极"
   },
   {
     "id": "persona-3-reload",
@@ -1255,9 +1896,18 @@
     "releaseYear": 2024,
     "developer": "Atlus",
     "publisher": "Atlus",
-    "platforms": ["PS5", "PS4", "Xbox Series", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "The Dark Hour rebuilt with P5-style presentation while keeping the story's melancholy heart."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "「暗时之刻」以 P5 演出规格重制，忧郁内核不变。",
+    "titleZh": "女神异闻录3 Reload"
   },
   {
     "id": "smt-nocturne-hd",
@@ -1269,9 +1919,18 @@
     "releaseYear": 2021,
     "developer": "Atlus",
     "publisher": "Atlus",
-    "platforms": ["PS4", "Switch", "PC"],
-    "genres": ["RPG"],
-    "description": "The Vortex World in HD with Dante-from-the-Devil-May-Cry-Series back in the DLC."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "涡旋世界高清化，《鬼泣》的但丁以 DLC 回归。",
+    "steamAppid": 1502000,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1502000/header.jpg?t=1621914823",
+    "titleZh": "真·女神转生III NOCTURNE HD 复刻版"
   },
   {
     "id": "catherine-full-body",
@@ -1283,9 +1942,15 @@
     "releaseYear": 2019,
     "developer": "Atlus",
     "publisher": "Atlus",
-    "platforms": ["PS4", "PS Vita"],
-    "genres": ["Puzzle"],
-    "description": "Vincent's block-pushing love triangle expanded with new character Rin and extra endings."
+    "platforms": [
+      "PS4",
+      "PS Vita"
+    ],
+    "genres": [
+      "Puzzle"
+    ],
+    "description": "推箱子恋爱修罗场扩大版，新角色琳与新增结局。",
+    "titleZh": "凯瑟琳 Full Body"
   },
   {
     "id": "klonoa-wii",
@@ -1297,9 +1962,14 @@
     "releaseYear": 2008,
     "developer": "Paon",
     "publisher": "Bandai Namco",
-    "platforms": ["Wii"],
-    "genres": ["Platformer"],
-    "description": "The dream-world platformer rebuilt for Wii with new voice acting and bonus stages."
+    "platforms": [
+      "Wii"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "PS1 梦境平台名作 Wii 重制，新配音与追加关卡。",
+    "titleZh": "风之克罗诺亚（Wii）"
   },
   {
     "id": "pacman-world-repac",
@@ -1311,9 +1981,18 @@
     "releaseYear": 2022,
     "developer": "Bandai Namco",
     "publisher": "Bandai Namco",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox Series", "PC"],
-    "genres": ["Platformer"],
-    "description": "Ghost Island's 20th-anniversary platformer remastered with a boss-rush mode."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "鬼岛 20 周年平台跳跃重制，追加 Boss 连战。",
+    "titleZh": "吃豆人世界 Re-Pac"
   },
   {
     "id": "tales-of-symphonia-remastered",
@@ -1325,9 +2004,16 @@
     "releaseYear": 2023,
     "developer": "Bandai Namco",
     "publisher": "Bandai Namco",
-    "platforms": ["PS4", "Switch", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "Sylvarant and Tethe'alla's two-world tale in HD with local co-op battles."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "双世界交响曲高清复刻，保留本地合作战斗。",
+    "titleZh": "仙乐传说 复刻版"
   },
   {
     "id": "tales-of-vesperia-definitive",
@@ -1339,9 +2025,19 @@
     "releaseYear": 2019,
     "developer": "Bandai Namco",
     "publisher": "Bandai Namco",
-    "platforms": ["PS4", "Switch", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "Yuri Lowell's journey with the PS3 version's never-localized content finally in English."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "PS3 版独占内容首次中文化，全部收录。",
+    "steamAppid": 738540,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/738540/header.jpg?t=1701311642",
+    "titleZh": "薄暮传说：终极版"
   },
   {
     "id": "dark-souls-remastered",
@@ -1353,9 +2049,19 @@
     "releaseYear": 2018,
     "developer": "QLOC / Virtuos",
     "publisher": "Bandai Namco",
-    "platforms": ["PS4", "Xbox One", "Switch", "PC"],
-    "genres": ["RPG"],
-    "description": "Lordran at 60fps with 6-player summoning — Dark Souls on the go at last."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "罗德兰 60 帧复刻，支持 6 人联机，终于可随身携带。",
+    "steamAppid": 570940,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
+    "titleZh": "黑暗之魂 复刻版"
   },
   {
     "id": "ni-no-kuni-remastered",
@@ -1367,9 +2073,19 @@
     "releaseYear": 2019,
     "developer": "Bandai Namco",
     "publisher": "Bandai Namco",
-    "platforms": ["PS4", "Switch", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "Studio Ghibli's JRPG in 4K with the fully orchestrated Joe Hisaishi score."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "吉卜力风 JRPG 4K 化，久石让配乐全曲收录。",
+    "steamAppid": 798460,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798460/header.jpg?t=1771958172",
+    "titleZh": "二之国 白色圣灰的女王 复刻版"
   },
   {
     "id": "katamari-damacy-reroll",
@@ -1381,9 +2097,17 @@
     "releaseYear": 2018,
     "developer": "Monkey Craft",
     "publisher": "Bandai Namco",
-    "platforms": ["Switch", "PC"],
-    "genres": ["Puzzle"],
-    "description": "The Prince's 10cm-to-cosmos rolling spree remastered with gyro and split-screen co-op."
+    "platforms": [
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Puzzle"
+    ],
+    "description": "王子从 10cm 滚到宇宙的解压神作复刻，支持体感与分屏。",
+    "steamAppid": 848350,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848350/header.jpg?t=1708327061",
+    "titleZh": "块魂 REROLL"
   },
   {
     "id": "crash-bandicoot-nsane-trilogy",
@@ -1395,9 +2119,19 @@
     "releaseYear": 2017,
     "developer": "Vicarious Visions",
     "publisher": "Activision",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Platformer"],
-    "description": "Three Naughty Dog classics rebuilt from the ground up, launching the remake-trilogy trend."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "顽皮狗三部曲从零重制，开创了重制合集的风潮。",
+    "steamAppid": 731490,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/731490/header.jpg?t=1742399696",
+    "titleZh": "古惑狼 疯狂三部曲"
   },
   {
     "id": "spyro-reignited-trilogy",
@@ -1409,9 +2143,19 @@
     "releaseYear": 2018,
     "developer": "Toys for Bob",
     "publisher": "Activision",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Platformer"],
-    "description": "The Dragon Kingdoms rebuilt with staggeringly faithful art and remastered Stewart Copeland jams."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "龙王国美术惊人还原，Copeland 配乐重制。",
+    "steamAppid": 996580,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996580/header.jpg?t=1781038162",
+    "titleZh": "斯派罗 重燃三部曲"
   },
   {
     "id": "tony-hawk-1-2",
@@ -1423,9 +2167,19 @@
     "releaseYear": 2020,
     "developer": "Vicarious Visions",
     "publisher": "Activision",
-    "platforms": ["Switch", "PS4", "PS5", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Sports"],
-    "description": "The two defining skate games rebuilt in one package — the perfect 2-minute-run nostalgia hit."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS5",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Sports"
+    ],
+    "description": "定义滑板游戏的双作重制，两分钟一趟的极致怀旧。",
+    "titleZh": "托尼·霍克职业滑板 1+2"
   },
   {
     "id": "tony-hawk-3-4",
@@ -1437,9 +2191,19 @@
     "releaseYear": 2025,
     "developer": "Iron Galaxy",
     "publisher": "Activision",
-    "platforms": ["Switch", "PS4", "PS5", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Sports"],
-    "description": "The revert-era duopoly remastered with new parks and online multiplayer."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS5",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Sports"
+    ],
+    "description": "revert 时代双作复刻，新公园与线上联机。",
+    "titleZh": "托尼·霍克职业滑板 3+4"
   },
   {
     "id": "cod-modern-warfare-remastered",
@@ -1451,9 +2215,18 @@
     "releaseYear": 2016,
     "developer": "Raven Software",
     "publisher": "Activision",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "'All Ghillied Up' in full modern rendering — the campaign that changed military shooters, again."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "改变军事 FPS 格局的战役高清重制——「双重暗杀」依旧震撼。",
+    "steamAppid": 393080,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg?t=1780963789",
+    "titleZh": "使命召唤4：现代战争 重制版"
   },
   {
     "id": "cod-mw2-campaign-remastered",
@@ -1465,9 +2238,16 @@
     "releaseYear": 2020,
     "developer": "Beenox",
     "publisher": "Activision",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "The controversial, spectacular MW2 campaign remastered — No Russian and all."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "争议与场面齐飞的 MW2 战役高清重制。",
+    "titleZh": "使命召唤：现代战争2 战役重制版"
   },
   {
     "id": "gta-trilogy-definitive",
@@ -1479,9 +2259,21 @@
     "releaseYear": 2021,
     "developer": "Grove Street Games",
     "publisher": "Rockstar Games",
-    "platforms": ["Switch", "PS4", "PS5", "Xbox One", "Xbox Series", "PC", "iOS", "Android"],
-    "genres": ["Action"],
-    "description": "The PS2-era trilogy remastered with GTA V-style controls — infamous, but back and patched."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS5",
+      "Xbox One",
+      "Xbox Series",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "PS2 时代三部曲以五代操作复刻，发售风波后已大幅修补。",
+    "titleZh": "GTA 三部曲：最终版"
   },
   {
     "id": "mafia-definitive-edition",
@@ -1493,9 +2285,18 @@
     "releaseYear": 2020,
     "developer": "Hangar 13",
     "publisher": "2K",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Lost Heaven's rise-and-fall crime story rebuilt from scratch with an expanded script."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "失落天堂的兴衰罪案故事从零重制，剧本全面扩充。",
+    "steamAppid": 1030840,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1786727529",
+    "titleZh": "四海兄弟：最终版"
   },
   {
     "id": "max-payne-1-2-remake",
@@ -1507,10 +2308,17 @@
     "releaseYear": null,
     "developer": "Remedy Entertainment",
     "publisher": "Rockstar Games",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["Shooter"],
-    "description": "Remedy returns to its noir bullet-time roots with a two-game remake in development.",
-    "upcoming": true
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "Remedy 重返子弹时间黑色电影起点，双作重制开发中。",
+    "upcoming": true,
+    "titleZh": "马克思·佩恩 1&2 重制版"
   },
   {
     "id": "dead-space-2023",
@@ -1522,9 +2330,18 @@
     "releaseYear": 2023,
     "developer": "Motive",
     "publisher": "EA",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["Horror"],
-    "description": "The USG Ishimura rebuilt in Frostbite with seamless one-shot traversal and expanded zero-G."
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "石村号以寒霜引擎重制，一镜到底与零重力扩展。",
+    "steamAppid": 1238060,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238060/header.jpg?t=1794430344",
+    "titleZh": "死亡空间（2023）"
   },
   {
     "id": "mass-effect-legendary",
@@ -1536,9 +2353,16 @@
     "releaseYear": 2021,
     "developer": "BioWare",
     "publisher": "EA",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "Shepard's whole trilogy unified in 4K with over 40 DLC packs included."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "薛普德三部曲 4K 统一合集，40+ DLC 全收录。",
+    "titleZh": "质量效应 传奇版"
   },
   {
     "id": "burnout-paradise-remastered",
@@ -1550,9 +2374,19 @@
     "releaseYear": 2018,
     "developer": "Stellar Entertainment",
     "publisher": "EA",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Racing"],
-    "description": "The open-world crash festival in 4K60 with all Big Surf Island content."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Racing"
+    ],
+    "description": "开放世界撞车节 4K60，大冲浪岛内容全收录。",
+    "steamAppid": 1238080,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/header.jpg?t=1779987578",
+    "titleZh": "横冲直撞：天堂 复刻版"
   },
   {
     "id": "nfs-hot-pursuit-remastered",
@@ -1564,9 +2398,17 @@
     "releaseYear": 2020,
     "developer": "Stellar Entertainment",
     "publisher": "EA",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Racing"],
-    "description": "Seacrest County's cop-vs-racer warfare remastered with cross-play Autolog."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Racing"
+    ],
+    "description": "警匪追逐战 4K 复刻，Autolog 跨平台对战。",
+    "titleZh": "极品飞车：热力追踪 复刻版"
   },
   {
     "id": "beyond-good-evil-20th",
@@ -1578,9 +2420,21 @@
     "releaseYear": 2024,
     "developer": "Ubisoft",
     "publisher": "Ubisoft",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Adventure"],
-    "description": "Jade's photo-journalism conspiracy in 4K60 with new autosave and speedrun mode."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "翡翠的摄影记者阴谋 4K60 复刻，新增速通模式。",
+    "steamAppid": 2556990,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2556990/header.jpg?t=1778598759",
+    "titleZh": "超越善恶 20 周年版"
   },
   {
     "id": "gothic-1-remake",
@@ -1592,9 +2446,18 @@
     "releaseYear": 2026,
     "developer": "Alkimia Interactive",
     "publisher": "THQ Nordic",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["RPG"],
-    "description": "The Valley of Mines penal colony rebuilt in Unreal 5, faithful to the cult original's brutal freedom."
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "矿谷刑罚殖民地 UE5 重现，忠实原作的残酷自由度。",
+    "steamAppid": 1297900,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+    "titleZh": "哥特王朝1 重制版"
   },
   {
     "id": "destroy-all-humans-2020",
@@ -1606,9 +2469,18 @@
     "releaseYear": 2020,
     "developer": "Black Forest Games",
     "publisher": "THQ Nordic",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Crypto's invasion remade from scratch with the never-finished lost mission restored."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "外星人入侵讽刺喜剧从零重制，恢复当年砍掉的失落任务。",
+    "steamAppid": 803330,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/803330/header.jpg?t=1696424223",
+    "titleZh": "毁灭全人类！（2020）"
   },
   {
     "id": "destroy-all-humans-2-reprobed",
@@ -1620,9 +2492,16 @@
     "releaseYear": 2022,
     "developer": "Black Forest Games",
     "publisher": "THQ Nordic",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["Action"],
-    "description": "The swinging-sixties sequel rebuilt for current-gen with Bay City in Unreal 4."
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "摇摆六十年代续作本世代重制。",
+    "titleZh": "毁灭全人类！2：Reprobed"
   },
   {
     "id": "spongebob-bfbb-rehydrated",
@@ -1634,9 +2513,17 @@
     "releaseYear": 2020,
     "developer": "Purple Lamp Studios",
     "publisher": "THQ Nordic",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Platformer"],
-    "description": "The licensed-platformer cult favorite rebuilt with a new horde multiplayer mode."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "授权平台跳跃邪典名作重制，追加多人模式。",
+    "titleZh": "海绵宝宝：比奇堡之战 Rehydrated"
   },
   {
     "id": "saints-row-third-remastered",
@@ -1648,9 +2535,18 @@
     "releaseYear": 2020,
     "developer": "Sperasoft",
     "publisher": "Deep Silver",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "Steelport's absurdist gang war with a full visual overhaul and all 30+ DLC."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "钢铁港荒诞黑帮战全面视觉翻新，30+ DLC 收录。",
+    "steamAppid": 978300,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/978300/header.jpg?t=1764671001",
+    "titleZh": "黑道圣徒3：重制版"
   },
   {
     "id": "kingdoms-of-amalur-reckoning",
@@ -1662,9 +2558,19 @@
     "releaseYear": 2020,
     "developer": "Kaiko",
     "publisher": "THQ Nordic",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["RPG"],
-    "description": "The 38 Studios RPG with R.A. Salvatore's lore, remastered with all DLC."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "R.A. 萨尔瓦多构筑的奇幻世界复刻，DLC 全收。",
+    "steamAppid": 1041720,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1041720/header.jpg?t=1725013769",
+    "titleZh": "阿玛拉王国：惩罚 重制版"
   },
   {
     "id": "darksiders-warmastered",
@@ -1676,9 +2582,19 @@
     "releaseYear": 2016,
     "developer": "Vigil Games / Kaiko",
     "publisher": "THQ Nordic",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "War's apocalyptic revenge tour at 4K with doubled texture resolution."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "天启四骑士之首「战」的复仇 4K 复刻。",
+    "steamAppid": 462780,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/462780/header.jpg?t=1754079044",
+    "titleZh": "暗黑血统：战神版"
   },
   {
     "id": "red-faction-guerrilla-remars-tered",
@@ -1690,9 +2606,18 @@
     "releaseYear": 2018,
     "developer": "Kaiko",
     "publisher": "THQ Nordic",
-    "platforms": ["PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "Mars' fully-destructible buildings re-lit and re-Mars-tered for modern hardware."
+    "platforms": [
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "火星全场景可破坏的名作重制。",
+    "steamAppid": 667720,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/667720/header.jpg?t=1591103504",
+    "titleZh": "红色派系：游击战 Re-Mars-tered"
   },
   {
     "id": "alone-in-the-dark-2024",
@@ -1704,9 +2629,18 @@
     "releaseYear": 2024,
     "developer": "Pieces Interactive",
     "publisher": "THQ Nordic",
-    "platforms": ["PS5", "Xbox Series", "PC"],
-    "genres": ["Horror"],
-    "description": "The 1992 survival-horror originator reimagined with dual protagonists."
+    "platforms": [
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "description": "1992 生存恐怖开山之作重制，双主角双视角。",
+    "steamAppid": 1310410,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310410/header.jpg?t=1754066311",
+    "titleZh": "鬼屋魔影（2024）"
   },
   {
     "id": "metro-redux",
@@ -1718,9 +2652,17 @@
     "releaseYear": 2014,
     "developer": "4A Games",
     "publisher": "Deep Silver",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "Post-apocalyptic Moscow remastered with 2033 rebuilt in the superior Last Light engine."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "双作合集复刻，2033 以更好的 Last Light 引擎重建。",
+    "titleZh": "地铁：归来"
   },
   {
     "id": "crysis-remastered",
@@ -1732,9 +2674,19 @@
     "releaseYear": 2020,
     "developer": "Crytek",
     "publisher": "Crytek",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "'But can it run Crysis?' — the nanosuit showcase rebuilt with software ray tracing."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "「还能跑孤岛危机吗」——纳米战衣秀场软光追重制。",
+    "steamAppid": 1715130,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1715130/0c28c46e93f734d31b035e13057472b51b377936/header.jpg?t=1785838535",
+    "titleZh": "孤岛危机 复刻版"
   },
   {
     "id": "system-shock-2023",
@@ -1746,9 +2698,17 @@
     "releaseYear": 2023,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["PC"],
-    "genres": ["Shooter", "Horror"],
-    "description": "SHODAN's Citadel Station rebuilt after nine years of famously iterative development."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Horror"
+    ],
+    "description": "SHODAN 的城堡空间站九年磨一剑完全重制。",
+    "steamAppid": 482400,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/482400/header.jpg?t=1769786947",
+    "titleZh": "网络奇兵（2023）"
   },
   {
     "id": "system-shock-2-25th",
@@ -1760,9 +2720,20 @@
     "releaseYear": 2025,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["Switch", "PS5", "Xbox Series", "PC"],
-    "genres": ["Shooter", "Horror"],
-    "description": "The Von Braun in higher resolution with mouselook, co-op and a fresh coat of polish."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Horror"
+    ],
+    "description": "冯·布劳恩号高清复刻，支持鼠标视角与联机。",
+    "steamAppid": 866570,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866570/header.jpg?t=1774275928",
+    "titleZh": "网络奇兵2：25周年复刻版"
   },
   {
     "id": "black-mesa",
@@ -1774,9 +2745,16 @@
     "releaseYear": 2020,
     "developer": "Crowbar Collective",
     "publisher": "Crowbar Collective",
-    "platforms": ["PC"],
-    "genres": ["Shooter"],
-    "description": "Half-Life remade in Source by fans, with Valve's blessing and a fully reimagined Xen."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "粉丝以 Source 引擎重制的《半衰期》，Xen 篇章完全重设计。",
+    "steamAppid": 362890,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362890/674b9a0e7b31996efd5032dc15e695dbf457d71d/header.jpg?t=1794499734",
+    "titleZh": "黑山：半衰期重制版"
   },
   {
     "id": "quake-2021",
@@ -1788,9 +2766,19 @@
     "releaseYear": 2021,
     "developer": "Nightdive Studios / id Software",
     "publisher": "Bethesda",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "The 1996 FPS landmark enhanced with new episodes by MachineGames and cross-play multiplayer."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "1996 FPS 里程碑强化复刻，MachineGames 新增章节。",
+    "steamAppid": 2310,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2310/header.jpg",
+    "titleZh": "雷神之锤（2021）"
   },
   {
     "id": "quake-ii-2023",
@@ -1802,9 +2790,21 @@
     "releaseYear": 2023,
     "developer": "Nightdive Studios / id Software",
     "publisher": "Bethesda",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Shooter"],
-    "description": "Stroggos with brand-new path-traced lighting and a co-op Call of the Machine campaign."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "Stroggos 星球光追复刻，追加合作战役。",
+    "steamAppid": 2320,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320/header.jpg?t=1750784724",
+    "titleZh": "雷神之锤II（2023）"
   },
   {
     "id": "star-wars-dark-forces-remaster",
@@ -1816,9 +2816,21 @@
     "releaseYear": 2024,
     "developer": "Nightdive Studios",
     "publisher": "Lucasfilm Games",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Shooter"],
-    "description": "Kyle Katarn's first adventure at 4K120 with modern aiming and a level viewer."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "凯尔·卡塔恩的初冒险 4K120 复刻。",
+    "steamAppid": 2292260,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292260/header.jpg?t=1774275644",
+    "titleZh": "星球大战：黑暗力量 复刻版"
   },
   {
     "id": "turok-remastered",
@@ -1830,9 +2842,17 @@
     "releaseYear": 2015,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "The foggy N64 classic sharpened with high-res visuals and smooth aiming."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "N64 迷雾经典高清化，瞄准现代化。",
+    "titleZh": "图洛克：恐龙猎人 复刻版"
   },
   {
     "id": "turok-2-remastered",
@@ -1844,9 +2864,17 @@
     "releaseYear": 2017,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Shooter"],
-    "description": "The level-giant sequel restored, Oblivion's Primagen and all."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "巨型关卡续作复刻归来。",
+    "titleZh": "图洛克2：恶种 复刻版"
   },
   {
     "id": "turok-3-remastered",
@@ -1858,9 +2886,21 @@
     "releaseYear": 2023,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Shooter"],
-    "description": "The trilogy finale nightdive-rescued with a new 60fps engine upgrade."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "三部曲终章由 Nightdive 拯救式复刻。",
+    "steamAppid": 1996770,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996770/header.jpg?t=1774276514",
+    "titleZh": "图洛克3：遗忘之影 复刻版"
   },
   {
     "id": "blood-fresh-supply",
@@ -1872,9 +2912,14 @@
     "releaseYear": 2019,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["PC"],
-    "genres": ["Shooter"],
-    "description": "Caleb's cult-classic Build-engine gore fest on a modern Kex engine port."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "Build 引擎邪典射击名作 Kex 引擎现代移植。",
+    "titleZh": "血祭：Fresh Supply"
   },
   {
     "id": "shadow-man-remastered",
@@ -1886,9 +2931,19 @@
     "releaseYear": 2022,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Action"],
-    "description": "The voodoo-themed dark actioner restored with cut content and 4K widescreen."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "巫毒题材黑暗动作复刻，恢复被删内容。",
+    "steamAppid": 1413870,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413870/header.jpg?t=1774275437",
+    "titleZh": "暗影人 复刻版"
   },
   {
     "id": "powerslave-rising",
@@ -1900,9 +2955,19 @@
     "releaseYear": 2022,
     "developer": "Nightdive Studios",
     "publisher": "Nightdive Studios",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Shooter"],
-    "description": "The Egyptian-themed DOS shooter resurrected on the Kex engine with new zones."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "埃及题材 DOS 射击名作 Kex 引擎复活，新增区域。",
+    "titleZh": "PowerSlave: Rising"
   },
   {
     "id": "star-wars-episode-1-racer",
@@ -1914,9 +2979,15 @@
     "releaseYear": 2020,
     "developer": "Aspyr",
     "publisher": "Lucasfilm Games",
-    "platforms": ["Switch", "PS4"],
-    "genres": ["Racing"],
-    "description": "Podracing at 930 mph remastered with modern controls and 30fps-to-60 upgrades."
+    "platforms": [
+      "Switch",
+      "PS4"
+    ],
+    "genres": [
+      "Racing"
+    ],
+    "description": "930km/h 飞梭竞速复刻，操作现代化。",
+    "titleZh": "星球大战：幽灵的威胁 飞梭赛车"
   },
   {
     "id": "star-wars-republic-commando",
@@ -1928,9 +2999,17 @@
     "releaseYear": 2021,
     "developer": "Aspyr",
     "publisher": "Lucasfilm Games",
-    "platforms": ["Switch", "PS4"],
-    "genres": ["Shooter"],
-    "description": "Delta Squad's tactical clone campaign with modernized controls."
+    "platforms": [
+      "Switch",
+      "PS4"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "德尔塔小队战术射击复刻。",
+    "steamAppid": 6000,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6000/header.jpg?t=1741729103",
+    "titleZh": "星球大战：共和国突击队"
   },
   {
     "id": "tomb-raider-1-3-remastered",
@@ -1942,9 +3021,21 @@
     "releaseYear": 2024,
     "developer": "Aspyr",
     "publisher": "Crystal Dynamics",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Adventure"],
-    "description": "Lara's classic trilogy with toggleable original graphics, photo mode and all expansions."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "劳拉经典三部曲复刻，可一键切回原版画面。",
+    "steamAppid": 2478970,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/a94ccfdb7582dc5564cdf736b0f239531b66bf1d/header.jpg?t=1788752575",
+    "titleZh": "古墓丽影 I-III 复刻版"
   },
   {
     "id": "tomb-raider-4-6-remastered",
@@ -1956,9 +3047,21 @@
     "releaseYear": 2025,
     "developer": "Aspyr",
     "publisher": "Crystal Dynamics",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Adventure"],
-    "description": "Lara's later Core Design era remastered, including the infamous Angel of Darkness."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "description": "Core Design 后期三部曲复刻，含《黑暗天使》。",
+    "steamAppid": 2525380,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/header.jpg?t=1788752633",
+    "titleZh": "古墓丽影 IV-VI 复刻版"
   },
   {
     "id": "legacy-of-kain-soul-reaver-1-2",
@@ -1970,9 +3073,22 @@
     "releaseYear": 2025,
     "developer": "Aspyr",
     "publisher": "Crystal Dynamics",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Action", "Adventure"],
-    "description": "Raziel's spectral vengeance in HD with a modern camera and lost content restored."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "description": "拉齐尔的灵界复仇高清复刻，恢复删减内容。",
+    "steamAppid": 2521380,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521380/header.jpg?t=1769814502",
+    "titleZh": "凯恩的遗产：灵魂掠夺者 1&2 复刻版"
   },
   {
     "id": "starcraft-remastered",
@@ -1984,9 +3100,14 @@
     "releaseYear": 2017,
     "developer": "Blizzard",
     "publisher": "Blizzard",
-    "platforms": ["PC"],
-    "genres": ["RTS"],
-    "description": "The Koprulu sector redrawn in 4K with the original gameplay untouched."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "科普卢星区 4K 重绘，玩法原封不动。",
+    "titleZh": "星际争霸：重制版"
   },
   {
     "id": "warcraft-iii-reforged",
@@ -1998,9 +3119,14 @@
     "releaseYear": 2020,
     "developer": "Blizzard",
     "publisher": "Blizzard",
-    "platforms": ["PC"],
-    "genres": ["RTS"],
-    "description": "Azeroth's second war rebuilt in a new engine — infamous launch, but the classic gameplay endures."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "艾泽拉斯二次战争新引擎重制——发售后持续打磨的教训之作。",
+    "titleZh": "魔兽争霸III：重制版"
   },
   {
     "id": "diablo-2-resurrected",
@@ -2012,9 +3138,19 @@
     "releaseYear": 2021,
     "developer": "Blizzard / Vicarious Visions",
     "publisher": "Blizzard",
-    "platforms": ["Switch", "PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["RPG"],
-    "description": "Sanctuary's definitive ARPG with 3D models over the untouched original engine."
+    "platforms": [
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "原引擎之上重建 3D 模型，毁灭之王资料片收录。",
+    "titleZh": "暗黑破坏神2：狱火重生"
   },
   {
     "id": "age-of-empires-definitive",
@@ -2026,9 +3162,16 @@
     "releaseYear": 2018,
     "developer": "Forgotten Empires",
     "publisher": "Xbox Game Studios",
-    "platforms": ["PC"],
-    "genres": ["RTS"],
-    "description": "The dawn of civilization remastered in 4K with new campaigns and civilizations."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "RTS 开山作 4K 决定版，新增文明与战役。",
+    "steamAppid": 1017900,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1017900/header.jpg?t=1763053714",
+    "titleZh": "帝国时代：决定版"
   },
   {
     "id": "age-of-empires-2-definitive",
@@ -2040,9 +3183,18 @@
     "releaseYear": 2019,
     "developer": "Forgotten Empires",
     "publisher": "Xbox Game Studios",
-    "platforms": ["PC", "Xbox Series", "Xbox One"],
-    "genres": ["RTS"],
-    "description": "The evergreen medieval RTS in 4K, grown far beyond the original with years of new content."
+    "platforms": [
+      "PC",
+      "Xbox Series",
+      "Xbox One"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "常青 RTS 4K 决定版，内容已远超原作。",
+    "steamAppid": 813780,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1790623375",
+    "titleZh": "帝国时代II：决定版"
   },
   {
     "id": "age-of-empires-3-definitive",
@@ -2054,9 +3206,18 @@
     "releaseYear": 2020,
     "developer": "Forgotten Empires / Tantalus",
     "publisher": "Xbox Game Studios",
-    "platforms": ["PC", "Xbox Series", "Xbox One"],
-    "genres": ["RTS"],
-    "description": "The gunpowder-era sequel remastered with two new civilizations and African content."
+    "platforms": [
+      "PC",
+      "Xbox Series",
+      "Xbox One"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "火药时代续作决定版，新增文明与战役。",
+    "steamAppid": 933110,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/933110/0f85493ce793ef403f8619e5a0e1406f0c9058b2/header.jpg?t=1789060107",
+    "titleZh": "帝国时代III：决定版"
   },
   {
     "id": "command-conquer-remastered",
@@ -2068,9 +3229,14 @@
     "releaseYear": 2020,
     "developer": "Petroglyph Games",
     "publisher": "EA",
-    "platforms": ["PC"],
-    "genres": ["RTS"],
-    "description": "Tiberium Dawn and Red Alert in 4K by genre veterans, with the legendary Frank Klepacki remasters."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "泰伯利亚黎明+红色警戒 4K 合集，Klepacki 配乐重制。",
+    "titleZh": "命令与征服 重制合集"
   },
   {
     "id": "stronghold-definitive",
@@ -2082,9 +3248,16 @@
     "releaseYear": 2023,
     "developer": "Firefly Studios",
     "publisher": "Firefly Studios",
-    "platforms": ["PC"],
-    "genres": ["RTS"],
-    "description": "The castle-building classic remastered with a new 14-mission campaign."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RTS"
+    ],
+    "description": "城堡建造经典复刻，新增 14 关战役。",
+    "steamAppid": 2140020,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140020/bc8400c7110f98c54233ce469ec1f27e4bed2687/header_schinese.jpg?t=1765193939",
+    "titleZh": "要塞：决定版"
   },
   {
     "id": "pharaoh-a-new-era",
@@ -2096,9 +3269,16 @@
     "releaseYear": 2023,
     "developer": "Triskell Interactive",
     "publisher": "DotEmu",
-    "platforms": ["PC"],
-    "genres": ["Strategy"],
-    "description": "Ancient Egypt city-building redrawn in 4K with a rebuilt UI and campaign."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy"
+    ],
+    "description": "古埃及城市建设 4K 重制，UI 与战役重建。",
+    "steamAppid": 1351080,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1351080/header.jpg?t=1793808635",
+    "titleZh": "法老：新纪元"
   },
   {
     "id": "monkey-island-special-edition",
@@ -2110,9 +3290,17 @@
     "releaseYear": 2009,
     "developer": "LucasArts",
     "publisher": "LucasArts",
-    "platforms": ["PC", "Xbox 360"],
-    "genres": ["Point & Click"],
-    "description": "Guybrush's debut with hand-painted HD art, full voiceover and instant classic-graphic switching."
+    "platforms": [
+      "PC",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "初代猴岛手绘 HD 重制，全程配音，可随时切原版。",
+    "steamAppid": 32360,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32360/header.jpg?t=1741729431",
+    "titleZh": "猴岛小英雄：特别版"
   },
   {
     "id": "day-of-the-tentacle-remastered",
@@ -2124,9 +3312,19 @@
     "releaseYear": 2016,
     "developer": "Double Fine",
     "publisher": "Double Fine",
-    "platforms": ["PC", "PS4", "PS Vita", "Xbox One"],
-    "genres": ["Point & Click"],
-    "description": "Purple Tentacle's bid for world domination restored with commentary and a playable Maniac Mansion."
+    "platforms": [
+      "PC",
+      "PS4",
+      "PS Vita",
+      "Xbox One"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "紫色触手征服世界之谜复刻，附可玩的《疯狂大楼》。",
+    "steamAppid": 388210,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/388210/header.jpg?t=1793144141",
+    "titleZh": "触手也疯狂 复刻版"
   },
   {
     "id": "full-throttle-remastered",
@@ -2138,9 +3336,18 @@
     "releaseYear": 2017,
     "developer": "Double Fine",
     "publisher": "Double Fine",
-    "platforms": ["PC", "PS4", "PS Vita"],
-    "genres": ["Point & Click"],
-    "description": "Ben's biker noir restored with repainted artwork and remixed audio."
+    "platforms": [
+      "PC",
+      "PS4",
+      "PS Vita"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "机车黑色电影冒险重绘复刻。",
+    "steamAppid": 228360,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228360/header.jpg?t=1793144235",
+    "titleZh": "极速飞车 复刻版"
   },
   {
     "id": "grim-fandango-remastered",
@@ -2152,9 +3359,19 @@
     "releaseYear": 2015,
     "developer": "Double Fine",
     "publisher": "Double Fine",
-    "platforms": ["PC", "PS4", "PS Vita", "Xbox One"],
-    "genres": ["Point & Click"],
-    "description": "Tim Schafer's Day of the Dead noir adventure restored from LucasArts limbo."
+    "platforms": [
+      "PC",
+      "PS4",
+      "PS Vita",
+      "Xbox One"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "蒂姆·谢弗的亡灵节黑色冒险复刻归来。",
+    "steamAppid": 316790,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/316790/header.jpg?t=1793138379",
+    "titleZh": "冥界狂想曲 复刻版"
   },
   {
     "id": "sam-max-save-the-world-remastered",
@@ -2166,9 +3383,17 @@
     "releaseYear": 2020,
     "developer": "Skunkape Games",
     "publisher": "Skunkape Games",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["Point & Click"],
-    "description": "The Freelance Police's episodic comeback remastered by the original Telltale team."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "狗与兔子自由警察的章节式冒险复刻。",
+    "titleZh": "山姆与麦克斯：拯救世界 复刻版"
   },
   {
     "id": "sam-max-beyond-time-space-remastered",
@@ -2180,9 +3405,17 @@
     "releaseYear": 2021,
     "developer": "Skunkape Games",
     "publisher": "Skunkape Games",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["Point & Click"],
-    "description": "Season two of the dog-and-rabbit shenanigans, jazzed up with new lighting and controls."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "第二季章节冒险，光照与操作强化复刻。",
+    "titleZh": "山姆与麦克斯：超越时空 复刻版"
   },
   {
     "id": "broken-sword-reforged",
@@ -2194,9 +3427,19 @@
     "releaseYear": 2024,
     "developer": "Revolution Software",
     "publisher": "Revolution Software",
-    "platforms": ["PC", "Switch", "PS5", "Xbox Series"],
-    "genres": ["Point & Click"],
-    "description": "George and Nico's Paris conspiracy with 4K art, enhanced audio and a new narrative dimension."
+    "platforms": [
+      "PC",
+      "Switch",
+      "PS5",
+      "Xbox Series"
+    ],
+    "genres": [
+      "Point & Click"
+    ],
+    "description": "乔治与妮可的巴黎阴谋 4K 重制，叙事维度升级。",
+    "steamAppid": 2544110,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2544110/c125e592d845c639047bf0bb72b2e4679aaef4e6/header_schinese.jpg?t=1785315466",
+    "titleZh": "断剑：圣殿骑士之影 重铸版"
   },
   {
     "id": "myst-2021",
@@ -2208,9 +3451,17 @@
     "releaseYear": 2021,
     "developer": "Cyan",
     "publisher": "Cyan",
-    "platforms": ["PC", "Quest"],
-    "genres": ["Puzzle"],
-    "description": "The island that launched a million CD-ROM drives rebuilt in Unreal with free-roam and VR."
+    "platforms": [
+      "PC",
+      "Quest"
+    ],
+    "genres": [
+      "Puzzle"
+    ],
+    "description": "带动 CD-ROM 时代的岛屿 UE 自由探索重制，支持 VR。",
+    "steamAppid": 1255560,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1255560/header.jpg?t=1784069699",
+    "titleZh": "神秘岛（2021）"
   },
   {
     "id": "riven-2024",
@@ -2222,9 +3473,17 @@
     "releaseYear": 2024,
     "developer": "Cyan",
     "publisher": "Cyan",
-    "platforms": ["PC", "Quest"],
-    "genres": ["Puzzle"],
-    "description": "The D'ni Age of Riven fully rebuilt from the ground up in 3D, 27 years later."
+    "platforms": [
+      "PC",
+      "Quest"
+    ],
+    "genres": [
+      "Puzzle"
+    ],
+    "description": "《神秘岛》续作 27 年后从零 3D 重制。",
+    "steamAppid": 1712350,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712350/9ead2cf7de352df93cea7462e17ec0141bac1fca/header.jpg?t=1784241079",
+    "titleZh": "神秘岛2：利文（2024）"
   },
   {
     "id": "baldurs-gate-ee",
@@ -2236,9 +3495,19 @@
     "releaseYear": 2012,
     "developer": "Beamdog",
     "publisher": "Beamdog",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "The Infinity Engine classic widened for modern screens with new companions and the Siege of Dragonspear."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "无限引擎经典宽屏现代化，新同伴与《龙矛围攻》。",
+    "steamAppid": 228280,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1793821665",
+    "titleZh": "博德之门：增强版"
   },
   {
     "id": "baldurs-gate-2-ee",
@@ -2250,9 +3519,19 @@
     "releaseYear": 2013,
     "developer": "Beamdog",
     "publisher": "Beamdog",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "Often called the greatest CRPG ever, enhanced with all expansions and quests."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "常被视为最佳 CRPG 的续作增强版，扩展全收。",
+    "steamAppid": 257350,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/486ef7ce52fdb1ee5d2909ac97f26d4e26da18d3/header.jpg?t=1793821593",
+    "titleZh": "博德之门II：增强版"
   },
   {
     "id": "icewind-dale-ee",
@@ -2264,9 +3543,19 @@
     "releaseYear": 2014,
     "developer": "Beamdog",
     "publisher": "Beamdog",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "The combat-first dungeon crawl through the Spine of the World, upgraded with new kits and难度 modes."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "世界之脊战斗优先的地城爬行增强版。",
+    "steamAppid": 321800,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/321800/3166d31a7ee4898bf830bda3f618f871f319dc0d/header.jpg?t=1793820684",
+    "titleZh": "冰风谷：增强版"
   },
   {
     "id": "planescape-torment-ee",
@@ -2278,9 +3567,19 @@
     "releaseYear": 2017,
     "developer": "Beamdog",
     "publisher": "Beamdog",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "'What can change the nature of a man?' — the writing peak of the genre, remastered."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "「什么能改变一个人的本质？」——类型写作巅峰复刻。",
+    "steamAppid": 466300,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466300/header.jpg?t=1793820589",
+    "titleZh": "异域镇魂曲：增强版"
   },
   {
     "id": "neverwinter-nights-ee",
@@ -2292,9 +3591,19 @@
     "releaseYear": 2018,
     "developer": "Beamdog",
     "publisher": "Beamdog",
-    "platforms": ["PC", "PS4", "Switch", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "The Aurora-toolkit multiplayer RPG restored with decades of premium modules."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Switch",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "Aurora 工具组联机 RPG 复刻，模组宝库全收录。",
+    "steamAppid": 704450,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704450/header.jpg?t=1793821003",
+    "titleZh": "无冬之夜：增强版"
   },
   {
     "id": "wasteland-remastered",
@@ -2306,9 +3615,17 @@
     "releaseYear": 2020,
     "developer": "inXile / Krome",
     "publisher": "inXile",
-    "platforms": ["PC", "Xbox One"],
-    "genres": ["RPG"],
-    "description": "The post-nuclear granddaddy of Fallout redrawn by its original creator's studio."
+    "platforms": [
+      "PC",
+      "Xbox One"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "《辐射》精神始祖 1988 原作重绘复刻。",
+    "steamAppid": 875800,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/875800/header.jpg?t=1759777170",
+    "titleZh": "废土 复刻版"
   },
   {
     "id": "wizardry-proving-grounds",
@@ -2320,9 +3637,21 @@
     "releaseYear": 2024,
     "developer": "Digital Eclipse",
     "publisher": "Digital Eclipse",
-    "platforms": ["PC", "Switch", "PS5", "PS4", "Xbox One", "Xbox Series"],
-    "genres": ["RPG"],
-    "description": "The 1981 dungeon-crawler origin of the entire genre, rebuilt in full 3D alongside the original."
+    "platforms": [
+      "PC",
+      "Switch",
+      "PS5",
+      "PS4",
+      "Xbox One",
+      "Xbox Series"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "1981 地城爬行鼻祖完全 3D 重制，可随时切回原版。",
+    "steamAppid": 2518960,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2518960/header.jpg?t=1773073971",
+    "titleZh": "巫术：疯狂领主的试验场"
   },
   {
     "id": "lunar-silver-star-story",
@@ -2334,9 +3663,14 @@
     "releaseYear": 1999,
     "developer": "Game Arts",
     "publisher": "Working Designs",
-    "platforms": ["PS1"],
-    "genres": ["RPG"],
-    "description": "Alex's quest to become Dragonmaster, expanded with anime cutscenes and voice acting."
+    "platforms": [
+      "PS1"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "少年亚历克斯的龙骑士之路，动画演出与配音扩充。",
+    "titleZh": "露娜：银星物语"
   },
   {
     "id": "grandia-hd-remaster",
@@ -2348,9 +3682,15 @@
     "releaseYear": 2019,
     "developer": "Game Arts / GungHo",
     "publisher": "GungHo",
-    "platforms": ["PC", "Switch"],
-    "genres": ["RPG"],
-    "description": "Justin and Ryudo's adventures with the beloved IP gauge battle system, in HD."
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "RPG"
+    ],
+    "description": "IP 量表战斗系统名作双部高清合集。",
+    "titleZh": "格兰蒂亚 I&II HD 复刻版"
   },
   {
     "id": "oddworld-new-n-tasty",
@@ -2362,9 +3702,17 @@
     "releaseYear": 2014,
     "developer": "Just Add Water",
     "publisher": "Oddworld Inhabitants",
-    "platforms": ["PS4", "PC"],
-    "genres": ["Platformer"],
-    "description": "Abe's meat-plant escape rebuilt in 2.5D with the same fiendish puzzle design."
+    "platforms": [
+      "PS4",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "阿比的肉联厂大逃亡 2.5D 重制，谜题设计依旧狠辣。",
+    "steamAppid": 314660,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/314660/header.jpg?t=1784816461",
+    "titleZh": "奇异世界：阿比大逃亡 New 'n' Tasty"
   },
   {
     "id": "oddworld-soulstorm",
@@ -2376,9 +3724,19 @@
     "releaseYear": 2021,
     "developer": "Oddworld Inhabitants",
     "publisher": "Oddworld Inhabitants",
-    "platforms": ["PS5", "PS4", "PC", "Xbox Series"],
-    "genres": ["Platformer"],
-    "description": "The second chapter of Abe's prophecy, reimagined with crafting and 2.9D scale."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "PC",
+      "Xbox Series"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "阿比预言第二章重构，加入合成系统。",
+    "steamAppid": 619390,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/619390/header.jpg?t=1784816209",
+    "titleZh": "奇异世界：灵魂风暴"
   },
   {
     "id": "flashback-2013",
@@ -2390,9 +3748,16 @@
     "releaseYear": 2013,
     "developer": "VectorCell",
     "publisher": "Microids",
-    "platforms": ["PC", "PS3", "Xbox 360"],
-    "genres": ["Platformer"],
-    "description": "Conrad's rotoscoped sci-fi run-and-gun remade in HD hand-drawn art."
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "康拉德的旋转扫描科幻动作 HD 重制。",
+    "titleZh": "闪回（2013）"
   },
   {
     "id": "rygar-legendary-adventure",
@@ -2404,9 +3769,14 @@
     "releaseYear": 2002,
     "developer": "Tecmo",
     "publisher": "Tecmo",
-    "platforms": ["PS2"],
-    "genres": ["Action"],
-    "description": "The Diskarmor warrior reborn as a Greek-myth-flavored 3D action epic."
+    "platforms": [
+      "PS2"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "街机原作的希腊神话 3D 动作化重制。",
+    "titleZh": "阿尔戈斯战神"
   },
   {
     "id": "ninja-gaiden-2004",
@@ -2418,9 +3788,14 @@
     "releaseYear": 2004,
     "developer": "Team Ninja",
     "publisher": "Tecmo",
-    "platforms": ["Xbox"],
-    "genres": ["Action"],
-    "description": "Ryu Hayabusa's brutal 3D reinvention — still one of the hardest action games ever made."
+    "platforms": [
+      "Xbox"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "隼龙的 3D 重生——至今仍是最硬核的动作游戏之一。",
+    "titleZh": "忍者龙剑传（2004）"
   },
   {
     "id": "rise-of-the-triad-2013",
@@ -2432,9 +3807,16 @@
     "releaseYear": 2013,
     "developer": "Interceptor Entertainment",
     "publisher": "Apogee",
-    "platforms": ["PC"],
-    "genres": ["Shooter"],
-    "description": "The Apogee cult shooter rebuilt in Unreal 3, dog mode and all."
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "Apogee 邪典 FPS UE3 重制，狗模式照收。",
+    "steamAppid": 217140,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/217140/header.jpg?t=1720813512",
+    "titleZh": "黑暗军团（2013）"
   },
   {
     "id": "shadow-warrior-2013",
@@ -2446,9 +3828,18 @@
     "releaseYear": 2013,
     "developer": "Flying Wild Hog",
     "publisher": "Devolver Digital",
-    "platforms": ["PC", "PS4", "Xbox One"],
-    "genres": ["Shooter"],
-    "description": "Lo Wang's katana-and-gore reboot, modernizing the Build-era original with melee finesse."
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "王洛的武士刀血腥重启，Build 时代原作现代化。",
+    "steamAppid": 233130,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233130/header.jpg?t=1710246206",
+    "titleZh": "影子武士（2013）"
   },
   {
     "id": "gauntlet-2014",
@@ -2460,9 +3851,17 @@
     "releaseYear": 2014,
     "developer": "Arrowhead Game Studios",
     "publisher": "Warner Bros.",
-    "platforms": ["PC", "PS4"],
-    "genres": ["Action"],
-    "description": "Four-player dungeon-crawling homage — Elf needs food, badly."
+    "platforms": [
+      "PC",
+      "PS4"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "四人地城爬行致敬重制——精灵需要食物，非常需要。",
+    "steamAppid": 258970,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/258970/header.jpg?t=1780595236",
+    "titleZh": "圣铠传说：弑神者版"
   },
   {
     "id": "ducktales-remastered",
@@ -2474,9 +3873,18 @@
     "releaseYear": 2013,
     "developer": "WayForward",
     "publisher": "Capcom",
-    "platforms": ["PC", "PS3", "Xbox 360"],
-    "genres": ["Platformer"],
-    "description": "Scrooge's pogo-stick adventure remade with hand-drawn art and the original TV cast."
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "史高治的弹簧杖冒险手绘重制，原班 TV 配音。",
+    "steamAppid": 237630,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237630/header.jpg?t=1760927242",
+    "titleZh": "唐老鸭梦冒险 重制版"
   },
   {
     "id": "castle-of-illusion-2013",
@@ -2488,9 +3896,16 @@
     "releaseYear": 2013,
     "developer": "Sega Studios Australia",
     "publisher": "Sega",
-    "platforms": ["PC", "PS3", "Xbox 360"],
-    "genres": ["Platformer"],
-    "description": "Mickey's Genesis classic rebuilt in 3D with storybook-pretty visuals."
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "MD 名作 3D 童话绘本风重制。",
+    "titleZh": "米奇：幻象城堡（2013）"
   },
   {
     "id": "wonder-boy-dragons-trap",
@@ -2502,9 +3917,19 @@
     "releaseYear": 2017,
     "developer": "Lizardcube",
     "publisher": "DotEmu",
-    "platforms": ["Switch", "PS4", "Xbox One", "PC"],
-    "genres": ["Platformer"],
-    "description": "A masterclass remake with gorgeous hand-drawn art and instant one-button art switching."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "手绘重制的教科书，一键切换原版画面。",
+    "steamAppid": 543260,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543260/header.jpg?t=1763716917",
+    "titleZh": "神奇小子：龙之陷阱"
   },
   {
     "id": "wonder-boy-asha",
@@ -2516,9 +3941,18 @@
     "releaseYear": 2021,
     "developer": "Artdink",
     "publisher": "ININ Games",
-    "platforms": ["PS4", "Switch", "PC"],
-    "genres": ["Platformer"],
-    "description": "Asha and Pepelogoo's Monster World IV rebuilt in 3D with full voice acting."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "《怪物世界IV》3D 重制，全程配音。",
+    "steamAppid": 1420080,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1420080/header.jpg?t=1728628461",
+    "titleZh": "神奇小子：爱莎在怪物世界"
   },
   {
     "id": "alex-kidd-dx",
@@ -2530,9 +3964,21 @@
     "releaseYear": 2021,
     "developer": "Jankenteam",
     "publisher": "Merge Games",
-    "platforms": ["Switch", "PS4", "PS5", "Xbox One", "Xbox Series", "PC"],
-    "genres": ["Platformer"],
-    "description": "The Master System mascot's rock-paper-scissors adventure remade with retro mode included."
+    "platforms": [
+      "Switch",
+      "PS4",
+      "PS5",
+      "Xbox One",
+      "Xbox Series",
+      "PC"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "SMS 吉祥物重制，附即切原版模式。",
+    "steamAppid": 1333470,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1333470/header.jpg?t=1769520399",
+    "titleZh": "阿历克斯小子 奇迹世界DX"
   },
   {
     "id": "ninja-saviors-return",
@@ -2544,9 +3990,17 @@
     "releaseYear": 2019,
     "developer": "Tengo Project",
     "publisher": "ININ Games",
-    "platforms": ["PS4", "Switch"],
-    "genres": ["Beat 'em up"],
-    "description": "Natsume's giant-robot side-scroller beat 'em up refined with two new androids."
+    "platforms": [
+      "PS4",
+      "Switch"
+    ],
+    "genres": [
+      "Beat 'em up"
+    ],
+    "description": "Natsume 巨型机器人清版动作重制，追加两台新机体。",
+    "steamAppid": 2288070,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288070/header.jpg?t=1788528174",
+    "titleZh": "忍者救世主：战士归来"
   },
   {
     "id": "wild-guns-reloaded",
@@ -2558,9 +4012,18 @@
     "releaseYear": 2016,
     "developer": "Natsume Atari",
     "publisher": "Natsume Atari",
-    "platforms": ["PS4", "Switch", "PC"],
-    "genres": ["Shooter"],
-    "description": "The Wild West gallery shooter returned with two new characters and online co-op."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "西部画廊射击 SNES 名作回归，追加线上合作。",
+    "steamAppid": 585910,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/585910/header.jpg?t=1714507873",
+    "titleZh": "狂野枪手 Reloaded"
   },
   {
     "id": "pocky-rocky-reshrined",
@@ -2572,9 +4035,16 @@
     "releaseYear": 2022,
     "developer": "Tengo Project",
     "publisher": "Natsume Atari",
-    "platforms": ["PS4", "Switch", "PC"],
-    "genres": ["Shooter"],
-    "description": "The shrine maiden and tanuki co-op shooter reborn in gorgeous pixel art."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "description": "巫女与狸猫合作射击名作华美像素重生。",
+    "titleZh": "Pocky & Rocky 复刻版"
   },
   {
     "id": "shadow-of-the-ninja-reborn",
@@ -2586,9 +4056,16 @@
     "releaseYear": 2024,
     "developer": "Tengo Project",
     "publisher": "ININ Games",
-    "platforms": ["PS5", "PS4", "Switch"],
-    "genres": ["Action"],
-    "description": "Natsume's NES two-player ninja classic redrawn with new stages and mechanics."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Switch"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "NES 双人忍者名作重绘，新关卡新机制。",
+    "titleZh": "忍者之影：重生"
   },
   {
     "id": "cave-story-plus",
@@ -2600,9 +4077,17 @@
     "releaseYear": 2011,
     "developer": "Studio Pixel / Nicalis",
     "publisher": "Nicalis",
-    "platforms": ["PC", "Switch"],
-    "genres": ["Platformer"],
-    "description": "Pixel's legendary dojin Metroidvania with new modes, music and playstyles."
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Platformer"
+    ],
+    "description": "Pixel 的传奇同人银河城，新模式新配乐。",
+    "steamAppid": 200900,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200900/23d8972e068689b1d688f20972fa343813e0431f/header.jpg?t=1790010222",
+    "titleZh": "洞窟物语+"
   },
   {
     "id": "rez-infinite",
@@ -2614,9 +4099,18 @@
     "releaseYear": 2016,
     "developer": "Enhance Games",
     "publisher": "Enhance Games",
-    "platforms": ["PC", "PS4"],
-    "genres": ["Rhythm", "Shooter"],
-    "description": "Mizuguchi's synesthetic rail-shooter extended with Area X and VR support."
+    "platforms": [
+      "PC",
+      "PS4"
+    ],
+    "genres": [
+      "Rhythm",
+      "Shooter"
+    ],
+    "description": "水口哲也的共感轨道射击强化，新增 Area X。",
+    "steamAppid": 636450,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/636450/170fa2690cb09f56a8e5f6cf10e31593679833c9/header.jpg?t=1774036946",
+    "titleZh": "Rez 无限"
   },
   {
     "id": "lumines-remastered",
@@ -2628,9 +4122,19 @@
     "releaseYear": 2018,
     "developer": "Resonair",
     "publisher": "Enhance Games",
-    "platforms": ["PS4", "Switch", "Xbox One", "PC"],
-    "genres": ["Puzzle"],
-    "description": "Tetsuya Mizuguchi's hypnotic block-puzzler in 4K with a vibration-synced Trance vibration mode."
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Xbox One",
+      "PC"
+    ],
+    "genres": [
+      "Puzzle"
+    ],
+    "description": "水口哲也的催眠落块 4K 化，Trance 震动模式。",
+    "steamAppid": 851670,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/851670/1c0373d599c2eb64e5df458397de7fc9027e917e/header.jpg?t=1785432610",
+    "titleZh": "音乐方块 复刻版"
   },
   {
     "id": "lollipop-chainsaw-repop",
@@ -2642,9 +4146,18 @@
     "releaseYear": 2024,
     "developer": "Dragami Games",
     "publisher": "Dragami Games",
-    "platforms": ["PS5", "PS4", "PC"],
-    "genres": ["Action"],
-    "description": "Juliet Starling's zombie-cheerleader carnage returns with smoother combat and RePOP mode."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "僵尸啦啦队血腥喜剧回归，战斗更流畅。",
+    "steamAppid": 2658450,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658450/header.jpg?t=1732876695",
+    "titleZh": "电锯甜心 RePOP"
   },
   {
     "id": "shadows-of-the-damned-hella",
@@ -2656,8 +4169,18 @@
     "releaseYear": 2024,
     "developer": "Grasshopper Manufacture",
     "publisher": "Grasshopper Manufacture",
-    "platforms": ["PS5", "PS4", "Switch", "PC"],
-    "genres": ["Action"],
-    "description": "Suda51 and Mikami's hellish road trip remastered with new costumes and 60fps."
+    "platforms": [
+      "PS5",
+      "PS4",
+      "Switch",
+      "PC"
+    ],
+    "genres": [
+      "Action"
+    ],
+    "description": "须田刚一×三上真的地狱公路之旅 60 帧复刻。",
+    "steamAppid": 2535440,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2535440/header.jpg?t=1791517752",
+    "titleZh": "暗影诅咒：Hella 复刻版"
   }
 ]

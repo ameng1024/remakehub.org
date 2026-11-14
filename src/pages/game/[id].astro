@@ -1,52 +1,74 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { getGame, games } from '../../lib/games';
+import { getGame, games, displayName, storeLinks } from '../../lib/games';
 
 export function getStaticPaths() {
   return games.map(g => ({ params: { id: g.id } }));
 }
 
 const game = getGame(Astro.params.id!)!;
+const name = displayName(game);
+const typeZh = game.type === 'remake' ? '重制版' : '高清复刻版';
+const links = storeLinks(game);
 const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.genres.includes(x)) || g.developer === game.developer)).slice(0, 4);
 ---
 
-<Layout title={`${game.title} — RemakeHub`} description={game.description}>
+<Layout title={`${name} — RemakeHub`} description={game.description}>
   <div class="container detail">
-    <a href="/" class="back">← Back to all games</a>
+    <a href="/" class="back">← 返回游戏库</a>
     <div class="header">
-      <div class="art">{game.title.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || 'RH'}</div>
+      <div class="art">
+        {game.cover
+          ? <img class="cover-img" src={game.cover} alt={name} width="460" height="215" />
+          : <span class="fallback">{name.slice(0, 2)}</span>}
+      </div>
       <div class="info">
         <div class="badges">
-          <span class={`pill ${game.type}`}>{game.type}</span>
-          {game.upcoming && <span class="pill upcoming">In Development</span>}
+          <span class={`pill ${game.type}`}>{typeZh}</span>
+          {game.upcoming && <span class="pill upcoming">开发中</span>}
         </div>
-        <h1>{game.title}</h1>
-        <p class="based">A {game.type} of <a href={`/?q=${encodeURIComponent(game.originalTitle)}`}>{game.originalTitle}</a>
-          {game.originalYear ? ` (${game.originalYear}, ${game.originalPlatform})` : ` (${game.originalPlatform})`}</p>
+        <h1>{name}</h1>
+        <p class="based">原作 <a href={`/?q=${encodeURIComponent(game.originalTitle)}`}>{game.originalTitle}</a>
+          {game.originalYear ? `（${game.originalYear} 年，${game.originalPlatform}）` : `（${game.originalPlatform}）`}的{typeZh}</p>
+        {game.titleZh && game.titleZh !== game.title && <p class="en-name">{game.title}</p>}
       </div>
     </div>
 
+    {links.length > 0 && (
+      <section class="get">
+        <h2>🎮 去玩这款游戏</h2>
+        <p class="get-hint">官方渠道直达，购买或下载后即可游玩：</p>
+        <div class="get-links">
+          {links.map(l => (
+            <a class={l.primary ? 'store-link primary' : 'store-link'} href={l.url} target="_blank" rel="noopener">
+              {l.name} <span>→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <div class="cols">
       <div class="main">
-        <h2>About</h2>
+        <h2>简介</h2>
         <p class="desc">{game.description}</p>
 
-        <h2>Original vs. {game.type === 'remake' ? 'Remake' : 'Remaster'}</h2>
+        <h2>原作 vs {typeZh}</h2>
         <div class="compare">
           <div class="col">
-            <h4>Original</h4>
+            <h4>原作</h4>
             <dl>
-              <dt>Title</dt><dd>{game.originalTitle}</dd>
-              <dt>Platform</dt><dd>{game.originalPlatform}</dd>
-              <dt>Year</dt><dd>{game.originalYear ?? '—'}</dd>
+              <dt>名称</dt><dd>{game.originalTitle}</dd>
+              <dt>平台</dt><dd>{game.originalPlatform}</dd>
+              <dt>年份</dt><dd>{game.originalYear ?? '—'}</dd>
             </dl>
           </div>
           <div class="col">
-            <h4>{game.type === 'remake' ? 'Remake' : 'Remaster'}</h4>
+            <h4>{typeZh}</h4>
             <dl>
-              <dt>Title</dt><dd>{game.title}</dd>
-              <dt>Platforms</dt><dd>{game.platforms.join(', ')}</dd>
-              <dt>Year</dt><dd>{game.releaseYear ?? 'TBA'}</dd>
+              <dt>名称</dt><dd>{name}</dd>
+              <dt>平台</dt><dd>{game.platforms.join('、')}</dd>
+              <dt>年份</dt><dd>{game.releaseYear ?? '待定'}</dd>
             </dl>
           </div>
         </div>
@@ -54,31 +76,30 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
 
       <aside class="side">
         <dl class="facts">
-          <div><dt>Developer</dt><dd>{game.developer}</dd></div>
-          <div><dt>Publisher</dt><dd>{game.publisher}</dd></div>
-          <div><dt>Release</dt><dd>{game.releaseYear ?? 'TBA'}</dd></div>
-          <div><dt>Genres</dt><dd>{game.genres.join(', ')}</dd></div>
-          <div><dt>Platforms</dt><dd>{game.platforms.join(', ')}</dd></div>
+          <div><dt>开发商</dt><dd>{game.developer}</dd></div>
+          <div><dt>发行商</dt><dd>{game.publisher}</dd></div>
+          <div><dt>发售</dt><dd>{game.releaseYear ?? '待定'}</dd></div>
+          <div><dt>题材</dt><dd>{game.genres.join('、')}</dd></div>
+          <div><dt>平台</dt><dd>{game.platforms.join('、')}</dd></div>
         </dl>
         <div class="search-links">
-          <span class="label">Find it:</span>
-          <a href={`https://store.steampowered.com/search/?term=${encodeURIComponent(game.title)}`} target="_blank" rel="noopener">Steam</a>
+          <span class="label">更多情报：</span>
           <a href={`https://www.google.com/search?q=${encodeURIComponent(game.title + ' game')}`} target="_blank" rel="noopener">Google</a>
           <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(game.title + ' trailer')}`} target="_blank" rel="noopener">YouTube</a>
         </div>
-        <p class="wrong">Spot an error? <a href="/submit">Tell us</a> or open an issue on <a href="https://github.com/ameng1024/remakehub.org/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+        <p class="wrong">发现信息有误？<a href="/submit">告诉我们</a>，或在 <a href="https://github.com/ameng1024/remakehub.org/issues" target="_blank" rel="noopener">GitHub</a> 提交 Issue。</p>
       </aside>
     </div>
 
     {others.length > 0 && (
       <section class="related">
-        <h2>Related</h2>
+        <h2>相关推荐</h2>
         <div class="related-grid">
           {others.map(g => (
             <a class="rel-card" href={`/game/${g.id}/`}>
-              <span class={`pill ${g.type}`}>{g.type}</span>
-              <span class="t">{g.title}</span>
-              <span class="y">{g.releaseYear ?? 'TBA'}</span>
+              <span class={`pill ${g.type}`}>{g.type === 'remake' ? '重制' : '复刻'}</span>
+              <span class="t">{displayName(g)}</span>
+              <span class="y">{g.releaseYear ?? '待定'}</span>
             </a>
           ))}
         </div>
@@ -90,30 +111,54 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
 <style>
   .detail { padding: 28px 16px 48px; }
   .back { font-size: 13px; color: var(--text-dim); display: inline-block; margin-bottom: 18px; }
-  .header { display: flex; gap: 20px; align-items: center; margin-bottom: 28px; }
+  .header { display: flex; gap: 20px; align-items: center; margin-bottom: 24px; }
   .art {
-    width: 110px; height: 110px; border-radius: 6px; flex-shrink: 0;
+    width: 300px; height: 140px; border-radius: 6px; flex-shrink: 0; overflow: hidden;
     background: radial-gradient(ellipse at 30% 20%, #3a6a8f 0%, #1f3a52 70%);
     display: flex; align-items: center; justify-content: center;
-    font-size: 38px; font-weight: 800; color: rgba(255,255,255,.16);
   }
-  .info h1 { color: var(--text-bright); font-size: 30px; margin: 6px 0 4px; }
+  .fallback { font-size: 34px; font-weight: 800; color: rgba(255,255,255,.25); }
+  .info h1 { color: var(--text-bright); font-size: 28px; margin: 6px 0 4px; }
   .based { color: var(--text-dim); font-size: 14px; }
+  .en-name { color: var(--text-dim); font-size: 12.5px; margin-top: 2px; }
   .badges { display: flex; gap: 8px; }
+
+  .get {
+    background: linear-gradient(135deg, rgba(102,192,244,.08), rgba(102,192,244,.02));
+    border: 1px solid rgba(102,192,244,.25); border-radius: 6px;
+    padding: 18px 20px; margin-bottom: 28px;
+  }
+  .get h2 { color: var(--text-bright); font-size: 17px; margin-bottom: 4px; }
+  .get-hint { font-size: 13px; color: var(--text-dim); margin-bottom: 12px; }
+  .get-links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .store-link {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--panel); border: 1px solid rgba(102,192,244,.2);
+    color: var(--text); font-size: 14px; font-weight: 500;
+    padding: 9px 18px; border-radius: 3px; transition: all .15s;
+  }
+  .store-link:hover { background: var(--panel-hover); color: #fff; border-color: var(--accent); }
+  .store-link.primary {
+    background: linear-gradient(to bottom, #3d6c8f 5%, #2a5170 95%);
+    color: var(--text-bright); font-weight: 600; border-color: transparent;
+  }
+  .store-link.primary:hover { filter: brightness(1.2); }
+  .store-link span { color: var(--accent); }
 
   .cols { display: grid; grid-template-columns: 1fr 300px; gap: 28px; align-items: start; }
   .main h2 { color: var(--text-bright); font-size: 18px; margin: 18px 0 10px; }
-  .desc { font-size: 15px; line-height: 1.65; color: var(--text); }
+  .main h2:first-child { margin-top: 0; }
+  .desc { font-size: 15px; line-height: 1.7; color: var(--text); }
   .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .compare .col { background: var(--panel); border-radius: 4px; padding: 14px; }
-  .compare h4 { color: var(--accent); font-size: 13px; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; }
+  .compare h4 { color: var(--accent); font-size: 13px; letter-spacing: .5px; margin-bottom: 8px; }
   .compare dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; font-size: 13.5px; }
   .compare dt { color: var(--text-dim); }
   .compare dd { color: var(--text-bright); }
 
   .side { display: flex; flex-direction: column; gap: 16px; }
   .facts { background: var(--panel); border-radius: 4px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
-  .facts div { display: grid; grid-template-columns: 90px 1fr; gap: 8px; font-size: 13.5px; }
+  .facts div { display: grid; grid-template-columns: 60px 1fr; gap: 8px; font-size: 13.5px; }
   .facts dt { color: var(--text-dim); }
   .facts dd { color: var(--text-bright); }
   .search-links { background: var(--panel); border-radius: 4px; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 13.5px; }
@@ -130,5 +175,7 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
 
   @media (max-width: 800px) {
     .cols { grid-template-columns: 1fr; }
+    .header { flex-direction: column; align-items: flex-start; }
+    .art { width: 100%; max-width: 460px; height: auto; aspect-ratio: 460/215; }
   }
 </style>

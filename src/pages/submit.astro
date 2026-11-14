@@ -2,68 +2,68 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Submit a Game — RemakeHub" description="Suggest a game remake or remaster to be added to RemakeHub.">
+<Layout title="提交游戏 — RemakeHub" description="向 RemakeHub 推荐一款缺失的重制版或高清复刻版游戏。">
   <div class="container submit">
-    <h1>Submit a game</h1>
-    <p class="intro">Know a remake or remaster that's missing here? Fill in what you know — the maintainers review every submission before it goes live. Fields marked <b>*</b> are required.</p>
+    <h1>提交游戏</h1>
+    <p class="intro">发现有重制版/复刻版没被收录？填写你了解的信息，维护者审核后就会上线。带 <b>*</b> 为必填项。</p>
 
     <form id="form" novalidate>
       <div class="field">
-        <label for="title">Game title *</label>
-        <input id="title" name="title" required maxlength="120" placeholder="e.g. Final Fantasy VII Remake" />
+        <label for="title">游戏名称（中文译名或通用叫法） *</label>
+        <input id="title" name="title" required maxlength="120" placeholder="例：最终幻想7 重制版" />
       </div>
       <div class="field">
-        <label for="originalTitle">Original game title *</label>
-        <input id="originalTitle" name="originalTitle" required maxlength="120" placeholder="e.g. Final Fantasy VII" />
+        <label for="originalTitle">原作名称 *</label>
+        <input id="originalTitle" name="originalTitle" required maxlength="120" placeholder="例：Final Fantasy VII" />
       </div>
       <div class="row">
         <div class="field">
-          <label for="type">Type *</label>
+          <label for="type">类型 *</label>
           <select id="type" name="type" required>
-            <option value="remake">Remake — rebuilt from scratch</option>
-            <option value="remaster">Remaster — original enhanced</option>
+            <option value="remake">重制版 Remake — 从零重建</option>
+            <option value="remaster">高清复刻 Remaster — 原作强化</option>
           </select>
         </div>
         <div class="field">
-          <label for="releaseYear">Release year</label>
+          <label for="releaseYear">发售年份</label>
           <input id="releaseYear" name="releaseYear" type="number" min="1980" max="2030" placeholder="2025" />
         </div>
       </div>
       <div class="row">
         <div class="field">
-          <label for="originalPlatform">Original platform</label>
-          <input id="originalPlatform" name="originalPlatform" maxlength="60" placeholder="e.g. SNES, PS1, Arcade…" />
+          <label for="originalPlatform">原作平台</label>
+          <input id="originalPlatform" name="originalPlatform" maxlength="60" placeholder="例：SFC、PS1、街机…" />
         </div>
         <div class="field">
-          <label for="originalYear">Original year</label>
+          <label for="originalYear">原作年份</label>
           <input id="originalYear" name="originalYear" type="number" min="1970" max="2026" placeholder="1997" />
         </div>
       </div>
       <div class="field">
-        <label for="platforms">Modern platforms <span class="hint">(comma-separated)</span></label>
-        <input id="platforms" name="platforms" maxlength="120" placeholder="e.g. Switch, PS5, PC" />
+        <label for="platforms">现行平台 <span class="hint">（逗号分隔）</span></label>
+        <input id="platforms" name="platforms" maxlength="120" placeholder="例：Switch, PS5, PC" />
       </div>
       <div class="field">
-        <label for="developer">Developer</label>
-        <input id="developer" name="developer" maxlength="80" placeholder="e.g. Square Enix" />
+        <label for="developer">开发商</label>
+        <input id="developer" name="developer" maxlength="80" placeholder="例：Square Enix" />
       </div>
       <div class="field">
-        <label for="genres">Genres <span class="hint">(comma-separated)</span></label>
-        <input id="genres" name="genres" maxlength="80" placeholder="e.g. RPG, Tactics" />
+        <label for="genres">题材 <span class="hint">（逗号分隔，如 RPG、动作、战棋）</span></label>
+        <input id="genres" name="genres" maxlength="80" placeholder="例：RPG, 战棋" />
       </div>
       <div class="field">
-        <label for="description">Short description *</label>
-        <textarea id="description" name="description" required maxlength="400" rows="3" placeholder="One or two sentences about what this release is."></textarea>
+        <label for="description">简介 *</label>
+        <textarea id="description" name="description" required maxlength="400" rows="3" placeholder="一两句话介绍这款重制/复刻版。"></textarea>
       </div>
       <div class="field">
-        <label for="source">Source link <span class="hint">(store page / announcement, helps verification)</span></label>
+        <label for="source">来源链接 <span class="hint">（商店页/官方公告，便于核实）</span></label>
         <input id="source" name="source" type="url" placeholder="https://…" />
       </div>
 
       <div class="status" id="status" hidden></div>
 
-      <button class="btn" type="submit" id="submitBtn">Submit for review</button>
-      <p class="alt">Prefer GitHub? <a href="https://github.com/ameng1024/remakehub.org/issues/new?title=%5BSubmission%5D%20Game%20title" target="_blank" rel="noopener">Open an issue instead</a>.</p>
+      <button class="btn" type="submit" id="submitBtn">提交审核</button>
+      <p class="alt">更习惯 GitHub？<a href="https://github.com/ameng1024/remakehub.org/issues/new?title=%5BSubmission%5D%20%E6%B8%B8%E6%88%8F%E5%90%8D" target="_blank" rel="noopener">直接开 Issue</a> 也行。</p>
     </form>
   </div>
 </Layout>
@@ -84,6 +84,7 @@ import Layout from '../layouts/Layout.astro';
     font-family: inherit; width: 100%;
   }
   input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+  input::placeholder, textarea::placeholder { color: #5a7a94; }
   textarea { resize: vertical; }
   .status { padding: 12px 14px; border-radius: 3px; font-size: 14px; line-height: 1.5; }
   .status.ok { background: rgba(164,208,7,.12); border: 1px solid rgba(164,208,7,.4); color: #c3e05c; }
@@ -99,7 +100,7 @@ import Layout from '../layouts/Layout.astro';
 
   function show(kind: 'ok' | 'err', msg: string, link?: string) {
     status.className = 'status ' + kind;
-    status.innerHTML = msg + (link ? ` <a href="${link}" target="_blank" rel="noopener">Track it here →</a>` : '');
+    status.innerHTML = msg + (link ? ` <a href="${link}" target="_blank" rel="noopener">点此跟进 →</a>` : '');
     status.hidden = false;
   }
 
@@ -107,11 +108,11 @@ import Layout from '../layouts/Layout.astro';
     e.preventDefault();
     const data = Object.fromEntries(new FormData(form).entries());
     if (!data.title || !data.originalTitle || !data.description) {
-      show('err', 'Please fill in the required fields (title, original title, description).');
+      show('err', '请填写必填项（游戏名称、原作名称、简介）。');
       return;
     }
     btn.disabled = true;
-    btn.textContent = 'Submitting…';
+    btn.textContent = '提交中…';
     try {
       const res = await fetch('/api/submit', {
         method: 'POST',
@@ -120,16 +121,16 @@ import Layout from '../layouts/Layout.astro';
       });
       const json = await res.json();
       if (res.ok) {
-        show('ok', 'Thanks! Your submission is in the review queue.', json.issueUrl);
+        show('ok', '提交成功！已进入审核队列。', json.issueUrl);
         form.reset();
       } else {
-        show('err', json.error || 'Submission failed — please try again later.');
+        show('err', json.error || '提交失败，请稍后再试。', json.fallbackIssue);
       }
     } catch {
-      show('err', 'Network error — please check your connection and retry. You can also submit via GitHub (link below).');
+      show('err', '网络错误，请检查网络后重试；也可以用下方 GitHub 链接直接提交。');
     } finally {
       btn.disabled = false;
-      btn.textContent = 'Submit for review';
+      btn.textContent = '提交审核';
     }
   });
 </script>

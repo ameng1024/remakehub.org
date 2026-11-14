@@ -4,10 +4,10 @@ interface Props {
   title: string;
   description?: string;
 }
-const { title, description = 'RemakeHub — a curated directory of video game remakes and remasters of classic games.' } = Astro.props;
+const { title, description = 'RemakeHub — 精选老游戏重制版与高清复刻版导航站：红白机、超任、PS1/PS2 时代的经典，在现代平台重生。' } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +31,7 @@ const { title, description = 'RemakeHub — a curated directory of video game re
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html { background: var(--bg); }
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, "Segoe UI", Roboto, sans-serif;
         background: linear-gradient(to bottom, #1b2838 0%, #16202d 100%);
         color: var(--text);
         min-height: 100vh;
@@ -56,7 +56,7 @@ const { title, description = 'RemakeHub — a curated directory of video game re
       .nav { display: flex; gap: 18px; margin-left: 8px; }
       .nav a { color: var(--text-dim); font-size: 14px; font-weight: 500; padding: 6px 2px; }
       .nav a:hover, .nav a.active { color: var(--text-bright); }
-      .header-count { margin-left: auto; font-size: 12px; color: var(--text-dim); }
+      .header-count { margin-left: auto; font-size: 12px; color: var(--text-dim); white-space: nowrap; }
       .header-count b { color: var(--accent); }
 
       /* Footer */
@@ -69,9 +69,10 @@ const { title, description = 'RemakeHub — a curated directory of video game re
         background: linear-gradient(to bottom, #3d6c8f 5%, #2a5170 95%);
         color: var(--text-bright); border: 0; border-radius: 2px;
         padding: 10px 20px; font-size: 15px; cursor: pointer;
-        transition: filter .15s;
+        transition: filter .15s; font-family: inherit;
       }
       .btn:hover { filter: brightness(1.2); color: #fff; }
+      .btn:disabled { opacity: .6; cursor: not-allowed; }
 
       /* Tag pills */
       .pill {
@@ -81,21 +82,24 @@ const { title, description = 'RemakeHub — a curated directory of video game re
       .pill.remake { background: rgba(164,208,7,.15); color: var(--tag-remake); border: 1px solid rgba(164,208,7,.4); }
       .pill.remaster { background: rgba(244,194,13,.12); color: var(--tag-remaster); border: 1px solid rgba(244,194,13,.4); }
       .pill.upcoming { background: rgba(102,192,244,.12); color: var(--accent); border: 1px solid rgba(102,192,244,.4); }
+
+      /* Lazy images */
+      .cover-img { width: 100%; height: 100%; object-fit: cover; display: block; }
     </style>
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a href="/" class="logo" aria-label="RemakeHub home">
+        <a href="/" class="logo" aria-label="RemakeHub 首页">
           <svg width="26" height="26" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#66c0f4"/><path d="M20 44V20h8l4 10 4-10h8v24h-7V31l-5 12-5-12v13z" fill="#0e1b2a"/></svg>
           Remake<span class="hub">Hub</span>
         </a>
         <nav class="nav">
-          <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Browse</a>
-          <a href="/submit" class={Astro.url.pathname.startsWith('/submit') ? 'active' : ''}>Submit a Game</a>
+          <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>游戏库</a>
+          <a href="/submit" class={Astro.url.pathname.startsWith('/submit') ? 'active' : ''}>提交游戏</a>
           <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">GitHub</a>
         </nav>
-        <span class="header-count"><b>{games.length}</b> games indexed</span>
+        <span class="header-count">已收录 <b>{games.length}</b> 款重制游戏</span>
       </div>
     </header>
 
@@ -105,13 +109,12 @@ const { title, description = 'RemakeHub — a curated directory of video game re
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <span>© {new Date().getFullYear()} RemakeHub — classics, reborn.</span>
+        <span>© {new Date().getFullYear()} RemakeHub — 经典游戏，重获新生。</span>
         <span>
-          Data is community-maintained · <a href="/submit">Submit a game</a> ·
-          <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">Source on GitHub</a>
+          社区共建 · <a href="/submit">提交游戏</a> ·
+          <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">GitHub 源码</a>
         </span>
       </div>
     </footer>
-
   </body>
 </html>

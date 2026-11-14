@@ -15,7 +15,7 @@ export const POST: APIRoute = async ({ request }) => {
   const now = Date.now();
   const last = throttle.get(ip);
   if (last && now - last < 60_000) {
-    return new Response(JSON.stringify({ error: 'Too many submissions — please wait a minute.' }), {
+    return new Response(JSON.stringify({ error: '提交太频繁了，请一分钟后再试。' }), {
       status: 429,
       headers: { 'Content-Type': 'application/json' },
     });
@@ -44,7 +44,7 @@ export const POST: APIRoute = async ({ request }) => {
   const source = clean(body.source, 300);
 
   if (!title || !originalTitle || !description) {
-    return new Response(JSON.stringify({ error: 'title, originalTitle and description are required.' }), {
+    return new Response(JSON.stringify({ error: '游戏名称、原作名称和简介为必填项。' }), {
       status: 400, headers: { 'Content-Type': 'application/json' },
     });
   }
@@ -53,7 +53,7 @@ export const POST: APIRoute = async ({ request }) => {
   if (!token) {
     // Fallback: no token configured — tell the client to use the GitHub issue link.
     return new Response(JSON.stringify({
-      error: 'Submissions are temporarily offline. Please use the GitHub issue link below the form instead.',
+      error: '提交通道暂时不可用，请使用表单下方的 GitHub 链接直接提交。',
       fallbackIssue: `https://github.com/${REPO}/issues/new?title=${encodeURIComponent('[Submission] ' + title)}`,
     }), { status: 503, headers: { 'Content-Type': 'application/json' } });
   }
@@ -93,7 +93,7 @@ export const POST: APIRoute = async ({ request }) => {
       const detail = await res.text();
       console.error(`GitHub API ${res.status}: ${detail.slice(0, 300)}`);
       return new Response(JSON.stringify({
-        error: 'Could not file the submission — please use the GitHub issue link below the form instead.',
+        error: '提交失败，请使用表单下方的 GitHub 链接直接提交。',
         fallbackIssue: `https://github.com/${REPO}/issues/new?title=${encodeURIComponent('[Submission] ' + title)}`,
       }), { status: 502, headers: { 'Content-Type': 'application/json' } });
     }
@@ -104,7 +104,7 @@ export const POST: APIRoute = async ({ request }) => {
     });
   } catch (err) {
     console.error('submit error', err);
-    return new Response(JSON.stringify({ error: 'Unexpected server error — please retry later.' }), {
+    return new Response(JSON.stringify({ error: '服务器开小差了，请稍后重试。' }), {
       status: 500, headers: { 'Content-Type': 'application/json' },
     });
   }

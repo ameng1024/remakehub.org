@@ -1,0 +1,779 @@
+{
+ "final-fantasy-vii-remake": {
+  "appid": 1462040,
+  "steamName": "FINAL FANTASY VII REMAKE INTERGRADE",
+  "steamNameZh": "FINAL FANTASY VII REMAKE INTERGRADE",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+  "score": 1
+ },
+ "final-fantasy-viii-remastered": {
+  "appid": 1026680,
+  "steamName": "FINAL FANTASY VIII - REMASTERED",
+  "steamNameZh": "FINAL FANTASY VIII - REMASTERED",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1026680/header.jpg?t=1775803140",
+  "score": 1
+ },
+ "final-fantasy-pixel-remaster": null,
+ "final-fantasy-tactics-ivalice-chronicles": null,
+ "dragon-quest-iii-hd-2d": null,
+ "dragon-quest-i-ii-hd-2d": null,
+ "secret-of-mana-2018": {
+  "appid": 637670,
+  "steamName": "圣剑传说2 SECRET of MANA",
+  "steamNameZh": "圣剑传说2 SECRET of MANA",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637670/header.jpg?t=1776653917",
+  "score": 0.6666666666666666
+ },
+ "trials-of-mana": {
+  "appid": 924980,
+  "steamName": "圣剑传说3 TRIALS of MANA",
+  "steamNameZh": "圣剑传说3 TRIALS of MANA",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/924980/header.jpg?t=1776921685",
+  "score": 0.6666666666666666
+ },
+ "legend-of-mana-remastered": null,
+ "saga-frontier-remastered": {
+  "appid": 1295270,
+  "steamName": "SaGa Frontier Remastered",
+  "steamNameZh": "SaGa Frontier Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295270/header.jpg?t=1777013612",
+  "score": 1
+ },
+ "romancing-saga-minstrel-song": {
+  "appid": 1793030,
+  "steamName": "Romancing SaGa -Minstrel Song- Remastered",
+  "steamNameZh": "Romancing SaGa -Minstrel Song- Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1793030/header.jpg?t=1777013691",
+  "score": 1
+ },
+ "chrono-cross-radical-dreamers": {
+  "appid": 1133760,
+  "steamName": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
+  "steamNameZh": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133760/header.jpg?t=1777342541",
+  "score": 1
+ },
+ "kingdom-hearts-hd-1525": null,
+ "star-ocean-second-story-r": {
+  "appid": 2238900,
+  "steamName": "STAR OCEAN THE SECOND STORY R",
+  "steamNameZh": "STAR OCEAN THE SECOND STORY R",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/header.jpg?t=1782353780",
+  "score": 1
+ },
+ "star-ocean-first-departure-r": null,
+ "tactics-ogre-reborn": {
+  "appid": 1451090,
+  "steamName": "Tactics Ogre: Reborn",
+  "steamNameZh": "Tactics Ogre: Reborn",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451090/header.jpg?t=1786031697",
+  "score": 1
+ },
+ "live-a-live-2022": {
+  "appid": 2014380,
+  "steamName": "LIVE A LIVE",
+  "steamNameZh": "LIVE A LIVE",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2014380/header.jpg?t=1776153357",
+  "score": 1
+ },
+ "actraiser-renaissance": {
+  "appid": 1393370,
+  "steamName": "Actraiser Renaissance",
+  "steamNameZh": "Actraiser Renaissance",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1393370/header.jpg?t=1776132573",
+  "score": 1
+ },
+ "super-mario-rpg-2023": null,
+ "paper-mario-thousand-year-door": null,
+ "mario-luigi-superstar-saga-3ds": null,
+ "mario-luigi-bowsers-inside-story-3ds": null,
+ "links-awakening-2019": null,
+ "ocarina-of-time-3d": null,
+ "majoras-mask-3d": null,
+ "skyward-sword-hd": null,
+ "star-fox-64-3d": null,
+ "metroid-zero-mission": null,
+ "metroid-samus-returns": null,
+ "metroid-prime-remastered": null,
+ "pokemon-firered-leafgreen": null,
+ "pokemon-heartgold-soulsilver": null,
+ "pokemon-omega-ruby-alpha-sapphire": null,
+ "pokemon-lets-go": null,
+ "pokemon-brilliant-diamond-shining-pearl": null,
+ "pokemon-mystery-dungeon-dx": null,
+ "advance-wars-1-2-reboot-camp": null,
+ "fire-emblem-echoes-valentia": null,
+ "xenoblade-chronicles-definitive": null,
+ "kirby-return-to-dream-land-deluxe": null,
+ "donkey-kong-country-returns-hd": null,
+ "luigis-mansion-2-hd": null,
+ "punch-out-wii": null,
+ "goldeneye-007-2023": null,
+ "another-code-recollection": null,
+ "famicom-detective-club-2021": null,
+ "conker-live-reloaded": null,
+ "fable-anniversary": {
+  "appid": 288470,
+  "steamName": "Fable Anniversary",
+  "steamNameZh": "Fable Anniversary",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/header.jpg?t=1742377409",
+  "score": 1
+ },
+ "halo-master-chief-collection": {
+  "appid": 976730,
+  "steamName": "Halo: The Master Chief Collection",
+  "steamNameZh": "Halo: The Master Chief Collection",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg?t=1791569963",
+  "score": 1
+ },
+ "gears-of-war-ultimate": null,
+ "demons-souls-2020": null,
+ "shadow-of-the-colossus-2018": null,
+ "the-last-of-us-part-1": {
+  "appid": 1888930,
+  "steamName": "The Last of Us™ Part I",
+  "steamNameZh": "The Last of Us™ Part I",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1750959031",
+  "score": 1
+ },
+ "the-last-of-us-part-2-remastered": {
+  "appid": 2531310,
+  "steamName": "The Last of Us™ Part II Remastered",
+  "steamNameZh": "The Last of Us™ Part II Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+  "score": 1
+ },
+ "uncharted-nathan-drake-collection": null,
+ "gravity-rush-remastered": null,
+ "until-dawn-2024": {
+  "appid": 2172010,
+  "steamName": "Until Dawn™",
+  "steamNameZh": "Until Dawn™",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/header.jpg?t=1750959555",
+  "score": 1
+ },
+ "ratchet-clank-2016": null,
+ "medievil-2019": null,
+ "medievil-resurrection": null,
+ "resident-evil-2002": {
+  "appid": 2050650,
+  "steamName": "Resident Evil 4",
+  "steamNameZh": "Resident Evil 4",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+  "score": 1
+ },
+ "resident-evil-2-2019": {
+  "appid": 883710,
+  "steamName": "Resident Evil 2",
+  "steamNameZh": "Resident Evil 2",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header_schinese.jpg?t=1779433152",
+  "score": 1
+ },
+ "resident-evil-3-2020": {
+  "appid": 952060,
+  "steamName": "Resident Evil 3",
+  "steamNameZh": "Resident Evil 3",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/header.jpg?t=1790215956",
+  "score": 1
+ },
+ "resident-evil-4-2023": {
+  "appid": 2050650,
+  "steamName": "Resident Evil 4",
+  "steamNameZh": "Resident Evil 4",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+  "score": 1
+ },
+ "resident-evil-4-vr": null,
+ "dead-rising-deluxe": {
+  "appid": 2527390,
+  "steamName": "Dead Rising Deluxe Remaster",
+  "steamNameZh": "Dead Rising Deluxe Remaster",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527390/header.jpg?t=1768869459",
+  "score": 1
+ },
+ "onimusha-warlords-2019": null,
+ "okami-hd": null,
+ "mega-man-powered-up": null,
+ "mega-man-maverick-hunter-x": null,
+ "strider-2014": {
+  "appid": 235210,
+  "steamName": "STRIDER™ / ストライダー飛竜®",
+  "steamNameZh": "STRIDER™ / ストライダー飛竜®",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235210/header.jpg?t=1778637616",
+  "score": 1
+ },
+ "bionic-commando-rearmed": {
+  "appid": 21680,
+  "steamName": "Bionic Commando: Rearmed",
+  "steamNameZh": "Bionic Commando: Rearmed",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21680/header.jpg?t=1644282960",
+  "score": 1
+ },
+ "devil-may-cry-hd-collection": {
+  "appid": 631510,
+  "steamName": "Devil May Cry HD Collection",
+  "steamNameZh": "Devil May Cry HD Collection",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg?t=1790561218",
+  "score": 1
+ },
+ "silent-hill-2-2024": {
+  "appid": 2124490,
+  "steamName": "SILENT HILL 2",
+  "steamNameZh": "SILENT HILL 2",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg?t=1744248682",
+  "score": 1
+ },
+ "metal-gear-solid-delta": {
+  "appid": 2417610,
+  "steamName": "METAL GEAR SOLID Δ: SNAKE EATER",
+  "steamNameZh": "METAL GEAR SOLID Δ: SNAKE EATER",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/05c97cbcd0cfc27c8ed6c7fc6d81e0995aa2a7d4/header.jpg?t=1762249119",
+  "score": 1
+ },
+ "metal-gear-solid-twin-snakes": null,
+ "contra-operation-galuga": {
+  "appid": 2235020,
+  "steamName": "Contra: Operation Galuga",
+  "steamNameZh": "Contra: Operation Galuga",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235020/header.jpg?t=1747196458",
+  "score": 1
+ },
+ "suikoden-1-2-hd": null,
+ "zone-of-the-enders-mars": {
+  "appid": 881340,
+  "steamName": "ZONE OF THE ENDERS: The 2nd Runner MARS / ANUBIS ZONE OF THE ENDERS: MARS Demo",
+  "steamNameZh": "ZONE OF THE ENDERS: The 2nd Runner MARS / ANUBIS ZONE OF THE ENDERS: MARS Demo",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881340/header.jpg?t=1535137343",
+  "score": 0.875
+ },
+ "sonic-origins": null,
+ "sonic-colors-ultimate": null,
+ "super-monkey-ball-banana-mania": null,
+ "panzer-dragoon-remake": {
+  "appid": 1178880,
+  "steamName": "Panzer Dragoon: Remake",
+  "steamNameZh": "Panzer Dragoon: Remake",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1178880/header.jpg?t=1777286000",
+  "score": 1
+ },
+ "house-of-the-dead-remake": {
+  "appid": 1694600,
+  "steamName": "THE HOUSE OF THE DEAD: Remake",
+  "steamNameZh": "THE HOUSE OF THE DEAD: Remake",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1694600/header.jpg?t=1784895759",
+  "score": 1
+ },
+ "jet-set-radio-hd": null,
+ "shenmue-1-2": {
+  "appid": 758330,
+  "steamName": "Shenmue I & II",
+  "steamNameZh": "Shenmue I & II",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758330/header.jpg?t=1763674637",
+  "score": 1
+ },
+ "yakuza-kiwami": null,
+ "yakuza-kiwami-2": null,
+ "like-a-dragon-ishin": null,
+ "persona-3-reload": null,
+ "smt-nocturne-hd": {
+  "appid": 1502000,
+  "steamName": "Shin Megami Tensei III Nocturne HD Remaster - Maniax Pack",
+  "steamNameZh": "Shin Megami Tensei III Nocturne HD Remaster - Maniax Pack",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1502000/header.jpg?t=1621914823",
+  "score": 0.8571428571428571
+ },
+ "catherine-full-body": null,
+ "klonoa-wii": null,
+ "pacman-world-repac": null,
+ "tales-of-symphonia-remastered": null,
+ "tales-of-vesperia-definitive": {
+  "appid": 738540,
+  "steamName": "Tales of Vesperia: Definitive Edition",
+  "steamNameZh": "Tales of Vesperia: Definitive Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/738540/header.jpg?t=1701311642",
+  "score": 1
+ },
+ "dark-souls-remastered": {
+  "appid": 570940,
+  "steamName": "DARK SOULS™: REMASTERED",
+  "steamNameZh": "DARK SOULS™: REMASTERED",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
+  "score": 1
+ },
+ "ni-no-kuni-remastered": {
+  "appid": 798460,
+  "steamName": "Ni no Kuni Wrath of the White Witch™ Remastered",
+  "steamNameZh": "Ni no Kuni Wrath of the White Witch™ Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798460/header.jpg?t=1771958172",
+  "score": 1
+ },
+ "katamari-damacy-reroll": {
+  "appid": 848350,
+  "steamName": "Katamari Damacy REROLL",
+  "steamNameZh": "Katamari Damacy REROLL",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848350/header.jpg?t=1708327061",
+  "score": 1
+ },
+ "crash-bandicoot-nsane-trilogy": {
+  "appid": 731490,
+  "steamName": "Crash Bandicoot™ N. Sane Trilogy",
+  "steamNameZh": "Crash Bandicoot™ N. Sane Trilogy",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/731490/header.jpg?t=1742399696",
+  "score": 1
+ },
+ "spyro-reignited-trilogy": {
+  "appid": 996580,
+  "steamName": "Spyro™ Reignited Trilogy",
+  "steamNameZh": "Spyro™ Reignited Trilogy",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996580/header.jpg?t=1781038162",
+  "score": 1
+ },
+ "tony-hawk-1-2": null,
+ "tony-hawk-3-4": null,
+ "cod-modern-warfare-remastered": {
+  "appid": 393080,
+  "steamName": "Call of Duty®: Modern Warfare® Remastered (2017)",
+  "steamNameZh": "Call of Duty®: Modern Warfare® Remastered (2017)",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg?t=1780963789",
+  "score": 0.8333333333333334
+ },
+ "cod-mw2-campaign-remastered": null,
+ "gta-trilogy-definitive": null,
+ "mafia-definitive-edition": {
+  "appid": 1030840,
+  "steamName": " 《四海兄弟: 最终版》​",
+  "steamNameZh": " 《四海兄弟: 最终版》​",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1786727529",
+  "score": 1
+ },
+ "max-payne-1-2-remake": null,
+ "dead-space-2023": {
+  "appid": 1238060,
+  "steamName": "Dead Space™ 3",
+  "steamNameZh": "Dead Space™ 3",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238060/header.jpg?t=1794430344",
+  "score": 1
+ },
+ "mass-effect-legendary": null,
+ "burnout-paradise-remastered": {
+  "appid": 1238080,
+  "steamName": "Burnout™ Paradise Remastered",
+  "steamNameZh": "Burnout™ Paradise Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/header.jpg?t=1779987578",
+  "score": 1
+ },
+ "nfs-hot-pursuit-remastered": null,
+ "beyond-good-evil-20th": {
+  "appid": 2556990,
+  "steamName": "Beyond Good & Evil - 20th Anniversary Edition",
+  "steamNameZh": "Beyond Good & Evil - 20th Anniversary Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2556990/header.jpg?t=1778598759",
+  "score": 1
+ },
+ "gothic-1-remake": {
+  "appid": 1297900,
+  "steamName": "Gothic 1 Remake",
+  "steamNameZh": "Gothic 1 Remake",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+  "score": 1
+ },
+ "destroy-all-humans-2020": {
+  "appid": 803330,
+  "steamName": "Destroy All Humans!",
+  "steamNameZh": "Destroy All Humans!",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/803330/header.jpg?t=1696424223",
+  "score": 1
+ },
+ "destroy-all-humans-2-reprobed": null,
+ "spongebob-bfbb-rehydrated": null,
+ "saints-row-third-remastered": {
+  "appid": 978300,
+  "steamName": "Saints Row®: The Third™ Remastered",
+  "steamNameZh": "Saints Row®: The Third™ Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/978300/header.jpg?t=1764671001",
+  "score": 1
+ },
+ "kingdoms-of-amalur-reckoning": {
+  "appid": 1041720,
+  "steamName": "Kingdoms of Amalur: Re-Reckoning",
+  "steamNameZh": "Kingdoms of Amalur: Re-Reckoning",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1041720/header.jpg?t=1725013769",
+  "score": 1
+ },
+ "darksiders-warmastered": {
+  "appid": 462780,
+  "steamName": "Darksiders Warmastered Edition",
+  "steamNameZh": "Darksiders Warmastered Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/462780/header.jpg?t=1754079044",
+  "score": 1
+ },
+ "red-faction-guerrilla-remars-tered": {
+  "appid": 667720,
+  "steamName": "Red Faction Guerrilla Re-Mars-tered",
+  "steamNameZh": "Red Faction Guerrilla Re-Mars-tered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/667720/header.jpg?t=1591103504",
+  "score": 1
+ },
+ "alone-in-the-dark-2024": {
+  "appid": 1310410,
+  "steamName": "Alone in the Dark",
+  "steamNameZh": "Alone in the Dark",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310410/header.jpg?t=1754066311",
+  "score": 1
+ },
+ "metro-redux": null,
+ "crysis-remastered": {
+  "appid": 1715130,
+  "steamName": "Crysis Remastered",
+  "steamNameZh": "Crysis Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1715130/0c28c46e93f734d31b035e13057472b51b377936/header.jpg?t=1785838535",
+  "score": 1
+ },
+ "system-shock-2023": {
+  "appid": 482400,
+  "steamName": "System Shock",
+  "steamNameZh": "System Shock",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/482400/header.jpg?t=1769786947",
+  "score": 1
+ },
+ "system-shock-2-25th": {
+  "appid": 866570,
+  "steamName": "System Shock 2: 25th Anniversary Remaster",
+  "steamNameZh": "System Shock 2: 25th Anniversary Remaster",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866570/header.jpg?t=1774275928",
+  "score": 1
+ },
+ "black-mesa": {
+  "appid": 362890,
+  "steamName": "Black Mesa",
+  "steamNameZh": "Black Mesa",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362890/674b9a0e7b31996efd5032dc15e695dbf457d71d/header.jpg?t=1794499734",
+  "score": 1
+ },
+ "quake-2021": {
+  "appid": 2320,
+  "steamName": "Quake II",
+  "steamNameZh": "Quake II",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320/header.jpg?t=1750784724",
+  "score": 1
+ },
+ "quake-ii-2023": {
+  "appid": 2320,
+  "steamName": "Quake II",
+  "steamNameZh": "Quake II",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320/header.jpg?t=1750784724",
+  "score": 1
+ },
+ "star-wars-dark-forces-remaster": {
+  "appid": 2292260,
+  "steamName": "STAR WARS™: Dark Forces Remaster",
+  "steamNameZh": "STAR WARS™: Dark Forces Remaster",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292260/header.jpg?t=1774275644",
+  "score": 1
+ },
+ "turok-remastered": null,
+ "turok-2-remastered": null,
+ "turok-3-remastered": {
+  "appid": 1996770,
+  "steamName": "Turok 3: Shadow of Oblivion Remastered",
+  "steamNameZh": "Turok 3: Shadow of Oblivion Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996770/header.jpg?t=1774276514",
+  "score": 1
+ },
+ "blood-fresh-supply": null,
+ "shadow-man-remastered": {
+  "appid": 1413870,
+  "steamName": "Shadow Man Remastered",
+  "steamNameZh": "Shadow Man Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413870/header.jpg?t=1774275437",
+  "score": 1
+ },
+ "powerslave-rising": null,
+ "star-wars-episode-1-racer": null,
+ "star-wars-republic-commando": {
+  "appid": 6000,
+  "steamName": "STAR WARS™ Republic Commando™",
+  "steamNameZh": "STAR WARS™ Republic Commando™",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6000/header.jpg?t=1741729103",
+  "score": 1
+ },
+ "tomb-raider-1-3-remastered": {
+  "appid": 2478970,
+  "steamName": "Tomb Raider I-III Remastered Starring Lara Croft",
+  "steamNameZh": "Tomb Raider I-III Remastered Starring Lara Croft",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/a94ccfdb7582dc5564cdf736b0f239531b66bf1d/header.jpg?t=1788752575",
+  "score": 0.8
+ },
+ "tomb-raider-4-6-remastered": {
+  "appid": 2525380,
+  "steamName": "Tomb Raider IV-VI Remastered",
+  "steamNameZh": "Tomb Raider IV-VI Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/header.jpg?t=1788752633",
+  "score": 1
+ },
+ "legacy-of-kain-soul-reaver-1-2": {
+  "appid": 2521380,
+  "steamName": "Legacy of Kain™ Soul Reaver 1&2 Remastered",
+  "steamNameZh": "Legacy of Kain™ Soul Reaver 1&2 Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521380/header.jpg?t=1769814502",
+  "score": 1
+ },
+ "starcraft-remastered": null,
+ "diablo-2-resurrected": null,
+ "age-of-empires-definitive": {
+  "appid": 1017900,
+  "steamName": "Age of Empires: Definitive Edition",
+  "steamNameZh": "Age of Empires: Definitive Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1017900/header.jpg?t=1763053714",
+  "score": 1
+ },
+ "age-of-empires-2-definitive": {
+  "appid": 813780,
+  "steamName": "Age of Empires II: Definitive Edition",
+  "steamNameZh": "Age of Empires II: Definitive Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1790623375",
+  "score": 1
+ },
+ "age-of-empires-3-definitive": {
+  "appid": 933110,
+  "steamName": "Age of Empires III: Definitive Edition",
+  "steamNameZh": "Age of Empires III: Definitive Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/933110/0f85493ce793ef403f8619e5a0e1406f0c9058b2/header.jpg?t=1789060107",
+  "score": 1
+ },
+ "command-conquer-remastered": null,
+ "stronghold-definitive": {
+  "appid": 2140020,
+  "steamName": "Stronghold: Definitive Edition 要塞：决定版",
+  "steamNameZh": "Stronghold: Definitive Edition 要塞：决定版",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140020/bc8400c7110f98c54233ce469ec1f27e4bed2687/header_schinese.jpg?t=1765193939",
+  "score": 1
+ },
+ "pharaoh-a-new-era": {
+  "appid": 1351080,
+  "steamName": "Pharaoh™: A New Era",
+  "steamNameZh": "Pharaoh™: A New Era",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1351080/header.jpg?t=1793808635",
+  "score": 1
+ },
+ "monkey-island-special-edition": {
+  "appid": 32360,
+  "steamName": "The Secret of Monkey Island: Special Edition",
+  "steamNameZh": "The Secret of Monkey Island: Special Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32360/header.jpg?t=1741729431",
+  "score": 1
+ },
+ "day-of-the-tentacle-remastered": {
+  "appid": 388210,
+  "steamName": "Day of the Tentacle Remastered",
+  "steamNameZh": "Day of the Tentacle Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/388210/header.jpg?t=1793144141",
+  "score": 1
+ },
+ "full-throttle-remastered": {
+  "appid": 228360,
+  "steamName": "Full Throttle Remastered",
+  "steamNameZh": "Full Throttle Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228360/header.jpg?t=1793144235",
+  "score": 1
+ },
+ "grim-fandango-remastered": {
+  "appid": 316790,
+  "steamName": "Grim Fandango Remastered",
+  "steamNameZh": "Grim Fandango Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/316790/header.jpg?t=1793138379",
+  "score": 1
+ },
+ "sam-max-save-the-world-remastered": null,
+ "sam-max-beyond-time-space-remastered": null,
+ "broken-sword-reforged": {
+  "appid": 2544110,
+  "steamName": "断剑：圣殿骑士之影",
+  "steamNameZh": "断剑：圣殿骑士之影",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2544110/c125e592d845c639047bf0bb72b2e4679aaef4e6/header_schinese.jpg?t=1785315466",
+  "score": 1
+ },
+ "myst-2021": {
+  "appid": 1255560,
+  "steamName": "Myst",
+  "steamNameZh": "Myst",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1255560/header.jpg?t=1784069699",
+  "score": 1
+ },
+ "riven-2024": {
+  "appid": 1712350,
+  "steamName": "Riven",
+  "steamNameZh": "Riven",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712350/9ead2cf7de352df93cea7462e17ec0141bac1fca/header.jpg?t=1784241079",
+  "score": 1
+ },
+ "baldurs-gate-ee": {
+  "appid": 228280,
+  "steamName": "Baldur's Gate: Enhanced Edition",
+  "steamNameZh": "Baldur's Gate: Enhanced Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1793821665",
+  "score": 1
+ },
+ "baldurs-gate-2-ee": {
+  "appid": 257350,
+  "steamName": "Baldur's Gate II: Enhanced Edition",
+  "steamNameZh": "Baldur's Gate II: Enhanced Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/486ef7ce52fdb1ee5d2909ac97f26d4e26da18d3/header.jpg?t=1793821593",
+  "score": 1
+ },
+ "icewind-dale-ee": {
+  "appid": 321800,
+  "steamName": "Icewind Dale: Enhanced Edition",
+  "steamNameZh": "Icewind Dale: Enhanced Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/321800/3166d31a7ee4898bf830bda3f618f871f319dc0d/header.jpg?t=1793820684",
+  "score": 1
+ },
+ "planescape-torment-ee": {
+  "appid": 466300,
+  "steamName": "Planescape: Torment: Enhanced Edition",
+  "steamNameZh": "Planescape: Torment: Enhanced Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466300/header.jpg?t=1793820589",
+  "score": 1
+ },
+ "neverwinter-nights-ee": {
+  "appid": 704450,
+  "steamName": "Neverwinter Nights: Enhanced Edition",
+  "steamNameZh": "Neverwinter Nights: Enhanced Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704450/header.jpg?t=1793821003",
+  "score": 1
+ },
+ "wasteland-remastered": {
+  "appid": 875800,
+  "steamName": "Wasteland Remastered",
+  "steamNameZh": "Wasteland Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/875800/header.jpg?t=1759777170",
+  "score": 1
+ },
+ "wizardry-proving-grounds": {
+  "appid": 2518960,
+  "steamName": "Wizardry: Proving Grounds of the Mad Overlord",
+  "steamNameZh": "Wizardry: Proving Grounds of the Mad Overlord",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2518960/header.jpg?t=1773073971",
+  "score": 1
+ },
+ "lunar-silver-star-story": null,
+ "grandia-hd-remaster": null,
+ "oddworld-new-n-tasty": {
+  "appid": 314660,
+  "steamName": "Oddworld: New 'n' Tasty",
+  "steamNameZh": "Oddworld: New 'n' Tasty",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/314660/header.jpg?t=1784816461",
+  "score": 1
+ },
+ "oddworld-soulstorm": {
+  "appid": 619390,
+  "steamName": "Oddworld: Soulstorm Enhanced Edition",
+  "steamNameZh": "Oddworld: Soulstorm Enhanced Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/619390/header.jpg?t=1784816209",
+  "score": 1
+ },
+ "flashback-2013": null,
+ "rygar-legendary-adventure": null,
+ "ninja-gaiden-2004": null,
+ "rise-of-the-triad-2013": {
+  "appid": 217140,
+  "steamName": "Rise of the Triad",
+  "steamNameZh": "Rise of the Triad",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/217140/header.jpg?t=1720813512",
+  "score": 1
+ },
+ "shadow-warrior-2013": {
+  "appid": 233130,
+  "steamName": "影子武士",
+  "steamNameZh": "影子武士",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233130/header.jpg?t=1710246206",
+  "score": 1
+ },
+ "gauntlet-2014": {
+  "appid": 258970,
+  "steamName": "Gauntlet™ Slayer Edition",
+  "steamNameZh": "Gauntlet™ Slayer Edition",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/258970/header.jpg?t=1780595236",
+  "score": 1
+ },
+ "ducktales-remastered": {
+  "appid": 237630,
+  "steamName": "DuckTales: Remastered",
+  "steamNameZh": "DuckTales: Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237630/header.jpg?t=1760927242",
+  "score": 1
+ },
+ "castle-of-illusion-2013": null,
+ "wonder-boy-dragons-trap": {
+  "appid": 543260,
+  "steamName": "Wonder Boy: The Dragon's Trap",
+  "steamNameZh": "Wonder Boy: The Dragon's Trap",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543260/header.jpg?t=1763716917",
+  "score": 1
+ },
+ "wonder-boy-asha": {
+  "appid": 1420080,
+  "steamName": "神奇小子・爱莎在怪物世界",
+  "steamNameZh": "神奇小子・爱莎在怪物世界",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1420080/header.jpg?t=1728628461",
+  "score": 1
+ },
+ "alex-kidd-dx": {
+  "appid": 1333470,
+  "steamName": "Alex Kidd in Miracle World DX",
+  "steamNameZh": "Alex Kidd in Miracle World DX",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1333470/header.jpg?t=1769520399",
+  "score": 1
+ },
+ "ninja-saviors-return": {
+  "appid": 2288070,
+  "steamName": "The Ninja Saviors: Return of the Warriors",
+  "steamNameZh": "The Ninja Saviors: Return of the Warriors",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288070/header.jpg?t=1788528174",
+  "score": 1
+ },
+ "wild-guns-reloaded": {
+  "appid": 585910,
+  "steamName": "Wild Guns Reloaded",
+  "steamNameZh": "Wild Guns Reloaded",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/585910/header.jpg?t=1714507873",
+  "score": 1
+ },
+ "pocky-rocky-reshrined": null,
+ "shadow-of-the-ninja-reborn": null,
+ "cave-story-plus": {
+  "appid": 200900,
+  "steamName": "Cave Story+",
+  "steamNameZh": "Cave Story+",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200900/23d8972e068689b1d688f20972fa343813e0431f/header.jpg?t=1790010222",
+  "score": 1
+ },
+ "rez-infinite": {
+  "appid": 636450,
+  "steamName": "Rez Infinite",
+  "steamNameZh": "Rez Infinite",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/636450/170fa2690cb09f56a8e5f6cf10e31593679833c9/header.jpg?t=1774036946",
+  "score": 1
+ },
+ "lumines-remastered": {
+  "appid": 851670,
+  "steamName": "LUMINES REMASTERED",
+  "steamNameZh": "LUMINES REMASTERED",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/851670/1c0373d599c2eb64e5df458397de7fc9027e917e/header.jpg?t=1785432610",
+  "score": 1
+ },
+ "lollipop-chainsaw-repop": {
+  "appid": 2658450,
+  "steamName": "LOLLIPOP CHAINSAW RePOP",
+  "steamNameZh": "LOLLIPOP CHAINSAW RePOP",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658450/header.jpg?t=1732876695",
+  "score": 1
+ },
+ "shadows-of-the-damned-hella": {
+  "appid": 2535440,
+  "steamName": "Shadows of the Damned: Hella Remastered",
+  "steamNameZh": "Shadows of the Damned: Hella Remastered",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2535440/header.jpg?t=1791517752",
+  "score": 1
+ }
+}

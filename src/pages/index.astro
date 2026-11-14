@@ -1,60 +1,66 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import GameCard from '../components/GameCard.astro';
-import { games, allPlatforms, allGenres } from '../lib/games';
+import { games, allPlatforms, allGenres, displayName } from '../lib/games';
 
-const searchPlaceholder = `Search ${games.length} remakes & remasters…`;
+const genreZh: Record<string, string> = {
+  'RPG': '角色扮演', 'Tactics': '战棋', 'Strategy': '策略', 'Action': '动作',
+  'Adventure': '冒险', 'Platformer': '平台跳跃', 'Shooter': '射击', 'Horror': '恐怖',
+  'Racing': '竞速', 'Sports': '体育', 'Puzzle': '解谜', 'RTS': '即时战略',
+  'Metroidvania': '银河城', 'Stealth': '潜行', 'Point & Click': '点击冒险',
+  'Run & Gun': '跑轰射击', "Beat 'em up": '清版动作', 'Fighting': '格斗', 'Rhythm': '音乐',
+};
 ---
 
-<Layout title="RemakeHub — Remakes & Remasters of Classic Games">
+<Layout title="RemakeHub — 老游戏重制版与高清复刻版导航">
   <div class="container">
     <section class="hero">
-      <h1>Classic games, <span class="accent">reborn</span>.</h1>
-      <p>A curated directory of official remakes and remasters — from NES and arcade classics to PS2-era favorites, rebuilt for modern platforms.</p>
+      <h1>经典游戏，<span class="accent">重获新生</span></h1>
+      <p>精选官方重制版（Remake）与高清复刻版（Remaster）导航：从红白机、超任到 PS1/PS2 时代的名作，在 Switch、PS5、Xbox 与 PC 上重生，并可直达官方渠道购买下载。</p>
     </section>
 
-    <section class="controls" aria-label="Search and filters">
+    <section class="controls" aria-label="搜索与筛选">
       <div class="search-box">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        <input id="search" type="search" placeholder={searchPlaceholder} autocomplete="off" />
+        <input id="search" type="search" placeholder={`搜索 ${games.length} 款重制/复刻游戏…`} autocomplete="off" />
       </div>
       <div class="filters">
         <select id="type">
-          <option value="">Type: All</option>
-          <option value="remake">Remake</option>
-          <option value="remaster">Remaster</option>
+          <option value="">类型：全部</option>
+          <option value="remake">重制版 Remake</option>
+          <option value="remaster">高清复刻 Remaster</option>
         </select>
         <select id="platform">
-          <option value="">Platform: All</option>
+          <option value="">平台：全部</option>
           {allPlatforms.map(p => <option value={p}>{p}</option>)}
         </select>
         <select id="genre">
-          <option value="">Genre: All</option>
-          {allGenres.map(g => <option value={g}>{g}</option>)}
+          <option value="">题材：全部</option>
+          {allGenres.map(g => <option value={g}>{genreZh[g] || g}</option>)}
         </select>
         <select id="sort">
-          <option value="year-desc">Newest first</option>
-          <option value="year-asc">Oldest first</option>
-          <option value="title">A → Z</option>
-          <option value="original-desc">Original era: newest</option>
-          <option value="original-asc">Original era: oldest</option>
+          <option value="year-desc">最新发售优先</option>
+          <option value="year-asc">最早发售优先</option>
+          <option value="title">名称 A → Z</option>
+          <option value="original-desc">原作年代：新→旧</option>
+          <option value="original-asc">原作年代：旧→新</option>
         </select>
       </div>
     </section>
 
-    <p class="result-info"><span id="count">{games.length}</span> games</p>
+    <p class="result-info">共 <span id="count">{games.length}</span> 款</p>
 
     <div class="grid" id="grid">
       {games.map(g => <GameCard game={g} />)}
     </div>
-    <p class="empty" id="empty" hidden>No games match your filters. Try clearing the search.</p>
+    <p class="empty" id="empty" hidden>没有符合条件的游戏，换个关键词或清除筛选试试。</p>
   </div>
 
   <style>
     .hero { padding: 48px 0 32px; text-align: center; }
     .hero h1 { font-size: 40px; color: var(--text-bright); letter-spacing: -.5px; }
     .hero .accent { color: var(--accent); }
-    .hero p { max-width: 560px; margin: 12px auto 0; color: var(--text-dim); font-size: 16px; line-height: 1.5; }
+    .hero p { max-width: 640px; margin: 12px auto 0; color: var(--text-dim); font-size: 15.5px; line-height: 1.7; }
 
     .controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
     .search-box {
@@ -65,18 +71,18 @@ const searchPlaceholder = `Search ${games.length} remakes & remasters…`;
     .search-box:focus-within { border-color: var(--accent); }
     .search-box input {
       flex: 1; background: transparent; border: 0; outline: 0;
-      color: var(--text-bright); font-size: 14px; min-height: 38px;
+      color: var(--text-bright); font-size: 14px; min-height: 38px; font-family: inherit;
     }
     .filters { display: flex; flex-wrap: wrap; gap: 10px; }
     .filters select {
       background: #223c50; color: var(--text); border: 1px solid rgba(0,0,0,.3);
-      border-radius: 3px; padding: 0 10px; font-size: 13px; min-height: 40px; cursor: pointer;
+      border-radius: 3px; padding: 0 10px; font-size: 13px; min-height: 40px; cursor: pointer; font-family: inherit;
     }
     .filters select:hover { color: var(--text-bright); }
 
     .result-info { color: var(--text-dim); font-size: 13px; margin: 8px 0; }
     .grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 14px; padding-bottom: 48px;
     }
     .empty { text-align: center; color: var(--text-dim); padding: 48px 0; }
@@ -113,7 +119,6 @@ const searchPlaceholder = `Search ${games.length} remakes & remasters…`;
     function apply() {
       const q = search.value.trim().toLowerCase();
       const t = type.value, p = platform.value, g = genre.value, s = sort.value;
-      let visible = 0;
       const rows = index.filter(r => {
         if (t && r.type !== t) return false;
         if (p && !r.platform.split('|').includes(p)) return false;
@@ -122,7 +127,7 @@ const searchPlaceholder = `Search ${games.length} remakes & remasters…`;
         return true;
       });
       const sorted = rows.slice().sort((a, b) => {
-        if (s === 'title') return a.title.localeCompare(b.title);
+        if (s === 'title') return a.title.localeCompare(b.title, 'zh');
         if (s === 'year-asc') return (a.year || 9999) - (b.year || 9999);
         if (s === 'original-desc') return b.originalYear - a.originalYear;
         if (s === 'original-asc') return a.originalYear - b.originalYear;
@@ -132,13 +137,16 @@ const searchPlaceholder = `Search ${games.length} remakes & remasters…`;
       const frag = document.createDocumentFragment();
       for (const r of sorted) frag.appendChild(r.el);
       grid.appendChild(frag);
-      visible = sorted.length;
-      count.textContent = String(visible);
-      empty.hidden = visible > 0;
+      count.textContent = String(sorted.length);
+      empty.hidden = sorted.length > 0;
     }
 
     [search, type, platform, genre, sort].forEach(el =>
       el.addEventListener('input', apply)
     );
+
+    // 支持从详情页跳转带关键词：/?q=xxx
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) { search.value = q; apply(); }
   </script>
 </Layout>
