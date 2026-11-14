@@ -81,6 +81,7 @@ const { title, description = 'RemakeHub — 精选老游戏重制版与高清复
       }
       .pill.remake { background: rgba(164,208,7,.15); color: var(--tag-remake); border: 1px solid rgba(164,208,7,.4); }
       .pill.remaster { background: rgba(244,194,13,.12); color: var(--tag-remaster); border: 1px solid rgba(244,194,13,.4); }
+      .pill.fan-remake { background: rgba(184,161,227,.14); color: #b8a1e3; border: 1px solid rgba(184,161,227,.4); }
       .pill.upcoming { background: rgba(102,192,244,.12); color: var(--accent); border: 1px solid rgba(102,192,244,.4); }
 
       /* Lazy images */
@@ -98,9 +99,7 @@ const { title, description = 'RemakeHub — 精选老游戏重制版与高清复
           <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>游戏库</a>
           <a href="/platforms" class={Astro.url.pathname.startsWith('/platforms') ? 'active' : ''}>平台档案</a>
           <a href="/submit" class={Astro.url.pathname.startsWith('/submit') ? 'active' : ''}>提交游戏</a>
-          <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">GitHub</a>
         </nav>
-        <span class="header-count">已收录 <b>{games.length}</b> 款重制游戏</span>
       </div>
     </header>
 
@@ -111,10 +110,7 @@ const { title, description = 'RemakeHub — 精选老游戏重制版与高清复
     <footer class="site-footer">
       <div class="container footer-inner">
         <span>© {new Date().getFullYear()} RemakeHub — 经典游戏，重获新生。</span>
-        <span>
-          社区共建 · <a href="/submit">提交游戏</a> ·
-          <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">GitHub 源码</a>
-        </span>
+        <span>社区共建 · <a href="/submit">提交游戏</a></span>
       </div>
     </footer>
   </body>

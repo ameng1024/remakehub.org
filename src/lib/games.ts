@@ -4,7 +4,7 @@ export interface Game {
   id: string;
   title: string;
   titleZh?: string;
-  type: 'remake' | 'remaster';
+  type: 'remake' | 'remaster' | 'fan-remake';
   originalTitle: string;
   originalPlatform: string;
   originalYear: number | null;
@@ -17,7 +17,14 @@ export interface Game {
   upcoming?: boolean;
   steamAppid?: number;
   cover?: string;
+  fanLinks?: { repo?: string; site?: string };
 }
+
+export const typeZh: Record<Game['type'], string> = {
+  remake: '重制版',
+  remaster: '高清复刻',
+  'fan-remake': '民间重制',
+};
 
 /** 显示名：优先中文名 */
 export function displayName(g: Game): string {
@@ -112,6 +119,13 @@ export function relatedVersions(g: Game): Game[] {
   const key = normalizeTitle(g.originalTitle);
   return games.filter(
     (o) => o.id !== g.id && normalizeTitle(o.originalTitle) === key
+  );
+}
+
+/** g 的同原作民间重制版 */
+export function fanRemakesOf(g: Game): Game[] {
+  return games.filter(
+    (o) => o.id !== g.id && o.type === 'fan-remake' && normalizeTitle(o.originalTitle) === normalizeTitle(g.originalTitle)
   );
 }
 

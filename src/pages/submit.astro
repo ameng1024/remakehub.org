@@ -63,7 +63,6 @@ import Layout from '../layouts/Layout.astro';
       <div class="status" id="status" hidden></div>
 
       <button class="btn" type="submit" id="submitBtn">提交审核</button>
-      <p class="alt">更习惯 GitHub？<a href="https://github.com/ameng1024/remakehub.org/issues/new?title=%5BSubmission%5D%20%E6%B8%B8%E6%88%8F%E5%90%8D" target="_blank" rel="noopener">直接开 Issue</a> 也行。</p>
     </form>
   </div>
 </Layout>
@@ -127,7 +126,7 @@ import Layout from '../layouts/Layout.astro';
         show('err', json.error || '提交失败，请稍后再试。', json.fallbackIssue);
       }
     } catch {
-      show('err', '网络错误，请检查网络后重试；也可以用下方 GitHub 链接直接提交。');
+      show('err', '网络错误，请检查网络后重试。');
     } finally {
       btn.disabled = false;
       btn.textContent = '提交审核';

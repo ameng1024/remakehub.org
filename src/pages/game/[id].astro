@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { getGame, games, displayName, storeLinks, relatedVersions } from '../../lib/games';
+import { getGame, games, displayName, storeLinks, relatedVersions, fanRemakesOf, typeZh as typeZhMap } from '../../lib/games';
 
 export function getStaticPaths() {
   return games.map(g => ({ params: { id: g.id } }));
@@ -8,8 +8,11 @@ export function getStaticPaths() {
 
 const game = getGame(Astro.params.id!)!;
 const name = displayName(game);
-const typeZh = game.type === 'remake' ? '重制版' : '高清复刻版';
+const isFan = game.type === 'fan-remake';
+const typeLabel = typeZhMap[game.type];
 const links = storeLinks(game);
+const fanLinks = game.fanLinks ?? {};
+const fanRemakes = fanRemakesOf(game);
 const versions = relatedVersions(game);
 const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.genres.includes(x)) || g.developer === game.developer)).slice(0, 4);
 ---
@@ -25,27 +28,57 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
       </div>
       <div class="info">
         <div class="badges">
-          <span class={`pill ${game.type}`}>{typeZh}</span>
+          <span class={`pill ${game.type}`}>{typeLabel}</span>
           {game.upcoming && <span class="pill upcoming">开发中</span>}
         </div>
         <h1>{name}</h1>
         <p class="based">原作 <a href={`/?q=${encodeURIComponent(game.originalTitle)}`}>{game.originalTitle}</a>
-          {game.originalYear ? `（${game.originalYear} 年，${game.originalPlatform}）` : `（${game.originalPlatform}）`}的{typeZh}</p>
+          {game.originalYear ? `（${game.originalYear} 年，${game.originalPlatform}）` : `（${game.originalPlatform}）`}的{typeLabel}</p>
         {game.titleZh && game.titleZh !== game.title && <p class="en-name">{game.title}</p>}
       </div>
     </div>
 
-    {links.length > 0 && (
+    {(links.length > 0 || fanRemakes.length > 0 || isFan) && (
       <section class="get">
         <h2>🎮 去玩这款游戏</h2>
-        <p class="get-hint">官方渠道直达，购买或下载后即可游玩：</p>
-        <div class="get-links">
-          {links.map(l => (
-            <a class={l.primary ? 'store-link primary' : 'store-link'} href={l.url} target="_blank" rel="noopener">
-              {l.name} <span>→</span>
-            </a>
-          ))}
-        </div>
+
+        {isFan ? (
+          <>
+            <p class="get-hint">这是社区维护的民间重制项目，免费开放，按项目说明下载游玩：</p>
+            <div class="get-links">
+              {fanLinks.site && <a class="store-link primary" href={fanLinks.site} target="_blank" rel="noopener">项目官网 / 下载 <span>→</span></a>}
+              {fanLinks.repo && <a class="store-link" href={fanLinks.repo} target="_blank" rel="noopener">GitHub 源码 <span>→</span></a>}
+            </div>
+            <p class="fan-note">👥 由爱好者社区开发维护，通常需要自备原版游戏资源。</p>
+          </>
+        ) : (
+          <>
+            {links.length > 0 && (
+              <>
+                <p class="get-hint group-title">官方渠道</p>
+                <div class="get-links">
+                  {links.map(l => (
+                    <a class={l.primary ? 'store-link primary' : 'store-link'} href={l.url} target="_blank" rel="noopener">
+                      {l.name} <span>→</span>
+                    </a>
+                  ))}
+                </div>
+              </>
+            )}
+            {fanRemakes.length > 0 && (
+              <>
+                <p class="get-hint group-title">民间重制（免费开源，社区维护）</p>
+                <div class="get-links">
+                  {fanRemakes.map(f => (
+                    <a class="store-link fan" href={`/game/${f.id}/`}>
+                      👥 {displayName(f)} <span>→</span>
+                    </a>
+                  ))}
+                </div>
+              </>
+            )}
+          </>
+        )}
       </section>
     )}
 
@@ -74,7 +107,7 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
         <h2>简介</h2>
         <p class="desc">{game.description}</p>
 
-        <h2>原作 vs {typeZh}</h2>
+        <h2>原作 vs {typeLabel}</h2>
         <div class="compare">
           <div class="col">
             <h4>原作</h4>
@@ -85,7 +118,7 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
             </dl>
           </div>
           <div class="col">
-            <h4>{typeZh}</h4>
+            <h4>{typeLabel}</h4>
             <dl>
               <dt>名称</dt><dd>{name}</dd>
               <dt>平台</dt><dd>{game.platforms.join('、')}</dd>
@@ -108,7 +141,7 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
           <a href={`https://www.google.com/search?q=${encodeURIComponent(game.title + ' game')}`} target="_blank" rel="noopener">Google</a>
           <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(game.title + ' trailer')}`} target="_blank" rel="noopener">YouTube</a>
         </div>
-        <p class="wrong">发现信息有误？<a href="/submit">告诉我们</a>，或在 <a href="https://github.com/ameng1024/remakehub.org/issues" target="_blank" rel="noopener">GitHub</a> 提交 Issue。</p>
+        <p class="wrong">发现信息有误？<a href="/submit">告诉我们</a>。</p>
       </aside>
     </div>
 
@@ -151,6 +184,8 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
   }
   .get h2 { color: var(--text-bright); font-size: 17px; margin-bottom: 4px; }
   .get-hint { font-size: 13px; color: var(--text-dim); margin-bottom: 12px; }
+  .group-title { margin-top: 14px; margin-bottom: 8px; font-weight: 600; color: var(--text); }
+  .fan-note { font-size: 12px; color: #b8a1e3; margin-top: 10px; }
   .get-links { display: flex; flex-wrap: wrap; gap: 10px; }
   .store-link {
     display: inline-flex; align-items: center; gap: 8px;
@@ -164,6 +199,8 @@ const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.ge
     color: var(--text-bright); font-weight: 600; border-color: transparent;
   }
   .store-link.primary:hover { filter: brightness(1.2); }
+  .store-link.fan { border-color: rgba(184,161,227,.35); }
+  .store-link.fan:hover { border-color: #b8a1e3; }
   .store-link span { color: var(--accent); }
 
   .versions { margin-bottom: 28px; background: var(--panel); border-radius: 6px; padding: 18px 20px; }
