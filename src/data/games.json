@@ -5084,7 +5084,9 @@
     "genres": [
       "RPG"
     ],
-    "description": "水彩画风景致名作高清复刻，新增剧情事件、终局头目与 Dig! Dig! Digger 小游戏首次西化。"
+    "description": "水彩画风景致名作高清复刻，新增剧情事件、终局头目与 Dig! Dig! Digger 小游戏首次西化。",
+    "steamAppid": 2452080,
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452080/header.jpg"
   },
   {
     "id": "romancing-saga-2-remastered",
