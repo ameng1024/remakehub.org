@@ -1,0 +1,134 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getGame, games } from '../../lib/games';
+
+export function getStaticPaths() {
+  return games.map(g => ({ params: { id: g.id } }));
+}
+
+const game = getGame(Astro.params.id!)!;
+const others = games.filter(g => g.id !== game.id && (g.genres.some(x => game.genres.includes(x)) || g.developer === game.developer)).slice(0, 4);
+---
+
+<Layout title={`${game.title} — RemakeHub`} description={game.description}>
+  <div class="container detail">
+    <a href="/" class="back">← Back to all games</a>
+    <div class="header">
+      <div class="art">{game.title.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || 'RH'}</div>
+      <div class="info">
+        <div class="badges">
+          <span class={`pill ${game.type}`}>{game.type}</span>
+          {game.upcoming && <span class="pill upcoming">In Development</span>}
+        </div>
+        <h1>{game.title}</h1>
+        <p class="based">A {game.type} of <a href={`/?q=${encodeURIComponent(game.originalTitle)}`}>{game.originalTitle}</a>
+          {game.originalYear ? ` (${game.originalYear}, ${game.originalPlatform})` : ` (${game.originalPlatform})`}</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div class="main">
+        <h2>About</h2>
+        <p class="desc">{game.description}</p>
+
+        <h2>Original vs. {game.type === 'remake' ? 'Remake' : 'Remaster'}</h2>
+        <div class="compare">
+          <div class="col">
+            <h4>Original</h4>
+            <dl>
+              <dt>Title</dt><dd>{game.originalTitle}</dd>
+              <dt>Platform</dt><dd>{game.originalPlatform}</dd>
+              <dt>Year</dt><dd>{game.originalYear ?? '—'}</dd>
+            </dl>
+          </div>
+          <div class="col">
+            <h4>{game.type === 'remake' ? 'Remake' : 'Remaster'}</h4>
+            <dl>
+              <dt>Title</dt><dd>{game.title}</dd>
+              <dt>Platforms</dt><dd>{game.platforms.join(', ')}</dd>
+              <dt>Year</dt><dd>{game.releaseYear ?? 'TBA'}</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <aside class="side">
+        <dl class="facts">
+          <div><dt>Developer</dt><dd>{game.developer}</dd></div>
+          <div><dt>Publisher</dt><dd>{game.publisher}</dd></div>
+          <div><dt>Release</dt><dd>{game.releaseYear ?? 'TBA'}</dd></div>
+          <div><dt>Genres</dt><dd>{game.genres.join(', ')}</dd></div>
+          <div><dt>Platforms</dt><dd>{game.platforms.join(', ')}</dd></div>
+        </dl>
+        <div class="search-links">
+          <span class="label">Find it:</span>
+          <a href={`https://store.steampowered.com/search/?term=${encodeURIComponent(game.title)}`} target="_blank" rel="noopener">Steam</a>
+          <a href={`https://www.google.com/search?q=${encodeURIComponent(game.title + ' game')}`} target="_blank" rel="noopener">Google</a>
+          <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(game.title + ' trailer')}`} target="_blank" rel="noopener">YouTube</a>
+        </div>
+        <p class="wrong">Spot an error? <a href="/submit">Tell us</a> or open an issue on <a href="https://github.com/ameng1024/remakehub.org/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+      </aside>
+    </div>
+
+    {others.length > 0 && (
+      <section class="related">
+        <h2>Related</h2>
+        <div class="related-grid">
+          {others.map(g => (
+            <a class="rel-card" href={`/game/${g.id}/`}>
+              <span class={`pill ${g.type}`}>{g.type}</span>
+              <span class="t">{g.title}</span>
+              <span class="y">{g.releaseYear ?? 'TBA'}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .detail { padding: 28px 16px 48px; }
+  .back { font-size: 13px; color: var(--text-dim); display: inline-block; margin-bottom: 18px; }
+  .header { display: flex; gap: 20px; align-items: center; margin-bottom: 28px; }
+  .art {
+    width: 110px; height: 110px; border-radius: 6px; flex-shrink: 0;
+    background: radial-gradient(ellipse at 30% 20%, #3a6a8f 0%, #1f3a52 70%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 38px; font-weight: 800; color: rgba(255,255,255,.16);
+  }
+  .info h1 { color: var(--text-bright); font-size: 30px; margin: 6px 0 4px; }
+  .based { color: var(--text-dim); font-size: 14px; }
+  .badges { display: flex; gap: 8px; }
+
+  .cols { display: grid; grid-template-columns: 1fr 300px; gap: 28px; align-items: start; }
+  .main h2 { color: var(--text-bright); font-size: 18px; margin: 18px 0 10px; }
+  .desc { font-size: 15px; line-height: 1.65; color: var(--text); }
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .compare .col { background: var(--panel); border-radius: 4px; padding: 14px; }
+  .compare h4 { color: var(--accent); font-size: 13px; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; }
+  .compare dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; font-size: 13.5px; }
+  .compare dt { color: var(--text-dim); }
+  .compare dd { color: var(--text-bright); }
+
+  .side { display: flex; flex-direction: column; gap: 16px; }
+  .facts { background: var(--panel); border-radius: 4px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+  .facts div { display: grid; grid-template-columns: 90px 1fr; gap: 8px; font-size: 13.5px; }
+  .facts dt { color: var(--text-dim); }
+  .facts dd { color: var(--text-bright); }
+  .search-links { background: var(--panel); border-radius: 4px; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 13.5px; }
+  .search-links .label { color: var(--text-dim); }
+  .wrong { font-size: 12.5px; color: var(--text-dim); line-height: 1.5; }
+
+  .related { margin-top: 40px; }
+  .related h2 { color: var(--text-bright); font-size: 18px; margin-bottom: 12px; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+  .rel-card { background: var(--panel); border-radius: 4px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; transition: background .12s; }
+  .rel-card:hover { background: var(--panel-hover); }
+  .rel-card .t { color: var(--text-bright); font-size: 13.5px; flex: 1; }
+  .rel-card .y { color: var(--accent); font-size: 13px; font-weight: 600; }
+
+  @media (max-width: 800px) {
+    .cols { grid-template-columns: 1fr; }
+  }
+</style>

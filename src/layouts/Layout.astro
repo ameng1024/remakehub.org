@@ -1,0 +1,117 @@
+---
+import { games } from '../lib/games';
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'RemakeHub — a curated directory of video game remakes and remasters of classic games.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <style is:global>
+      :root {
+        --bg: #1b2838;
+        --bg-deep: #16202d;
+        --panel: #2a475e;
+        --panel-hover: #316482;
+        --accent: #66c0f4;
+        --accent-dim: #417a9b;
+        --text: #c7d5e0;
+        --text-bright: #ffffff;
+        --text-dim: #8f98a0;
+        --tag-remake: #a4d007;
+        --tag-remaster: #f4c20d;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html { background: var(--bg); }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background: linear-gradient(to bottom, #1b2838 0%, #16202d 100%);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { color: #ffffff; }
+      .container { max-width: 1200px; margin: 0 auto; padding: 0 16px; width: 100%; }
+
+      /* Header */
+      .site-header {
+        background: #171a21;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        position: sticky; top: 0; z-index: 50;
+      }
+      .header-inner { display: flex; align-items: center; gap: 24px; height: 56px; }
+      .logo { display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 700; color: var(--text-bright); }
+      .logo:hover { color: var(--accent); }
+      .logo svg { display: block; }
+      .logo .hub { color: var(--accent); }
+      .nav { display: flex; gap: 18px; margin-left: 8px; }
+      .nav a { color: var(--text-dim); font-size: 14px; font-weight: 500; padding: 6px 2px; }
+      .nav a:hover, .nav a.active { color: var(--text-bright); }
+      .header-count { margin-left: auto; font-size: 12px; color: var(--text-dim); }
+      .header-count b { color: var(--accent); }
+
+      /* Footer */
+      .site-footer { margin-top: auto; padding: 28px 0; background: #171a21; font-size: 13px; color: var(--text-dim); }
+      .footer-inner { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex; align-items: center; gap: 8px;
+        background: linear-gradient(to bottom, #3d6c8f 5%, #2a5170 95%);
+        color: var(--text-bright); border: 0; border-radius: 2px;
+        padding: 10px 20px; font-size: 15px; cursor: pointer;
+        transition: filter .15s;
+      }
+      .btn:hover { filter: brightness(1.2); color: #fff; }
+
+      /* Tag pills */
+      .pill {
+        display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .4px;
+        text-transform: uppercase; border-radius: 2px; padding: 2px 7px;
+      }
+      .pill.remake { background: rgba(164,208,7,.15); color: var(--tag-remake); border: 1px solid rgba(164,208,7,.4); }
+      .pill.remaster { background: rgba(244,194,13,.12); color: var(--tag-remaster); border: 1px solid rgba(244,194,13,.4); }
+      .pill.upcoming { background: rgba(102,192,244,.12); color: var(--accent); border: 1px solid rgba(102,192,244,.4); }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo" aria-label="RemakeHub home">
+          <svg width="26" height="26" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#66c0f4"/><path d="M20 44V20h8l4 10 4-10h8v24h-7V31l-5 12-5-12v13z" fill="#0e1b2a"/></svg>
+          Remake<span class="hub">Hub</span>
+        </a>
+        <nav class="nav">
+          <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Browse</a>
+          <a href="/submit" class={Astro.url.pathname.startsWith('/submit') ? 'active' : ''}>Submit a Game</a>
+          <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+        <span class="header-count"><b>{games.length}</b> games indexed</span>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© {new Date().getFullYear()} RemakeHub — classics, reborn.</span>
+        <span>
+          Data is community-maintained · <a href="/submit">Submit a game</a> ·
+          <a href="https://github.com/ameng1024/remakehub.org" target="_blank" rel="noopener">Source on GitHub</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>

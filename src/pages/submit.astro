@@ -1,0 +1,135 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Submit a Game — RemakeHub" description="Suggest a game remake or remaster to be added to RemakeHub.">
+  <div class="container submit">
+    <h1>Submit a game</h1>
+    <p class="intro">Know a remake or remaster that's missing here? Fill in what you know — the maintainers review every submission before it goes live. Fields marked <b>*</b> are required.</p>
+
+    <form id="form" novalidate>
+      <div class="field">
+        <label for="title">Game title *</label>
+        <input id="title" name="title" required maxlength="120" placeholder="e.g. Final Fantasy VII Remake" />
+      </div>
+      <div class="field">
+        <label for="originalTitle">Original game title *</label>
+        <input id="originalTitle" name="originalTitle" required maxlength="120" placeholder="e.g. Final Fantasy VII" />
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="type">Type *</label>
+          <select id="type" name="type" required>
+            <option value="remake">Remake — rebuilt from scratch</option>
+            <option value="remaster">Remaster — original enhanced</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="releaseYear">Release year</label>
+          <input id="releaseYear" name="releaseYear" type="number" min="1980" max="2030" placeholder="2025" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="originalPlatform">Original platform</label>
+          <input id="originalPlatform" name="originalPlatform" maxlength="60" placeholder="e.g. SNES, PS1, Arcade…" />
+        </div>
+        <div class="field">
+          <label for="originalYear">Original year</label>
+          <input id="originalYear" name="originalYear" type="number" min="1970" max="2026" placeholder="1997" />
+        </div>
+      </div>
+      <div class="field">
+        <label for="platforms">Modern platforms <span class="hint">(comma-separated)</span></label>
+        <input id="platforms" name="platforms" maxlength="120" placeholder="e.g. Switch, PS5, PC" />
+      </div>
+      <div class="field">
+        <label for="developer">Developer</label>
+        <input id="developer" name="developer" maxlength="80" placeholder="e.g. Square Enix" />
+      </div>
+      <div class="field">
+        <label for="genres">Genres <span class="hint">(comma-separated)</span></label>
+        <input id="genres" name="genres" maxlength="80" placeholder="e.g. RPG, Tactics" />
+      </div>
+      <div class="field">
+        <label for="description">Short description *</label>
+        <textarea id="description" name="description" required maxlength="400" rows="3" placeholder="One or two sentences about what this release is."></textarea>
+      </div>
+      <div class="field">
+        <label for="source">Source link <span class="hint">(store page / announcement, helps verification)</span></label>
+        <input id="source" name="source" type="url" placeholder="https://…" />
+      </div>
+
+      <div class="status" id="status" hidden></div>
+
+      <button class="btn" type="submit" id="submitBtn">Submit for review</button>
+      <p class="alt">Prefer GitHub? <a href="https://github.com/ameng1024/remakehub.org/issues/new?title=%5BSubmission%5D%20Game%20title" target="_blank" rel="noopener">Open an issue instead</a>.</p>
+    </form>
+  </div>
+</Layout>
+
+<style>
+  .submit { max-width: 640px; padding: 40px 16px 64px; }
+  h1 { color: var(--text-bright); font-size: 30px; margin-bottom: 8px; }
+  .intro { color: var(--text-dim); font-size: 14.5px; line-height: 1.6; margin-bottom: 28px; }
+  .intro b { color: var(--accent); }
+  form { display: flex; flex-direction: column; gap: 16px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  label { font-size: 13px; color: var(--text); font-weight: 600; }
+  .hint { color: var(--text-dim); font-weight: 400; }
+  input, select, textarea {
+    background: #223c50; border: 1px solid rgba(0,0,0,.3); border-radius: 3px;
+    color: var(--text-bright); font-size: 14px; padding: 10px 12px; outline: 0;
+    font-family: inherit; width: 100%;
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+  textarea { resize: vertical; }
+  .status { padding: 12px 14px; border-radius: 3px; font-size: 14px; line-height: 1.5; }
+  .status.ok { background: rgba(164,208,7,.12); border: 1px solid rgba(164,208,7,.4); color: #c3e05c; }
+  .status.err { background: rgba(230,60,60,.12); border: 1px solid rgba(230,60,60,.4); color: #ff7b7b; }
+  .alt { font-size: 13px; color: var(--text-dim); }
+  @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  const form = document.getElementById('form') as HTMLFormElement;
+  const status = document.getElementById('status')!;
+  const btn = document.getElementById('submitBtn') as HTMLButtonElement;
+
+  function show(kind: 'ok' | 'err', msg: string, link?: string) {
+    status.className = 'status ' + kind;
+    status.innerHTML = msg + (link ? ` <a href="${link}" target="_blank" rel="noopener">Track it here →</a>` : '');
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(form).entries());
+    if (!data.title || !data.originalTitle || !data.description) {
+      show('err', 'Please fill in the required fields (title, original title, description).');
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = 'Submitting…';
+    try {
+      const res = await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const json = await res.json();
+      if (res.ok) {
+        show('ok', 'Thanks! Your submission is in the review queue.', json.issueUrl);
+        form.reset();
+      } else {
+        show('err', json.error || 'Submission failed — please try again later.');
+      }
+    } catch {
+      show('err', 'Network error — please check your connection and retry. You can also submit via GitHub (link below).');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Submit for review';
+    }
+  });
+</script>
